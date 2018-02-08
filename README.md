@@ -17,5 +17,8 @@ Iedereen is vrij om wijzigingsvoorstellen te doen (z.g. Pull-requests in Github)
 Kom je een fout rapporteren of wil je een discussiepunt inbrengen? Dit kan via Github issues.
 https://help.github.com/articles/creating-an-issue/
 
+# Status
+Dit document is in actieve ontwikkeling.
+
 # Branching strategie
 Alle wijzigingen worden vooralsnog in de master branch geplaatst. 
