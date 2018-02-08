@@ -6,7 +6,7 @@ Dit document is opgezet met [Gitbook](https://toolchain.gitbook.com/). Dit docum
 https://www.gitbook.com/book/netbeheernederland/interfacespecificatie-elektriciteit/details
 
 # Aanvullingen
-Iedereen is vrij om wijzigingsvoorstellen te doen (z.g. Pull-requests in Github). De governance bepaald of deze geaccepteerd wordt.
+Iedereen is vrij om wijzigingsvoorstellen te doen (z.g. Pull-requests in Github). De governance bepaalt of deze geaccepteerd wordt.
 * Github account aanmaken (gratis variant is voldoende): https://help.github.com/articles/signing-up-for-a-new-github-account/
 * Test wijzigen: https://help.github.com/articles/editing-files-in-another-user-s-repository/ 
 * Bestanden uploaden (zoals plaatjes) kan ook: https://help.github.com/articles/adding-a-file-to-a-repository/
