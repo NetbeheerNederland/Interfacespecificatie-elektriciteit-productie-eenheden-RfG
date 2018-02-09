@@ -22,3 +22,6 @@ Dit document is in actieve ontwikkeling.
 
 # Branching strategie
 Alle wijzigingen worden vooralsnog in de master branch geplaatst. 
+
+# Governance
+
