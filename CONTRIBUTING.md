@@ -1,4 +1,4 @@
-# Dank voor het wijzigingsverzoek aan deze richtlijn!
+# Leuk dat je wilt houden aan deze richtlijn om bij te dragen!
 
 # Gedragsrichtlijn
 Gedraag je netjes en respectvol!
