@@ -1,0 +1,3 @@
+# Bijlage 1 – RfG, DCC en GL SO artikelen met relatie Interface specificatie {#bijlage-1-rfg-dcc-en-gl-so-artikelen-met-relatie-interface-specificatie}
+
+Als context voor het lezen van de artikelen uit de verordening, is de volgende informatie leidend; in de werkgroep KORRR binnen Netbeheer Nederland is gedefinieerd dat electriciteitsproductieinstallaties (RfG) en aansluitingen m.b.t. DCC altijd primair worden gerealiseerd en onderhouden door de systeembeheerder waaraan het fysiek in het net gekoppeld is. Dit geldt dus voor alle (business)processen en informatievoorziening.
