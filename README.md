@@ -24,4 +24,4 @@ Dit document is in actieve ontwikkeling.
 Alle wijzigingen worden vooralsnog in de master branch geplaatst. 
 
 # Governance
-
+De governance vindt plaats binnen Netbeheer Nederland, projectgroep PIEC, Practische Implementatie Europese Codes. Gedelegeerden uit deze projectgroep zullen de verzoeken van wijzigingen verwerken en documenteren m.b.v. GitHub. Alle acties worden geregisteerd vastgelegd in GitHub.
