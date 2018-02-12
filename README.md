@@ -13,7 +13,7 @@ Iedereen is vrij om wijzigingsvoorstellen te doen (z.g. Pull-requests in Github)
 Via de [HTML variant](https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/) gaan wijzigen via het icoon rechtsbovenaan:
 ![Image](Bewerkdocument.png)
 
-Vervolgens kan je een wijzigingsverzoek (z.g. pull-request) sturen om je wijzigingen voor te leggen.
+Vervolgens kan je een wijzigingsverzoek (z.g. pull-request) sturen om je wijzigingen voor te leggen. Wil je meerdere bestanden bewerken? De referenties naar alle onderliggende bestanden staan in CONTRIBUTING.md. Hier kan je ook nieuwe pagina's aan toevoegen of verwijderen.
 
 Meer informatie over het werken met Github:
 * Github account aanmaken (gratis variant is voldoende): https://help.github.com/articles/signing-up-for-a-new-github-account/
@@ -23,7 +23,7 @@ Meer informatie over het werken met Github:
 * Gitbook mogelijkheden: https://toolchain.gitbook.com/syntax/markdown.html
 
 # Issues melden
-Kom je een fout rapporteren of wil je een discussiepunt inbrengen? Dit kan via Github issues.
+Kom je een fout rapporteren of wil je een discussiepunt/feedback inbrengen? Dit kan via Github issues.
 https://help.github.com/articles/creating-an-issue/
 
 # Status
@@ -34,3 +34,6 @@ Alle wijzigingen worden vooralsnog in de master branch geplaatst.
 
 # Governance
 De governance vindt plaats binnen Netbeheer Nederland, projectgroep PIEC, Practische Implementatie Europese Codes. Gedelegeerden uit deze projectgroep zullen de verzoeken van wijzigingen verwerken en documenteren m.b.v. GitHub. Alle acties worden geregisteerd vastgelegd in GitHub.
+
+# Licentie
+Dit document wordt uitgegeven onder de MIT licentie.
