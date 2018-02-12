@@ -3,7 +3,7 @@
 	"description": "Nederlandse invullingen van de RfG EU richtlijn",
 	"language": "nl",
 	"author": "Netbeheer Nederland en anderen",
-	
+	"showLevel": false,
 	"plugins": [
         "github-edit"
     ],
