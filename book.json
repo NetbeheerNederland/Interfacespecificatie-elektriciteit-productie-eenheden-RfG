@@ -4,7 +4,7 @@
 	"language": "nl",
 	"author": "Netbeheer Nederland en anderen",
 	"theme-default": {
-		"showLevel": false
+		"showLevel": true
 	},
 	"plugins": [
 		"github-edit"
