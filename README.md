@@ -1,5 +1,5 @@
 # Interfacespecificatie elektriciteit productie eenheden RfG
-Dit document dient om invulling te geven de EU verordeningen: RfG.
+Dit document dient om invulling te geven de EU verordeningen: RfG. Het doel is een open samenwerking in de interfacespecificatie in de Nederlandse markt. Een eerste uitwerking is hierbij gepubliceerd voor een constructieve opbouw. Feedback is gewenst.
 
 # Publicatie 
 Dit document is opgezet met [Gitbook](https://toolchain.gitbook.com/). Dit document in HTML boekvorm wordt hier gepubliceerd:
