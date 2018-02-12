@@ -3,15 +3,17 @@
 	"description": "Nederlandse invullingen van de RfG EU richtlijn",
 	"language": "nl",
 	"author": "Netbeheer Nederland en anderen",
-	"showLevel": false,
+	"theme-default": {
+		"showLevel": false
+	},
 	"plugins": [
-        "github-edit"
-    ],
-    "pluginsConfig": {
-        "github-edit": {
-            "repo": "NetbeheerNederland/Interfacespecificatie-elektriciteit-productie-eenheden-RfG",
-            "branch": "master"
-        }
-    }
+		"github-edit"
+	],
+	"pluginsConfig": {
+		"github-edit": {
+			"repo": "NetbeheerNederland/Interfacespecificatie-elektriciteit-productie-eenheden-RfG",
+			"branch": "master"
+		}
+	}
 
 }
