@@ -34,17 +34,30 @@
         *   End-to-end-Encryptie nog onvoldoende, standaard en getest aanwezig.
     *   Overig en conclusie: MQTT is een veelbelovende standaard voor de toepassing in dit vraagstuk. Vanwege de beperkte berichtgrootte, de nog onvoldoende zekerheid op encryptie in combinatie met het feit dat er nog geen standaardisatie in de energiesector rondom opwek-sturing en vraagsturing plaatsvindt zal MQTT niet worden toegepast. In de toekomst ligt er veel potentieel voor MQTT.
 
+*   Webservices
+     *  Pro's:
+        *  Zeer volwassen technologie, op grote schaal toegepast bij o.a. bank transacties en veel meer.
+        *  Kennis van webservices en toepassingen is breed beschikbaar in de markt.
+        *  Flexibel in architecturen in te passen (centraal/decentraal).
+        *  Inhoud van berichten is flexible naar eigen inzicht in te richten. Zowel met XML, als JSON.
+        *  Kan, afhankelijk van implementatie, zeer weinig traffic veroorzaken. 
+     *  Con's:
+        *  Vereist een continuë verbinding, of buffering en persistentie bij tijdelijke uitval.
+        *  Is een standaard, maar schrijft geen specifieke zaken voor toepassing in Energiesector.
+    *   Overig en conclusie: Webservices zijn een goede, flexibele basis waarop een overgroot deel van verschillende sectoren hun systemen hebben gebouwd. Door de flexibiliteit is het mogelijk de architecturen te implementeren die gewenst zijn. Anderzijds is de standaardisatie voor dit specifieke vraagstuk daarmee niet ingevuld. Naast deze standaard is er behoefte aan sector-specifieke standaarden, bijvoorbeeld over gebruik van webservices of de semantiek die wordt ingevuld.          
+
 *   XMPP (Extensible Messaging and Presence Protocol)
     *   Pro's:
+        *  In de basis web-services, standaard IT technologie.
         *  In lijn met final-draft IEC 61850-8-2 (Approved for Final Draft International Standard).
         *  Beoogde technologie in Duitsland i.c.m. FNN Steuerbox.
         *  Open standaard met mogelijkheid om flexibiliteit "on-top" te bouwen.
-        *  In de basis web-services, standaard IT technologie.
         *  Beproefde technologie met millioenen instanties.
         *  Bi-directioneel.
     *   Con's: 
         *  QoS is expirimenteel.
         *  Nog geen XMPP implementaties in aansturing energiesector bekend.
+        *   Vereist een continuë verbinding, of buffering en persistentie bij tijdelijke uitval, want is web-service.
     *   Overig en conclusie: XMPP heeft het potentieel om te worden toegepast bij dit vraagstuk vanwege de standaardisatie binnen IEC 61850 en i.c.m. de FNN Steuerbox. De openstaande vraag is hoe het past in de algehele architectuur met berichtenuitwisseling zoals verder in dit vraagstuk is gespecificeerd. Past dit samen?    
 
 *   IEC CIM
