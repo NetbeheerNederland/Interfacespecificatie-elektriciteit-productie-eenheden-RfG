@@ -10,9 +10,11 @@ https://www.gitbook.com/book/netbeheernederland/interfacespecificatie-elektricit
 
 # Aanvullingen
 Iedereen is vrij om wijzigingsvoorstellen te doen (z.g. Pull-requests in Github). De governance bepaalt of deze geaccepteerd wordt.
-Via de HTML variant gaan wijzigen via het icoon rechtsbovenaan:
+Via de [HTML variant](https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/) gaan wijzigen via het icoon rechtsbovenaan:
 ![Image](Bewerkdocument.png)
+Vervolgens kan je een wijzigingsverzoek (z.g. pull-request) sturen om je wijzigingen voor te leggen.
 
+Meer informatie over het werken met Github:
 * Github account aanmaken (gratis variant is voldoende): https://help.github.com/articles/signing-up-for-a-new-github-account/
 * Bestanden/document wijzigen: https://help.github.com/articles/editing-files-in-another-user-s-repository/ 
 * Bestanden uploaden (zoals plaatjes) kan ook: https://help.github.com/articles/adding-a-file-to-a-repository/
