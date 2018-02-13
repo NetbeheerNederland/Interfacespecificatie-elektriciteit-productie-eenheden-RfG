@@ -50,14 +50,14 @@
     *   Pro's:
         *  In de basis web-services, standaard IT technologie.
         *  In lijn met final-draft IEC 61850-8-2 (Approved for Final Draft International Standard).
-        *  Beoogde technologie in Duitsland i.c.m. FNN Steuerbox.
+        *  Beoogde technologie in Duitsland i.c.m. FNN Steuerbox (naast de MMS optie).
         *  Open standaard met mogelijkheid om flexibiliteit "on-top" te bouwen.
         *  Beproefde technologie met millioenen instanties.
         *  Bi-directioneel.
     *   Con's: 
         *  QoS is expirimenteel.
         *  Nog geen XMPP implementaties in aansturing energiesector bekend.
-        *   Vereist een continuë verbinding, of buffering en persistentie bij tijdelijke uitval, want is web-service.
+        *  Vereist een continuë verbinding, of buffering en persistentie bij tijdelijke uitval, want is web-service.
     *   Overig en conclusie: XMPP heeft het potentieel om te worden toegepast bij dit vraagstuk vanwege de standaardisatie binnen IEC 61850 en i.c.m. de FNN Steuerbox. De openstaande vraag is hoe het past in de algehele architectuur met berichtenuitwisseling zoals verder in dit vraagstuk is gespecificeerd. Past dit samen?    
 
 *   IEC CIM
@@ -69,3 +69,13 @@
         *   Geen communicatie-dragers gespecificeerd.
         *   Netwerkbelasting mogelijk groter.
     *   Overig en conclusie: IEC CIM is naast IEC 61850 één van de standaarden die in Europa de betekenis van informatieoverdracht definiëren en structureren en blijft voorlopig candidaat.
+    
+*   IEC 61850
+   *  Pro's:
+        * Reeds in gebruik bij vele onderstations en IED's
+        * Hoog detail niveau voor controle en schakel functies
+        * Onderdeel van de IEC doel architectuur: IEC62357
+   * Con's:
+        * Beperkt zich tot stations/devices, het volledigte elektriciteitsnet kan niet worden uitgedrukt in IEC61860
+        * Complex: standaard kent vele pagina's en opties etc.
+        * XMPP implementatie is relatief nieuw (Nog in draft, 248 pagina's)
