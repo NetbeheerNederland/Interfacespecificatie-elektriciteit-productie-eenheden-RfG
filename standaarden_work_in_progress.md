@@ -33,4 +33,4 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 | IEC 61850-8-2 (XMMP)| -           |                  |    nvt    |                  |                  |
 | IEC 61850-7-420 (DER) | +         |                  |   nvt     |                  |                  |
 | IEC 61850-90-10 (scheduling)| +          |                  |    nvt   |                  |                  |
-| IEC CIM   |       +        |         -        |    -   | +                | +                |
+| IEC CIM   |       +        |         -        |   nvt   | +                | +                |
