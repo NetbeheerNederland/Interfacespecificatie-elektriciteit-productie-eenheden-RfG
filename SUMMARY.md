@@ -1,6 +1,6 @@
 # Summary
 
-* [TijdelijkInitieelInterfaceSpec](README.md)
+* [Project Readme](README.md)
 * [Inleiding](inleiding/README.md)
   * [Aanleiding en noodzaak](inleiding/aanleiding_en_noodzaak.md)
   * [Opdracht](inleiding/opdracht.md)
