@@ -69,13 +69,23 @@
         *   Geen communicatie-dragers gespecificeerd.
         *   Netwerkbelasting mogelijk groter.
     *   Overig en conclusie: IEC CIM is naast IEC 61850 één van de standaarden die in Europa de betekenis van informatieoverdracht definiëren en structureren en blijft voorlopig candidaat.
-    
-*   IEC 61850
+
+## IEC 61850
+IEC61850 is een standaard die uiteenvalt in vele [delen en substandaarden](https://en.wikipedia.org/wiki/IEC_61850#Standard_documents). Hierdoor is het bij deze standaard goed te kijken welke delen /(het meest/) relevant zijn voor dit vraagstuk. Hierin identificeren we:
+* IEC 61850-6 (SCL)
+* IEC 61850-7-6 (BAP)
+* IEC 61850-8-1 (MMS)
+* IEC 61850-8-2 (XMPP)
+* IEC 61850-90-7 (DER)
+* IEC 61850-90-10 (Scheduling)
+
+*   IEC 61850 algemeen (samenvatting)
    *  Pro's:
         * Reeds in gebruik bij vele onderstations en IED's
         * Hoog detail niveau voor controle en schakel functies
-        * Onderdeel van de IEC doel architectuur: IEC62357
+        * Onderdeel van de IEC doelarchitectuur: IEC62357
    * Con's:
-        * Beperkt zich tot stations/devices, het volledigte elektriciteitsnet kan niet worden uitgedrukt in IEC61860
+        * Beperkt zich tot stations/devices, het volledigte elektriciteitsnet kan niet worden uitgedrukt in IEC61860. De synergie in het toepassen van IEC61850 in stationsautomatisering en in DER is datamodel-technisch vanwege ontbreken topologie nog niet waargenomen.
         * Complex: standaard kent vele pagina's en opties etc.
         * XMPP implementatie is relatief nieuw (Nog in draft, 248 pagina's)
+    *   Overig en conclusie: Een goede uitleg van samenhang XMPP en IEC61850-8-2 is beschikbaar in een [presentatie van Siemens](http://www.nettedautomation.com/standardization/IEC_TC57/wg17/HMI2015_SmartGridForum_Dawidczak_for_Blog_KHS.pdf). Het is nog een afweging of de complexiteit (zelfs voor ingewijden in de materie) geen blokkade vormt voor toepassing in markt-devices. 
