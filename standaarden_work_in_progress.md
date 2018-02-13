@@ -29,8 +29,8 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 | IEC 60870-x-104 |          |                  |        |                  |                  |
 | Modbus    |                |                  |        |                  |                  |
 | IEC 61850-6 (SCL) | +           |         -        |   nvt    |                  |                  |
-| IEC 61850-8-1 (MMS) | -          |                  |        |                  |                  |
-| IEC 61850-8-2 (XMMP)| -           |                  |        |                  |                  |
+| IEC 61850-8-1 (MMS) | -          |                  |    ?    |                  |                  |
+| IEC 61850-8-2 (XMMP)| -           |                  |    ?    |                  |                  |
 | IEC 61850-7-420 (DER) | +         |                  |   nvt     |                  |                  |
-| IEC 61850-90-10 (scheduling)| +          |                  |        |                  |                  |
+| IEC 61850-90-10 (scheduling)| +          |                  |    nvt   |                  |                  |
 | IEC CIM   |       +        |         -        |    -   | +                | +                |
