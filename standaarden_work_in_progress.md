@@ -5,11 +5,16 @@ In de onderstaande tabel is een voorlopige samenvatting te vinden voor de geschi
 De koppen in de tabel zijn opgebouwd volgens de SGAM lagen: Informatie, Communicatie en Componenten. In de koppen zijn deze benoemd als Informatiedefinitie, Communicatie/Transport en Fysiek. Daarnaast wordt er een algemene evaluatie gedaan of de standaard geschikt is voor de algemene interface of de DSO/TSO interface. Een standaard beschrijft soms maar één deel \(bijvoorbeeld IEC CIM beschrijft alleen de Informatie-definitie en vertelt niets over het gebruik van fysieke connectoren voor interfaces\).
 
 Waarden: 
-- : negatief
-0 : neutraal
-+ : positief
-? : oordeel nog te geven
-nvt: niet van toepassing bij deze standaard.
+
+'-'   = negatief
+
+'0'   = neutraal
+
+'+'   = positief
+
+'?'   = oordeel nog te geven
+
+'nvt' = niet van toepassing bij deze standaard.
 
 Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de keuze van het communicatie & transport protocol en de het gebruikte informatiemodel wat wordt toegepast.
 
