@@ -1,12 +1,12 @@
 ## Aanleiding en noodzaak {#aanleiding-en-noodzaak}
 
-Volgens de huidige prognose zullen er in de komende jaren tienduizenden nieuwe decentrale elektriciteitsproductie-eenheden worden opgenomen.[^1] Hiervan zijn er circa enkele honderden in de categorie B en groter \(Figuur 1\).
+Volgens de huidige prognose zullen er in de komende jaren tienduizenden nieuwe decentrale elektriciteitsproductie-eenheden worden opgenomen.[^1] Hiervan zijn er circa enkele honderden in de categorie B \(1MW - 50MW\) en groter \(Figuur 1\).
 
 ![\\fspaka02\userdata7a$\AL11072\Documents\Z\_EU DSO transformatie\T1\. Data-Interface\180118LvG\_EU RfG13.6Interfaces\_git\_1.png](../assets/fspaka02userdata7aal11072docu.png)
 
 Figuur 1
 
-RfG \(Art 13.6\) stelt dat de elektriciteitsproductie-eenheden van het Type A worden uitgerust met een logische interface \(ingangspoort\) waarmee het werkzaam uitgangsvermogen binnen vijf seconden naar nul kan worden geregeld na ontvangst instructie. Dit geldt tevens voor B. In categorie B mag ook vereist worden dan de relevante systeembeheerder extra apparatuur plaatst. Het uitgangspunt is dat er van de DSO vereist kan worden dat er een opdracht kan worden verstuurd om vermogen terug te regelen \(in ieder geval voor Type B en mogelijk ook voor grotere varianten van Type A\).
+RfG \(Art 13.6\) stelt dat de elektriciteitsproductie-eenheden van het Type A \(800W - 1MW\) worden uitgerust met een logische interface \(ingangspoort\) waarmee het werkzaam uitgangsvermogen binnen vijf seconden naar nul kan worden geregeld na ontvangst instructie. De eisen voor Type A gelden tevens voor B. In categorie B mag ook vereist worden dan de relevante systeembeheerder extra apparatuur plaatst. Het uitgangspunt is dat er van de DSO vereist kan worden dat er een opdracht kan worden verstuurd om vermogen terug te regelen \(in ieder geval voor Type B en mogelijk ook voor grotere varianten van Type A\).
 
 Het bovenstaande vereist een opbouw en beheer van systemen of extra door DSO bijgeplaatste device, die met deze interfaces kunnen communiceren.
 
