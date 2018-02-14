@@ -6,7 +6,7 @@ Hierdoor wordt er niet afgedwongen om aanpassing te maken op de hardware of soft
 
 Er zullen extra eisen gelden voor het certificeren van de hardware combinaties met apart geplaatste gateways.
 
-![](/assets/180123_EUDevicesSGAM_UCs_git_8.png)
+![](/assets/180123_EUDevicesSGAM_UCs_git_12.png)
 
 Figuur 7
 
