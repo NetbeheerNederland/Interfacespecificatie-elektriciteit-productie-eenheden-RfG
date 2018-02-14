@@ -5,7 +5,7 @@
 
 Processen:
 * Registratie/aanmelden device
-* Afmelden device
+* afmdelden device / permanente uitbedrijfname
 
 Type A
 * Productie vermogen reductie naar 0
