@@ -70,9 +70,9 @@
         *   In lijn met interface specificatie alle grotere SCADA leveranciers
         *   Harmonisatie met IEC 61850 gaande
     *   Con’s:
-        *   Positionering vooral op IT applicatie niveau.
+        *   Positionering op SGAM: operation/enterprise/market.
         *   Niet direct toepasbaar op huidige/oude systemen.
-        *   Bperkte communicatie-dragers gespecificeerd (enkel IEC 61968-100).
+        *   Beperkte communicatie-dragers gespecificeerd (enkel IEC 61968-100).
         *   Netwerkbelasting mogelijk groter (in geval van SOAP).
     *   Overig en conclusie: IEC CIM is naast IEC 61850 één van de standaarden die in Europa de betekenis van informatieoverdracht definiëren en structureren en blijft voorlopig candidaat.
 
