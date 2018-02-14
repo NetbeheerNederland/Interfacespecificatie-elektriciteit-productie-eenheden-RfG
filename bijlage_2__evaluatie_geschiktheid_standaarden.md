@@ -64,10 +64,12 @@
     *   Pro’s:
         *   Informatie is opgesteld in een format dat door andere systemen (gemakkelijker) kan worden geïntegreerd.
         *   In lijn met interface specificatie alle grotere SCADA leveranciers
+        *   Harmonisatie met IEC 61850 gaande
     *   Con’s:
+        *   Positionering vooral op IT applicatie niveau.
         *   Niet direct toepasbaar op huidige/oude systemen.
-        *   Geen communicatie-dragers gespecificeerd.
-        *   Netwerkbelasting mogelijk groter.
+        *   Bperkte communicatie-dragers gespecificeerd (enkel IEC 61968-100).
+        *   Netwerkbelasting mogelijk groter (in geval van SOAP).
     *   Overig en conclusie: IEC CIM is naast IEC 61850 één van de standaarden die in Europa de betekenis van informatieoverdracht definiëren en structureren en blijft voorlopig candidaat.
 
 ## IEC 61850
@@ -84,8 +86,9 @@ IEC61850 is een standaard die uiteenvalt in vele [delen en substandaarden](https
         * Reeds in gebruik bij vele onderstations en IED's
         * Hoog detail niveau voor controle en schakel functies
         * Onderdeel van de IEC doelarchitectuur: IEC62357
+        * Harmonisatie met IEC CIM gaande
    * Con's:
         * Beperkt zich tot stations/devices, het volledigte elektriciteitsnet kan niet worden uitgedrukt in IEC61860. De synergie in het toepassen van IEC61850 in stationsautomatisering en in DER is datamodel-technisch vanwege ontbreken topologie nog niet waargenomen.
         * Complex: standaard kent vele pagina's en opties etc.
-        * XMPP implementatie is relatief nieuw (Nog in draft, 248 pagina's)
+        * XMPP implementatie is nieuw (Nog in draft, 248 pagina's)
     *   Overig en conclusie: Een goede uitleg van samenhang XMPP en IEC61850-8-2 is beschikbaar in een [presentatie van Siemens](http://www.nettedautomation.com/standardization/IEC_TC57/wg17/HMI2015_SmartGridForum_Dawidczak_for_Blog_KHS.pdf). Het is nog een afweging of de complexiteit (zelfs voor ingewijden in de materie) geen blokkade vormt voor toepassing in markt-devices. 
