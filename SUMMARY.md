@@ -25,3 +25,4 @@
   * [DCC (2016/1388):](bijlage_1__rfg,_dcc_en_gl_so_artikelen_met_relatie/dcc_20161388.md)
   * [GL SO (2017/1485):](bijlage_1__rfg,_dcc_en_gl_so_artikelen_met_relatie/gl_so_20171485.md)
 * [Bijlage 2 – Evaluatie geschiktheid Standaarden](bijlage_2__evaluatie_geschiktheid_standaarden.md)
+* [Bijlage 3 - Gemaakte keuzes en toelichting](bijlage_3_gemaakte_keuzes_en_toelichting.md)
