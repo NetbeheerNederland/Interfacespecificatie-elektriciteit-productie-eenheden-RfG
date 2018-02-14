@@ -16,5 +16,5 @@ Type B
 * Werkzame vermogen te vermeederen/aanzetten
 
 Informatie uitwisselen
-	** Live metingen
+* Live metingen
 
