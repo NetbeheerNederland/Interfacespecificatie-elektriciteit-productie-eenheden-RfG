@@ -8,8 +8,13 @@ Processen:
 * Afmelden device
 
 Type A
-* Productievermogen reductie naar 0
+* Productie vermogen reductie naar 0
+* Productie vermogen reductie opheffen
 
 Type B
-* Werkzame vermogen te verminderen
-* Informatie uitwisselen
+* Werkzame vermogen te verminderen/uitzetten
+* Werkzame vermogen te vermeederen/aanzetten
+
+Informatie uitwisselen
+	** Live metingen
+
