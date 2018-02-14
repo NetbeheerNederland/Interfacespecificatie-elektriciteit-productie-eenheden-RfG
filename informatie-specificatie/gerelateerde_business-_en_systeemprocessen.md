@@ -4,12 +4,12 @@
 
 
 Processen:
-Registratie/aanmelden device
-Afmelden device
+* Registratie/aanmelden device
+* Afmelden device
 
 Type A
-Productievermogen reductie naar 0
+* Productievermogen reductie naar 0
 
 Type B
-Werkzame vermogen te verminderen
-Informatie uitwisselen
+* Werkzame vermogen te verminderen
+* Informatie uitwisselen
