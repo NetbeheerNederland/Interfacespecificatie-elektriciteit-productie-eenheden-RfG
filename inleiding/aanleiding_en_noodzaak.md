@@ -12,7 +12,7 @@ Het bovenstaande vereist een opbouw en beheer van systemen of extra door DSO bij
 
 Indien de interfaces vooraf niet worden gespecificeerd zullen er een ongedefinieerd aantal interfaces in de markt verschijnen. Dit kan oplopen tot duizenden varianten \(Figuur 2\).
 
-![Figuur 2](/assets/180118LvG_EU RfG13.6Interfaces_git_2.png)Figuur 2
+![Figuur 2](../assets/180118LvG_EU RfG13.6Interfaces_git_2.png)Figuur 2
 
 Het aansluiten van deze varianten aan de systemen van de TSO of DSO is naast extreem hoge operationele kosten verbonden met implementatietijden die afhankelijk zijn van vele resources en handmatige controles[^2]. Daarnaast zal voor de leveranciers van hardware \(bijvoorbeeld PV converters\) een tweede extra investeringen moeten plaatsvinden indien achteraf alsnog een interfacestandaard wordt gedefinieerd. Deze tweede investering is niet noodzakelijk indien er in Nederland één algemene interface specificatie, vooraf, wordt gedefinieerd.
 
