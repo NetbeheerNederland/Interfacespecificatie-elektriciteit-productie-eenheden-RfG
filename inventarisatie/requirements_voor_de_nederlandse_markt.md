@@ -10,7 +10,7 @@ De requirements zijn functioneel en kwalitatief van aard en niet uitputtend. De 
 
 #### Requirements {#requirements}
 
-| ID | Requirement | Type | Type | Prio | Prio | [Prioriteit \(MoSCoW\)](https://duckduckgo.com/l/?kh=-1&uddg=https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FMoSCoW-methode) | Bron |
+| ID | Requirement | Type | Type | [Prioriteit \(MoSCoW\)](https://duckduckgo.com/l/?kh=-1&uddg=https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FMoSCoW-methode) | [Prioriteit \(MoSCoW\)](https://duckduckgo.com/l/?kh=-1&uddg=https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FMoSCoW-methode) | [Prioriteit \(MoSCoW\)](https://duckduckgo.com/l/?kh=-1&uddg=https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FMoSCoW-methode) | Bron |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 |  | Rationale | F | NF | RfG | DCC | GL SO |  |
 | 1 | Het afluisteren van één datastroom mag nooit leiden tot het verkrijgen van interpreteerbare data. |  | NF | Must | Must | Must | Alliander IT / Enexis. |
@@ -53,6 +53,7 @@ De requirements zijn functioneel en kwalitatief van aard en niet uitputtend. De 
 |  | Bijdrage aan de eisen time-stamping en altijd een actueel beeld van de net-situatie hebben in geval van storingen. |  |  |  |  |  |  |
 | 20 | De interface moet in staat zijn om berichten van Netbeheerders met een hogere prioriteit te behandelen dan die van marktpartijen. | F |  | Must | Must | - | VDE FNN |
 |  | Naar voorbeeld Duitsland om schakelopdrachten te kunnen prioriseren. |  |  |  |  |  |  |
-
+| 21 | Alle interface moeten voorspelbaar reageren op onverwacht, niet gepland, gedrag van zijn omgeving (Dynamic Behavior). | NF |  | Should | Should | - | Alliander IT |
+|  | Naar 2nd DC IEC TR 61850-7-6 - Interchangeability; Niet alleen competabiliteit bereiken op gepland gedrag, maar ook uitzonderlijke situaties, zoals haperende communicatieverbindingen. Hiermee kan de uitwisselbaarheid van de apparaten beter worden gegarandeerd zonder fine-tuning van configuraties. |  |  |  |  |  |  |
 
 
