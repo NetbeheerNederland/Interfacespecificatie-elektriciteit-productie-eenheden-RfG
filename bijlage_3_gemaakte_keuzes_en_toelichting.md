@@ -17,9 +17,9 @@ Keuze: Encryptie via TLS
 Motivatie: TLS is in staat om de encryptie in de toekomst te wijzigen en zo mee te gaan met gangbare encryptie niveau. Daarnaast is TLS bewezen technologie. TLS bevat tevens een tijdssynchronisatie mogelijkheid.
 
 
-Keuze: End-to-end encryptie tot device of dongle, De dongle-productie interface is een punt-punt verbinding die niet gedeeld is op alle communicatie lagen. Dit betekend directe fysieke kabels zonder routing functies etc. Voorbeeld is een seriele poort (RS232).
+Keuze: End-to-end encryptie tot device of dongle, De dongle-productie interface is een punt-punt verbinding die niet gedeeld is op alle communicatie lagen. Dit betekend een directe fysieke connectie zonder routing functies etc. Voorbeeld is een seriele poort (RS232).
 
-Motivatie: Om bestaande invertors geschikte te maken om aan deze interface specificatie te voldoen is het toegestaan een punt-punt verbidingen te hebben met de invertor en de interface dongle.
+Motivatie: Om bestaande invertors geschikte te maken om aan deze interface specificatie te voldoen is het toegestaan een punt-punt verbidingen te hebben met de invertor en de interface dongle. Het toevoegen van encryptie aan een bestaand product kan kostbaar zijn.
 
 ### Syntactisch
 
