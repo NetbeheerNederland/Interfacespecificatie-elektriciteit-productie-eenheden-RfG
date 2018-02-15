@@ -1,6 +1,6 @@
 # Bijlage 3 – Gemaakte keuzes en toelichting
 
-De keuzes die in deze interface specificatie zijn gemaakt zijn opgedeeld in 
+De keuzes die in deze interface specificatie zijn opgedeeld in de verschillende lagen van SGAM.
 
 ## Componenten
 
@@ -14,12 +14,12 @@ Motivatie: Om de maatschappelijke kosten zo laag mogelijk te maken is de keuze g
 
 Keuze: Encryptie via TLS
 
-Motivatie: TLS is in staat om de encryptie in de toekomst te wijzigen en zo mee te gaan met gangbare encryptie niveau. Daarnaast is TLS bewezen technologie.
+Motivatie: TLS is in staat om de encryptie in de toekomst te wijzigen en zo mee te gaan met gangbare encryptie niveau. Daarnaast is TLS bewezen technologie. TLS bevat tevens een tijdssynchronisatie mogelijkheid.
 
 
-Keuze: End-to-end encryptie tot devide of dongle, Deze punt-punt verbinding mag op alle OSI lagen niet gedeeld zijn. Voorbeelden: RS232.
+Keuze: End-to-end encryptie tot device of dongle, De dongle-productie interface is een punt-punt verbinding die niet gedeeld is op alle communicatie lagen. Dit betekend directe fysieke kabels zonder routing functies etc. Voorbeeld is een seriele poort (RS232).
 
-Motivatie: Om bestaande invertors geschikte te maken om aan deze interface specificatie te voldoen is het toegestaan een punt-punt verbidingen te hebben met de invertor en de interface dongle. 
+Motivatie: Om bestaande invertors geschikte te maken om aan deze interface specificatie te voldoen is het toegestaan een punt-punt verbidingen te hebben met de invertor en de interface dongle.
 
 ### Syntactisch
 
@@ -48,3 +48,12 @@ Motivatie: GL-SO artikel 44.
 Keuze: De keuze om geen keuze te maken over de invulling van rollen voor het verwerken, aggregeren van data en het primair of als noodbevel uitvoeren van opdrachten.
 
 Motivatie: Buiten scope van vraagstuk. De oplossing van de interface onafhankelijk en flexibel specificeren; flexibel maken voor wijzigingen in de energiemarkt. 
+
+Keuze: Er wordt 1 centraal register aangewezen waar het registratie van de productie-eenheden plaats vind.
+
+Motivatie: Om complexiteit te voorkomen bij het registratie proces is het handig als de registratie via een centraal register verloopt. Productie-eenheden leveranciers hebben dan een eenduidige ingang waar het registratie proces kan plaats kan vinden. Via dit centrale register kan worden doorvewezen naar 3de partijen.
+
+
+Keuze: Productie-eenheden zijn direct verbonden met de lokale netbeheerder
+
+Motivatie: Om de afhankelijkheid van 3de partijen te verminderen en de de verantwoordelijkheid van de netbeheerder maximaal te kunnen nemen is gekozen om de apparaten direct te laten communiceren met de lokale netbeheerder.
