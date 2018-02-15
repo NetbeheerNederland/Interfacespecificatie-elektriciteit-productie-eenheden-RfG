@@ -44,6 +44,15 @@ Keuze: RfG Type A en B sturen, indien verbonden, meetwaarden en status over het 
 
 Motivatie: GL-SO artikel 44.
 
+Keuze: Een productie eenheid kan zicht in 3 toestanden bevinden.
+![Figuur: gedrag productie-eenheden](/assets/Gedrag-productie-eenheden.png)
+
+* Ongepland autonoom gedrag: De productie-eenheid waarvan de interface niet is aangesloten. De productie eenheid voldoet aan de overige netcodes en gedrag.
+* Gecontroleerd gedrag: De productie-eenheid is geregisteerd en heeft een werkende connectie met de lokale netbeheerder.
+* Gepland autonoom gedrag: De productie-eenheid handeld op basis van vooraf opgestuurde schema's/planning.
+
+Motivatie: Conform 3.2; Het toevoegen van schedules in de eenheden naar Duits voorbeeld kunnen het autonome gedrag en daardoor robuustheid van het elektriciteitsnet versterken.
+
 ## Business
 Keuze: De keuze om geen keuze te maken over de invulling van rollen voor het verwerken, aggregeren van data en het primair of als noodbevel uitvoeren van opdrachten.
 
