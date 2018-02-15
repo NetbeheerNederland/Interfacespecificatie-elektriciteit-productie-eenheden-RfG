@@ -10,7 +10,16 @@ Keuze: Publieke netwerken (internet) en private netwerken. Technologie: Ethernet
 
 Motivatie: Om de maatschappelijke kosten zo laag mogelijk te maken is de keuze gevallen op bestaande telecom infrastructuren en technolgie. Internet is op veel plekken beschikbaar en TCP/IP is hiervoor een gangbaar protocol. 
 
-(in te vullen) onderscheid in typen A,B etc?
+
+
+Keuze: Encryptie via TLS
+
+Motivatie: TLS is in staat om de encryptie in de toekomst te wijzigen en zo mee te gaan met gangbare encryptie niveau. Daarnaast is TLS bewezen technologie.
+
+
+Keuze: End-to-end encryptie tot devide of dongle, Deze punt-punt verbinding mag op alle OSI lagen niet gedeeld zijn. Voorbeelden: RS232.
+
+Motivatie: Om bestaande invertors geschikte te maken om aan deze interface specificatie te voldoen is het toegestaan een punt-punt verbidingen te hebben met de invertor en de interface dongle. 
 
 ### Syntactisch
 
