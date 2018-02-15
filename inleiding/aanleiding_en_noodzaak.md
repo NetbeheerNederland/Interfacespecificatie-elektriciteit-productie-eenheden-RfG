@@ -2,7 +2,7 @@
 
 Volgens de huidige prognose zullen er in de komende jaren tienduizenden nieuwe decentrale elektriciteitsproductie-eenheden worden opgenomen.[^1] Hiervan zijn er circa enkele honderden in de categorie B \(1MW - 50MW\) en groter \(Figuur 1\).
 
-![\\fspaka02\userdata7a$\AL11072\Documents\Z\_EU DSO transformatie\T1\. Data-Interface\180118LvG\_EU RfG13.6Interfaces\_git\_1.png](../assets/fspaka02userdata7aal11072docu.png)
+![Figuur 1](../assets/fspaka02userdata7aal11072docu.png)
 
 Figuur 1
 
@@ -12,7 +12,7 @@ Het bovenstaande vereist een opbouw en beheer van systemen of extra door DSO bij
 
 Indien de interfaces vooraf niet worden gespecificeerd zullen er een ongedefinieerd aantal interfaces in de markt verschijnen. Dit kan oplopen tot duizenden varianten \(Figuur 2\).
 
-![](/assets/180118LvG_EU RfG13.6Interfaces_git_2.png)Figuur 2
+![Figuur 2](/assets/180118LvG_EU RfG13.6Interfaces_git_2.png)Figuur 2
 
 Het aansluiten van deze varianten aan de systemen van de TSO of DSO is naast extreem hoge operationele kosten verbonden met implementatietijden die afhankelijk zijn van vele resources en handmatige controles[^2]. Daarnaast zal voor de leveranciers van hardware \(bijvoorbeeld PV converters\) een tweede extra investeringen moeten plaatsvinden indien achteraf alsnog een interfacestandaard wordt gedefinieerd. Deze tweede investering is niet noodzakelijk indien er in Nederland één algemene interface specificatie, vooraf, wordt gedefinieerd.
 
