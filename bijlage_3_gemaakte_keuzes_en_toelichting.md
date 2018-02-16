@@ -22,7 +22,7 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 
 ## Communcatie
 
-|Keuze:| Zoveel mogelijk gebruik maken van publieke netwerken (internet) en private netwerken. Technologie: Ethernet met TCP/IP.|
+|Keuze:| Zoveel mogelijk gebruik maken van bestaande publieke netwerken (internet) en private netwerken. Technologie: TCP/IP. Beschikbaarheid: -definieer-|
 |:--|:--|
 |Motivatie:| Om de maatschappelijke kosten zo laag mogelijk te maken is de keuze gevallen op bestaande telecominfrastructuren en -technolgie. Internet is op veel plekken beschikbaar en TCP/IP is hiervoor een gangbaar protocol. Er wordt zowel over publieke als private netten gesproken, zodat er achteraf, indien noodzakelijk geacht, er geëist kan worden de verbindingen over een specifiek netwerk te laten verlopen.| 
 
