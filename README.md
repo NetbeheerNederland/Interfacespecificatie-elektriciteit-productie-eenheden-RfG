@@ -37,3 +37,11 @@ De governance vindt plaats binnen Netbeheer Nederland, projectgroep PIEC, Practi
 
 # Licentie
 Dit document wordt uitgegeven onder de MIT licentie.
+
+# Vragen voor reviewers
+Er vanuitgaande dat de EU richtlijn een gegeven is. Onderstaande vragen kunnen helpen om input te geven op dit document.
+* Is dit de beste maatschappelijke invulling van de richtlijn? (Consumenten, Bedrijven, Netbeheers en andere stakeholders)
+  * Bijvoorbeeld; Risico's (elektriciteits systeem stabiliteit/black-out) vs kosten (implementatie, interfaces en processen)
+* Is de gekozen oplossing/richting voldoende eindgebruikers vriendelijk?
+* Zijn er situaties waar niet aan gedacht is?
+* Is de oplossing voldoende veilig/secure?
