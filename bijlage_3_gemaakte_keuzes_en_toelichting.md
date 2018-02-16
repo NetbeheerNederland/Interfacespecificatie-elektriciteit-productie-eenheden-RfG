@@ -17,9 +17,9 @@ Keuze: Encryptie via TLS
 Motivatie: TLS is in staat om de encryptie in de toekomst te wijzigen en zo mee te gaan met gangbare encryptie niveau. Daarnaast is TLS bewezen technologie. TLS bevat tevens een tijdssynchronisatie mogelijkheid.
 
 
-Keuze: End-to-end encryptie tot device of dongle, De dongle-productie interface is een punt-punt verbinding die niet gedeeld is op alle communicatie lagen. Dit betekend een directe fysieke connectie zonder routing functies etc. Voorbeeld is een seriele poort (RS232).
+Keuze: End-to-end encryptie tot device of dongle/gateway, De dongle/gateway-productie interface is een punt-punt verbinding die niet gedeeld is op alle communicatie lagen. Dit betekend een directe fysieke connectie zonder routing functies etc. Voorbeeld is een seriele poort (RS232).
 
-Motivatie: Om bestaande invertors geschikte te maken om aan deze interface specificatie te voldoen is het toegestaan een punt-punt verbidingen te hebben met de invertor en de interface dongle. Het toevoegen van encryptie aan een bestaand product kan kostbaar zijn.
+Motivatie: Om bestaande invertors geschikte te maken om aan deze interface specificatie te voldoen is het toegestaan een punt-punt verbidingen te hebben met de invertor en de interface dongle. Het toevoegen van encryptie aan een bestaand product (zoals invertor) kan kostbaar zijn. De directe fysieke connectie zorgt er voor dat de security is beperkt tot de fysieke toegang.
 
 ### Syntactisch
 
@@ -47,22 +47,25 @@ Motivatie: GL-SO artikel 44.
 Keuze: Een productie eenheid kan zicht in 3 toestanden bevinden.
 ![Figuur: gedrag productie-eenheden](/assets/Gedrag-productie-eenheden.png)
 
-* Ongepland autonoom gedrag: De productie-eenheid waarvan de interface niet is aangesloten. De productie eenheid voldoet aan de overige netcodes en gedrag.
-* Gecontroleerd gedrag: De productie-eenheid is geregisteerd en heeft een werkende connectie met de lokale netbeheerder.
-* Gepland autonoom gedrag: De productie-eenheid handeld op basis van vooraf opgestuurde schema's/planning.
+* Ongepland autonoom gedrag: De productie-eenheid waarvan de interface zoals gespecificeerd in dit document niet is aangesloten. De productie eenheid voldoet aan de overige netcodes en vertoon bijbehorend gedrag.
+* Gecontroleerd gedrag: De productie-eenheid is geregisteerd en heeft een werkende connectie/interface met de lokale netbeheerder.
+* Gepland autonoom gedrag: De productie-eenheid handeld op basis van vooraf opgestuurde schema's/planning van de systeembeheerder of TSB.
 
 Motivatie: Conform 3.2; Het toevoegen van schedules in de eenheden naar Duits voorbeeld kunnen het autonome gedrag en daardoor robuustheid van het elektriciteitsnet versterken.
+
+Keuze: Aanmelden/Afmelden van een elektriciteitsproductie-eenheid kan via een centrale website of API
+Motivatie: Om het aanmelden van elektriciteitsproductie-eenheiden zo makkelijk mogelijk te maken kan dit via een website of API. Via de API kunnen derden partijen integreren met bijvoorbeeld hun invertor of klantportaal.
 
 ## Business
 Keuze: De keuze om geen keuze te maken over de invulling van rollen voor het verwerken, aggregeren van data en het primair of als noodbevel uitvoeren van opdrachten.
 
 Motivatie: Buiten scope van vraagstuk. De oplossing van de interface onafhankelijk en flexibel specificeren; flexibel maken voor wijzigingen in de energiemarkt. 
 
-Keuze: Er wordt 1 centraal register aangewezen waar het registratie van de productie-eenheden plaats vind.
+Keuze: Er wordt 1 centraal register aangewezen waar het registratie van de productie-eenheden plaatsvind.
 
 Motivatie: Om complexiteit te voorkomen bij het registratie proces is het handig als de registratie via een centraal register verloopt. Productie-eenheden leveranciers hebben dan een eenduidige ingang waar het registratie proces kan plaats kan vinden. Via dit centrale register kan worden doorvewezen naar 3de partijen.
 
 
 Keuze: Productie-eenheden zijn direct verbonden met de lokale netbeheerder
 
-Motivatie: Om de afhankelijkheid van 3de partijen te verminderen en de de verantwoordelijkheid van de netbeheerder maximaal te kunnen nemen is gekozen om de apparaten direct te laten communiceren met de lokale netbeheerder.
+Motivatie: Om de afhankelijkheid van 3de partijen te verminderen en de de verantwoordelijkheid van de netbeheerder maximaal te kunnen nemen is gekozen om de apparaten direct te laten communiceren met de lokale netbeheerder. Dit zorgt er tevens voor dat in het geval van noodzakeljk ingrijpen de vertraging minimaal is.
