@@ -6,20 +6,20 @@ De keuzes die in deze interface specificatie zijn opgedeeld in de verschillende 
 
 ## Communcatie
 
-Keuze: Publieke netwerken (internet) en private netwerken. Technologie: Ethernet met TCP/IP.
-
-Motivatie: Om de maatschappelijke kosten zo laag mogelijk te maken is de keuze gevallen op bestaande telecom infrastructuren en technolgie. Internet is op veel plekken beschikbaar en TCP/IP is hiervoor een gangbaar protocol. 
-
-
-
-Keuze: Encryptie via TLS
-
-Motivatie: TLS is in staat om de encryptie in de toekomst te wijzigen en zo mee te gaan met gangbare encryptie niveau. Daarnaast is TLS bewezen technologie. TLS bevat tevens een tijdssynchronisatie mogelijkheid.
+|Keuze:| Publieke netwerken (internet) en private netwerken. Technologie: Ethernet met TCP/IP.|
+|:--|:--|
+|Motivatie:| Om de maatschappelijke kosten zo laag mogelijk te maken is de keuze gevallen op bestaande telecom infrastructuren en technolgie. Internet is op veel plekken beschikbaar en TCP/IP is hiervoor een gangbaar protocol.| 
 
 
-Keuze: End-to-end encryptie tot device of dongle/gateway, De dongle/gateway-productie interface is een punt-punt verbinding die niet gedeeld is op alle communicatie lagen. Dit betekend een directe fysieke connectie zonder routing functies etc. Voorbeeld is een seriele poort (RS232).
 
-Motivatie: Om bestaande invertors geschikte te maken om aan deze interface specificatie te voldoen is het toegestaan een punt-punt verbidingen te hebben met de invertor en de interface dongle. Het toevoegen van encryptie aan een bestaand product (zoals invertor) kan kostbaar zijn. De directe fysieke connectie zorgt er voor dat de security is beperkt tot de fysieke toegang.
+|Keuze:| Encryptie via TLS|
+|:--|:--|
+|Motivatie:| TLS is in staat om de encryptie in de toekomst te wijzigen en zo mee te gaan met gangbare encryptie niveau. Daarnaast is TLS bewezen technologie. TLS bevat tevens een tijdssynchronisatie mogelijkheid.|
+
+
+|Keuze:| End-to-end encryptie tot device of dongle/gateway, De dongle/gateway-productie interface is een punt-punt verbinding die niet gedeeld is op alle communicatie lagen. Dit betekend een directe fysieke connectie zonder routing functies etc. Voorbeeld is een seriele poort (RS232).|
+|:--|:--|
+|Motivatie:| Om bestaande invertors geschikte te maken om aan deze interface specificatie te voldoen is het toegestaan een punt-punt verbidingen te hebben met de invertor en de interface dongle. Het toevoegen van encryptie aan een bestaand product (zoals invertor) kan kostbaar zijn. De directe fysieke connectie zorgt er voor dat de security is beperkt tot de fysieke toegang.|
 
 ### Syntactisch
 
@@ -32,40 +32,36 @@ Motivatie: Om bestaande invertors geschikte te maken om aan deze interface speci
 (in te vullen) gebruikte profiel
 
 ## Functies
-Keuze: RfG Type B biedt de mogelijkheid tot ontvangen signaal voor terugregeling maximaal vermogen naar momentaan gespecificeerde limiet (in kW).
+|Keuze:| RfG Type B biedt de mogelijkheid tot ontvangen signaal voor terugregeling maximaal vermogen naar momentaan gespecificeerde limiet (in kW).|
+|:--|:--|
+|Motivatie:| RfG artikel 14.2. Het sturen op kW-setpoint past bij toekomstige regelvraagstukken. Het resultaat van sturen op %-setpoint is afhankelijk van het maximale vermogen converter, het momentane maximaal vermogen (b.v. zonnestand), en de installatiekarakteristieken (b.v. grote converter met maar één paneel).|
 
-Motivatie: RfG artikel 14.2. Het sturen op kW-setpoint past bij toekomstige regelvraagstukken. Het resultaat van sturen op %-setpoint is afhankelijk van het maximale vermogen converter, het momentane maximaal vermogen (b.v. zonnestand), en de installatiekarakteristieken (b.v. grote converter met maar één paneel).
+|Keuze:| RfG Type A biedt de mogelijkheid tot het ontvangen van een signaal voor terugregeling van maximaal vermogen naar geen vermogen. De implementatie zoals beschreven bij Type B is niet verplicht voor Type A.|
+|:--|:--|
+|Motivatie:| RfG artikel 13.6. |
 
-Keuze: RfG Type A biedt de mogelijkheid tot het ontvangen van een signaal voor terugregeling van maximaal vermogen naar geen vermogen. De implementatie zoals beschreven bij Type B is niet verplicht voor Type A.
+|Keuze:| RfG Type A en B sturen, indien verbonden, meetwaarden en status over het functioneren die in lijn zijn met RfG en GL SO om hiermee "Real-time" beschikbare gegevens voor geaggregeerde productie per primaire energiebron in het DSB-gebied te kunnen aanbieden.|
+|:--|:--|
+|Motivatie:| GL-SO artikel 44.|
 
-Motivatie: RfG artikel 13.6. 
+|Keuze:| Een productie eenheid kan zicht in 3 toestanden bevinden. ![Figuur: gedrag productie-eenheden](/assets/Gedrag-productie-eenheden.png) (1) Ongepland autonoom gedrag: De productie-eenheid waarvan de interface zoals gespecificeerd in dit document niet is aangesloten. De productie eenheid voldoet aan de overige netcodes en vertoon bijbehorend gedrag. (2) Gecontroleerd gedrag: De productie-eenheid is geregisteerd en heeft een werkende connectie/interface met de lokale netbeheerder. (3) Gepland autonoom gedrag: De productie-eenheid handeld op basis van vooraf opgestuurde schema's/planning van de systeembeheerder of TSB. |
+|:--|:--|
+|Motivatie:| Conform 3.2; Het toevoegen van schedules in de eenheden naar Duits voorbeeld kunnen het autonome gedrag en daardoor robuustheid van het elektriciteitsnet versterken.|
 
-Keuze: RfG Type A en B sturen, indien verbonden, meetwaarden en status over het functioneren die in lijn zijn met RfG en GL SO om hiermee "Real-time" beschikbare gegevens voor geaggregeerde productie per primaire energiebron in het DSB-gebied te kunnen aanbieden.
-
-Motivatie: GL-SO artikel 44.
-
-Keuze: Een productie eenheid kan zicht in 3 toestanden bevinden.
-![Figuur: gedrag productie-eenheden](/assets/Gedrag-productie-eenheden.png)
-
-* Ongepland autonoom gedrag: De productie-eenheid waarvan de interface zoals gespecificeerd in dit document niet is aangesloten. De productie eenheid voldoet aan de overige netcodes en vertoon bijbehorend gedrag.
-* Gecontroleerd gedrag: De productie-eenheid is geregisteerd en heeft een werkende connectie/interface met de lokale netbeheerder.
-* Gepland autonoom gedrag: De productie-eenheid handeld op basis van vooraf opgestuurde schema's/planning van de systeembeheerder of TSB.
-
-Motivatie: Conform 3.2; Het toevoegen van schedules in de eenheden naar Duits voorbeeld kunnen het autonome gedrag en daardoor robuustheid van het elektriciteitsnet versterken.
-
-Keuze: Aanmelden/Afmelden van een elektriciteitsproductie-eenheid kan via een centrale website of API
-Motivatie: Om het aanmelden van elektriciteitsproductie-eenheiden zo makkelijk mogelijk te maken kan dit via een website of API. Via de API kunnen derden partijen integreren met bijvoorbeeld hun invertor of klantportaal.
+|Keuze:| Aanmelden/Afmelden van een elektriciteitsproductie-eenheid kan via een centrale website of API|
+|:--|:--|
+|Motivatie:| Om het aanmelden van elektriciteitsproductie-eenheiden zo makkelijk mogelijk te maken kan dit via een website of API. Via de API kunnen derden partijen integreren met bijvoorbeeld hun invertor of klantportaal.|
 
 ## Business
-Keuze: De keuze om geen keuze te maken over de invulling van rollen voor het verwerken, aggregeren van data en het primair of als noodbevel uitvoeren van opdrachten.
+|Keuze:| De keuze om geen keuze te maken over de invulling van rollen voor het verwerken, aggregeren van data en het primair of als noodbevel uitvoeren van opdrachten.|
+|:--|:--|
+|Motivatie:| Buiten scope van vraagstuk. De oplossing van de interface onafhankelijk en flexibel specificeren; flexibel maken voor wijzigingen in de energiemarkt. |
 
-Motivatie: Buiten scope van vraagstuk. De oplossing van de interface onafhankelijk en flexibel specificeren; flexibel maken voor wijzigingen in de energiemarkt. 
-
-Keuze: Er wordt 1 centraal register aangewezen waar het registratie van de productie-eenheden plaatsvind.
-
-Motivatie: Om complexiteit te voorkomen bij het registratie proces is het handig als de registratie via een centraal register verloopt. Productie-eenheden leveranciers hebben dan een eenduidige ingang waar het registratie proces kan plaats kan vinden. Via dit centrale register kan worden doorvewezen naar 3de partijen.
+|Keuze:| Er wordt 1 centraal register aangewezen waar het registratie van de productie-eenheden plaatsvind.|
+|:--|:--|
+|Motivatie:| Om complexiteit te voorkomen bij het registratie proces is het handig als de registratie via een centraal register verloopt. Productie-eenheden leveranciers hebben dan een eenduidige ingang waar het registratie proces kan plaats kan vinden. Via dit centrale register kan worden doorvewezen naar 3de partijen.|
 
 
-Keuze: Productie-eenheden zijn direct verbonden met de lokale netbeheerder
-
-Motivatie: Om de afhankelijkheid van 3de partijen te verminderen en de de verantwoordelijkheid van de netbeheerder maximaal te kunnen nemen is gekozen om de apparaten direct te laten communiceren met de lokale netbeheerder. Dit zorgt er tevens voor dat in het geval van noodzakeljk ingrijpen de vertraging minimaal is.
+|Keuze:| Productie-eenheden zijn direct verbonden met de lokale netbeheerder|
+|:--|:--|
+|Motivatie:| Om de afhankelijkheid van 3de partijen te verminderen en de de verantwoordelijkheid van de netbeheerder maximaal te kunnen nemen is gekozen om de apparaten direct te laten communiceren met de lokale netbeheerder. Dit zorgt er tevens voor dat in het geval van noodzakeljk ingrijpen de vertraging minimaal is.|
