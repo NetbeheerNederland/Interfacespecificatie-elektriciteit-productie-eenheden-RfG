@@ -80,3 +80,7 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |**Keuze:**| **Productie-eenheden zijn direct verbonden met de lokale netbeheerder**|
 |:--|:--|
 |Motivatie:| Om de afhankelijkheid van 3de partijen te verminderen en de de verantwoordelijkheid van de netbeheerder maximaal te kunnen nemen is gekozen om de apparaten direct te laten communiceren met de lokale netbeheerder. Dit zorgt er tevens voor dat in het geval van noodzakeljk ingrijpen de vertraging minimaal is.|
+
+|**Keuze:**| **Toestemming en het recht t.b.v. testen en analyse op goede werking**|
+|:--|:--|
+|Motivatie:| Het verifiëren van de werking van het gehele systeem /(gedrag van elektriciteitproductie-eenheid, eventueel gateway, en "centraal" systeem/) door het willekeurig testen van de afschakel of regelfunctie bij prosumenten.  Dit mag niet onredelijk bezwarend zijn voor de gebruiker. Goede werking van een specifiek merk en type eenheid wordt aangetoond o.b.v. analyse in de combinatie met overige netbeheerdermeetdata inclusief slimme-meterdata waarvoor toestemming is gegeven. Testen is in lijn met Belgische implementatie.|
