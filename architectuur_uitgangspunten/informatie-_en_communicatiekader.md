@@ -11,6 +11,6 @@ Figuur 6
 ### Initiatief voor opbouwen dataverbindingen {#initiatief-voor-opbouwen-dataverbindingen}
 Voor de interface-spec ontkomen we er niet aan om toch een stuk interactie met de centrale of decentrale elementen te benoemen. In het onderstaande figuur is een draft zichtbaar waarin het initiatief tot het opbouwen van verbindingen is weergegeven (links) i.v.m. dynamische IP adressen bij huis-internetaansluitingen. Vervolgens is weergegeven dat daarna de operationele verbinding vanuit het Operational Distributed Energy Resources Control wordt opgebouwd. Een verdere detaillering en uitwerking is hier noodzakelijk. Tot nader order wordt dit als uitgangspunt gehanteerd voor verdere keuzes in standaarden.
 
-![](/assets/180123_EUDevicesSGAM_UCs_git_8.png)
+![](/assets/180123_EUDevicesResponsibilitySGAM_UCs_8.png)
 
 Figuur 7
