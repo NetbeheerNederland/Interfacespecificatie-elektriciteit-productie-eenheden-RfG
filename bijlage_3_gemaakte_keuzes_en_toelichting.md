@@ -19,15 +19,17 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 
 ## Communicatie
 
-|**Keuze:**| **Zoveel mogelijk gebruik maken van bestaande publieke netwerken (internet) en private netwerken. Technologie: TCP/IP. Beschikbaarheid: -definieer-**|
+|**Keuze:**| **Zoveel mogelijk gebruik maken van bestaande publieke netwerken (internet) en private netwerken. Technologie: TCP/IP. Beschikbaarheid: >99% beschikbaarheid wordt verwacht, een langere response dan 15 seconden wordt gezien als offline**|
 |:--|:--|
-|Motivatie:| Om de maatschappelijke kosten zo laag mogelijk te maken is de keuze gevallen op bestaande telecominfrastructuren en -technolgie. Internet is op veel plekken beschikbaar en TCP/IP is hiervoor een gangbaar protocol. Er wordt zowel over publieke als private netten gesproken, zodat er achteraf, indien noodzakelijk geacht, er geëist kan worden de verbindingen over een specifiek netwerk te laten verlopen.| 
+|Motivatie:| Om de maatschappelijke kosten zo laag mogelijk te maken is de keuze gevallen op bestaande telecominfrastructuren en -technolgie. Internet is op veel plekken beschikbaar en TCP/IP is hiervoor een gangbaar protocol. Er wordt zowel over publieke als private netten gesproken, zodat er achteraf, indien noodzakelijk geacht, er geëist kan worden de verbindingen over een specifiek netwerk te laten verlopen. De Nederlandse internetproviders leveren een vele hogere mate van beschikbaarheid. Met het verschil kan onbeschikbaarheid in huisinstallaties (b.v. Wifi, repeaters) worden opgevangen.| 
 
-(in te vullen) communicatie voor operationele verbinden, van "Centraal" naar devices...
-
-|**Keuze:**| **Encryptie via TLS**|
+|**Keuze:**| **Interfaces van elektriciteitsproductie-eenheden verbinden met “centrale” infrastructuur voor verbindingsverzoek, vervolgens verbinden de interfaces van de elektriciteitsproductie-eenheden opnieuw met “centrale” infrastructuur voor operationele verbinding. /(Zie 3.3./)**|
 |:--|:--|
-|Motivatie:| TLS is in staat om de encryptie in de toekomst te wijzigen en zo mee te gaan met gangbare encryptie niveau. Daarnaast is TLS bewezen technologie. TLS bevat tevens een tijdssynchronisatie mogelijkheid. (check: hoe kan deze tijdsync vervolgens worden gebruikt?)|
+|Motivatie:| Interfaces verbinden automatisch met “centrale” infrastructuur zonder extra configuraties in routers. Het verbinden in twee trappen draagt bij aan de robuustheid en geeft een extra mogelijkheid om operationele verbindingen met de juiste partij / infrastructuur op te bouwen. |
+
+|**Keuze:**| **Encryptie en tijdreferentie via TLS**|
+|:--|:--|
+|Motivatie:| TLS is in staat om de encryptie in de toekomst te wijzigen en zo mee te gaan met gangbare encryptie niveau. Daarnaast is TLS bewezen technologie. TLS bevat tevens een tijdssynchronisatie die als referentie wordt gebruikt in het gehele systeem, zie hiervoor ook besluit over maximale tijdsafwijking.  |
 
 |**Keuze:**| **End-to-end encryptie tot device OF gateway.**|
 |:--|:--|
@@ -65,6 +67,10 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |**Keuze:**| **Aanmelden/Afmelden van een elektriciteitsproductie-eenheid kan via een centrale website of API**|
 |:--|:--|
 |Motivatie:| Om het aanmelden van elektriciteitsproductie-eenheiden zo makkelijk mogelijk te maken kan dit via een website of API. Via de API kunnen derden partijen integreren met bijvoorbeeld hun invertor of klantportaal.|
+
+|**Keuze:**| **Detectie en mitigatie bij tijdsafwijking groter dan 1 seconde**|
+|:--|:--|
+|Motivatie:| Voor de sturing en het loggen van acties op het energiesysteem is een integere tijd noodzakelijk. De referentietijd vanuit de TLS is geldend als maatstaf. Het mitigeren van de afwijking wordt naar inzicht van de leverancier geïmplementeerd, zoals (opnieuw)synchroniseren, melding van tijdsafwijking volgens gespecificeerd datapunt.  |
 
 ## Business
 |**Keuze:**| **De keuze om geen keuze te maken over de invulling van rollen voor het verwerken, aggregeren van data en het primair of als noodbevel uitvoeren van opdrachten.**|
