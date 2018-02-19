@@ -33,7 +33,7 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 
 |**Keuze:**| **End-to-end encryptie tot device OF gateway.**|
 |:--|:--|
-|Motivatie:| Om bestaande elektriciteitproducite-eenheden geschikt te maken om aan deze interfacespecificatie te voldoen is het toegestaan om de encryptie op een gateway te laten termineren. Dit is een afweging tussen kosten en risico. Het toevoegen van encryptie aan een bestaand product (zoals invertor) kan kostbaar zijn. De directe fysieke connectie zorgt er voor dat de security is beperkt tot locale en fysieke toegang. De combinatie van component-besissingen zoals hierboven gestelt, werken mitigerend op restrisico.|
+|Motivatie:| Om bestaande elektriciteitproducite-eenheden geschikt te maken om aan deze interfacespecificatie te voldoen is het toegestaan om de encryptie op een gateway te laten termineren. Dit is een afweging tussen kosten en risico. Het toevoegen van encryptie aan een bestaand product (zoals invertor) kan kostbaar zijn. Dit betekent automatisch dat de connectie tussen gateway en elektriciteitsproductie-eenheid niet automatisch encrypted is, echter aangezien dit een directe fysieke connectie is, bestaat hier alleen een security risico onder verantwoordelijkheid van eigenaar installatie.|
 
 ### Syntactisch
 
