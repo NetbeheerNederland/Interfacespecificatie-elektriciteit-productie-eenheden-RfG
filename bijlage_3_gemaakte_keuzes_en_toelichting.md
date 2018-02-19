@@ -68,9 +68,9 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:| Om het aanmelden van elektriciteitsproductie-eenheiden zo makkelijk mogelijk te maken kan dit via een website of API. Via de API kunnen derden partijen integreren met bijvoorbeeld hun invertor of klantportaal.|
 
-|**Keuze:**| **Detectie en mitigatie bij tijdsafwijking groter dan 1 seconde**|
+|**Keuze:**| **Detectie en mitigatie bij tijdsafwijking groter dan 2 seconden**|
 |:--|:--|
-|Motivatie:| Voor de sturing en het loggen van acties op het energiesysteem is een integere tijd noodzakelijk. De referentietijd vanuit de TLS is geldend als maatstaf. Het mitigeren van de afwijking wordt naar inzicht van de leverancier geïmplementeerd, zoals (opnieuw)synchroniseren, melding van tijdsafwijking volgens gespecificeerd datapunt.  |
+|Motivatie:| Voor de sturing en het loggen van acties op het energiesysteem is een integere tijd noodzakelijk. De referentietijd vanuit de TLS is geldend als maatstaf. Het mitigeren van de afwijking wordt naar inzicht van de leverancier geïmplementeerd, zoals (opnieuw)synchroniseren, melding van tijdsafwijking volgens gespecificeerd datapunt. Het doel is om niet meer dan 1x per dag opnieuw te synchroniseren. Hardware met een maximale afwijking van ca. 1,7 seconden blijkt beschikbaar tegen lage kosten.  |
 
 ## Business
 |**Keuze:**| **De keuze om geen keuze te maken over de invulling van rollen voor het verwerken, aggregeren van data en het primair of als noodbevel uitvoeren van opdrachten.**|
