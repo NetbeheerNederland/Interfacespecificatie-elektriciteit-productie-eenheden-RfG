@@ -12,13 +12,12 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:|Indien een gateway wordt gebruikt die niet (meer) aan de conformiteitseist voldoet, kan de certificering worden ingetrokken.|
 
-|**Keuze:**| **Bij de leverancier van de elektriciteitsproductie-eenheden ligt de verplichting om aan te tonen dat fraude of manipulatie van aansturing betrouwbaar kan worden aangetoont. Dit geldt tevens bij het gebruik van een of meerdere gateways**|
+|**Keuze:**| **De (eind)leverancier van de elektriciteitsproductie-eenheden is verplicht een conformiteitsverklaring met de hardware te leveren. Met de conformiteitsverklaring is aangetoond dat fraude of manipulatie van aansturing zeer onwaarschijnlijk is.**|
 |:--|:--|
-|**Keuze:**| **Bij gebruik van gateways ligt bij de leverancier van de elektriciteitsproductie-eenheden de verplichting om aan te tonen dat de gateway zich met de bedoelde productie-eenheid, of eenheden, kan verbinden.**|
-|Motivatie:| Fraude voorkomen door wijzigingen in de elektriciteitproductie-eenheid of in de verbinding tussen gateway en electriciteitproductie-eenheden door te voeren na conformiteitstest of installatie. Verplichting voor leverancier zodat er vanuit de markt een overtuigende en marktconforme oplossing wordt aangedragen i.p.v. een standaard verplichting met hoge modificatiekosten voor leveranciers.|
+|Motivatie:| Fraude zoveel mogelijk voorkomen door het ontwerp van de eenheid (eventueel i.c.m. gateway) of tijdens de installatie hiervan of door achteraf wijzigingen door te voeren in de elektriciteitproductie-eenheid. Verplichting voor leverancier zodat er vanuit de markt een overtuigende en marktconforme oplossing wordt aangedragen i.p.v. een standaard verplichting met hoge modificatiekosten voor leveranciers.|
 
 
-## Communcatie
+## Communicatie
 
 |**Keuze:**| **Zoveel mogelijk gebruik maken van bestaande publieke netwerken (internet) en private netwerken. Technologie: TCP/IP. Beschikbaarheid: -definieer-**|
 |:--|:--|
