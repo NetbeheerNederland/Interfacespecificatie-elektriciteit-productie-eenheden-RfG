@@ -5,20 +5,18 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 ## Componenten
 |**Keuze:**| **De mogelijkheid om de interface te integreren in bestaande elektriciteitsproductie-eenheden, met daarnaast de mogelijkheid voor het toepassen van extra gateways.**|
 |:--|:--|
-|Motivatie:| Het ombouwen van bestaande elektriciteitproductie-eenheden kan kostbaar zijn hoewel sturing ervan functioneel al aanwezig is. Het gebruik van gateways als extra levering voor de eenheden kan hier een oplossing bieden. Daarnaast kunnen gateways een bijdrage leveren in een betere lifecycle van de oplossing. Bijvoorbeeld: indien er strengere encryptie-eisen gaan gelden en er meer processorcapaciteit gevraag wordt is een re-design en vervanging van een gateway goedkoper van een gehele PV converter|
+|Motivatie:| Het ombouwen van bestaande elektriciteitproductie-eenheden kan kostbaar zijn hoewel sturing ervan functioneel al aanwezig is. Het gebruik van gateways als extra levering voor de eenheden kan hier een oplossing bieden. Daarnaast kunnen gateways een bijdrage leveren in een betere lifecycle van de oplossing. Bijvoorbeeld: indien er strengere encryptie-eisen gaan gelden en er meer processorcapaciteit gevraag wordt is een re-design en vervanging van een gateway goedkoper van een gehele converter of sturing.|
 
-|**Keuze:**| **Indien een extra gateway wordt toegepast, dient de verbinding tussen gateway en de elektriciteitsproductie-eenheid via één van de volgende methodes te verlopen: serieële communicatie, stuursignalen als 4-20mA, 0-100V, e.d, gebruike maken van binaire contacten of mapping naar IEC communicatieprotocollen met goedkeuring van de relevante systeembeheerder.**|
+
+|**Keuze:**| **Bij gebruik van een gateway, dient de combinatie elektriciteitsproductie-eenheid met gateway aan de conformiteitseisen te voldoen.**|
 |:--|:--|
-|Motivatie:| Bovenstaande methodes zijn generiek genoeg en in lijn met huidig beschikbare interfaces van elektriciteitproductie-eenheden. Deze kunnen tijdens conformiteitstesten goed beoordeeld worden tegen standaarden. IP verbinding, anders dan volgens IEC communicatieprotocollen kunnen tijdens conformiteitstesten onvoldoende beoordeeld worden tegen standaarden. |
+|Motivatie:|Indien een gateway wordt gebruikt die niet (meer) aan de conformiteitseist voldoet, kan de certificering worden ingetrokken.|
 
 |**Keuze:**| **Bij de leverancier van de elektriciteitsproductie-eenheden ligt de verplichting om aan te tonen dat fraude of manipulatie van aansturing betrouwbaar kan worden aangetoont. Dit geldt tevens bij het gebruik van een of meerdere gateways**|
 |:--|:--|
 |**Keuze:**| **Bij gebruik van gateways ligt bij de leverancier van de elektriciteitsproductie-eenheden de verplichting om aan te tonen dat de gateway zich met de bedoelde productie-eenheid, of eenheden, kan verbinden.**|
 |Motivatie:| Fraude voorkomen door wijzigingen in de elektriciteitproductie-eenheid of in de verbinding tussen gateway en electriciteitproductie-eenheden door te voeren na conformiteitstest of installatie. Verplichting voor leverancier zodat er vanuit de markt een overtuigende en marktconforme oplossing wordt aangedragen i.p.v. een standaard verplichting met hoge modificatiekosten voor leveranciers.|
 
-|**Keuze:**| **Bij gebruik van een gateway, dient de combinatie elektriciteitsproductie-eenheid met gateway aan de conformiteitseisen te voldoen.**|
-|:--|:--|
-|Motivatie:| |
 
 ## Communcatie
 
