@@ -77,9 +77,9 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:| Buiten scope van vraagstuk. De oplossing van de interface onafhankelijk en flexibel specificeren; flexibel maken voor wijzigingen in de energiemarkt. |
 
-|**Keuze:**| **Er wordt 1 centraal register aangewezen waar het registratie van de productie-eenheden plaatsvind.**|
+|**Keuze:**| **Er wordt 1 centraal register aangewezen waar het registratie van de productie-eenheden plaatsvindt.**|
 |:--|:--|
-|Motivatie:| Om complexiteit te voorkomen bij het registratie proces is het handig als de registratie via een centraal register verloopt. Productie-eenheden leveranciers hebben dan een eenduidige ingang waar het registratie proces kan plaats kan vinden. Via dit centrale register kan worden doorvewezen naar een systeembeheerder. Dit voorkomt dat een elektriciteitsproductie eenheid alle netbeheerders moet kennen. Door het snelle voorverwijzen naar een systeembeheerder wordt de centrale serverbelasting tot een minimum beperkt en heeft de systeembeheerder een integraalbeeld van de klant.|
+|Motivatie:| Om complexiteit te voorkomen bij het registratie proces is het handig als de registratie via een centraal register verloopt. Productie-eenheden leveranciers hebben dan een eenduidige ingang waar het registratie proces kan plaatsvinden. Via dit centrale register wordt doorverwezen naar de (op dat moment) relevante een systeembeheerder. Dit voorkomt dat een elektriciteitsproductie-eenheid alle netbeheerders moet kennen. Door het snelle doorverwijzen naar de relevante systeembeheerder wordt de centrale serverbelasting tot een minimum beperkt en heeft de systeembeheerder een integraalbeeld van al zijn relevante productie-eenheden.|
 
 
 |**Keuze:**| **Productie-eenheden zijn direct verbonden met de lokale netbeheerder**|
