@@ -40,6 +40,9 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 (in te vullen) XMPP,DDS, SOAP, etc
 
 ## Informatie
+|**Keuze:**|**Toepassen van digitaal Certificaat van de elektriciteitproductie-eenheid _Producent_ t.b.v. registratietoken als ook bij firmeware updates**|
+|:--|:--|
+|Motivatie:| 1. Voor het registeren (op de website) van een eenheid, mag geen informatie van overige installaties en "procumenten" worden gezocht door onberechtigde gebruikers. Naast het sturen van een ID van het device, beschermt het extra sturen van een token hiertegen (bijvoorbeeld samen verwerkt in QR code zoals beproefd in implementaties bij Netbeheerder). De public key van de producent is bij het registratieproces bekend, hiertegen wordt getoetst. 2. Het certificaat is bruikbaar om software-updates te valideren. In lijn met Duitse specificatie voor Steuerbox en in lijn met stand van de techniek en beveiligingseisen.  |
 
 (in te vullen) IEC CIM of (delen van) IEC 61850
 
