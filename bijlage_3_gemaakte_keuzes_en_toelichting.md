@@ -7,7 +7,6 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:| Het ombouwen van bestaande elektriciteitproductie-eenheden kan kostbaar zijn hoewel sturing ervan functioneel al aanwezig is. Het gebruik van gateways als extra levering voor de eenheden kan hier een oplossing bieden. Daarnaast kunnen gateways een bijdrage leveren in een betere lifecycle van de oplossing. Bijvoorbeeld: indien er strengere encryptie-eisen gaan gelden en er meer processorcapaciteit gevraag wordt is een re-design en vervanging van een gateway goedkoper van een gehele converter of sturing.|
 
-
 |**Keuze:**| **Bij gebruik van een gateway, dient de combinatie elektriciteitsproductie-eenheid met gateway aan de conformiteitseisen te voldoen.**|
 |:--|:--|
 |Motivatie:|Indien een gateway wordt gebruikt die niet (meer) aan de conformiteitseist voldoet, kan de certificering worden ingetrokken.|
@@ -16,6 +15,9 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:| Fraude zoveel mogelijk voorkomen door het ontwerp van de eenheid (eventueel i.c.m. gateway) of tijdens de installatie hiervan of door achteraf wijzigingen door te voeren in de elektriciteitproductie-eenheid. Verplichting voor leverancier zodat er vanuit de markt een overtuigende en marktconforme oplossing wordt aangedragen i.p.v. een standaard verplichting met hoge modificatiekosten voor leveranciers.|
 
+|**Keuze:**| **Advies: verberg optionele QR codes voor registratie**|
+|:--|:--|
+|Motivatie:| In het document wordt de optie voorgesteld om registratie met een QR code te laten verlopen. Aangezien iedereen die toegang heeft tot de QR code ook toegang heeft tot registratie, geldt een sterk advies naar alle partijen om QR codes te verbergen voor publieke toegang (zicht erop).|
 
 ## Communicatie
 
