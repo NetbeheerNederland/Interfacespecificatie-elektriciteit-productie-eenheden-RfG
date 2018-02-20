@@ -79,7 +79,7 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 
 |**Keuze:**| **Er wordt 1 centraal register aangewezen waar het registratie van de productie-eenheden plaatsvind.**|
 |:--|:--|
-|Motivatie:| Om complexiteit te voorkomen bij het registratie proces is het handig als de registratie via een centraal register verloopt. Productie-eenheden leveranciers hebben dan een eenduidige ingang waar het registratie proces kan plaats kan vinden. Via dit centrale register kan worden doorvewezen naar 3de partijen.|
+|Motivatie:| Om complexiteit te voorkomen bij het registratie proces is het handig als de registratie via een centraal register verloopt. Productie-eenheden leveranciers hebben dan een eenduidige ingang waar het registratie proces kan plaats kan vinden. Via dit centrale register kan worden doorvewezen naar een systeembeheerder. Dit voorkomt dat een elektriciteitsproductie eenheid alle netbeheerders moet kennen. Door het snelle voorverwijzen naar een systeembeheerder wordt de centrale serverbelasting tot een minimum beperkt en heeft de systeembeheerder een integraalbeeld van de klant.|
 
 
 |**Keuze:**| **Productie-eenheden zijn direct verbonden met de lokale netbeheerder**|
