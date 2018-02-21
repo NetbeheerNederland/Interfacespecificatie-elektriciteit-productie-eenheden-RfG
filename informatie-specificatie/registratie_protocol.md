@@ -1,6 +1,6 @@
+![Figuur: gedrag productie-eenheden](/assets/Aanmeld-sequence.png)
 
-
-Device wordt geleverd met:
+Device (elektriciteitsproductie eenheid) wordt geleverd met:
 - ROOT CA Public key centrale aanmeld partij.
 - Connectiegegevens centrale aanmeld partij server.
 - Uniek device code bestaande uit
