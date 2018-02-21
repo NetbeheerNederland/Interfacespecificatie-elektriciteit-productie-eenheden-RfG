@@ -34,3 +34,6 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 | IEC 61850-7-420 (DER) | +         |                  |   nvt     |                  |                  |
 | IEC 61850-90-10 (scheduling)| +          |                  |    nvt   |                  |                  |
 | IEC CIM   |       +        |         -        |   nvt   | +                | +                |
+
+**Voorlopige conculsie**
+Gegeven het gebruik van het TCP/IP en de volwassenheid/bekendheid gaat de voorkeur uit naar webservices. Deze kunnen eventueel worden aangevuld met XMPP waarop IEC61850 of IEC CIM gebaseerde berichten worden uitgewisseld. IEC 61850-90-10 (scheduling) lijkt een interessante kandidaat voor het offline geplande gedrag.
