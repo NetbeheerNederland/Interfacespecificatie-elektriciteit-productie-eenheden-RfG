@@ -65,7 +65,7 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:| GL-SO artikel 44.|
 
-|**Keuze:**| Een productie eenheid kan zicht in 3 toestanden bevinden. ![Figuur: gedrag productie-eenheden](/assets/Gedrag-productie-eenheden.png) (1) Ongepland autonoom gedrag: De productie-eenheid waarvan de interface zoals gespecificeerd in dit document niet is aangesloten. De productie eenheid voldoet aan de overige netcodes en vertoon bijbehorend gedrag. (2) Gecontroleerd gedrag: De productie-eenheid is geregisteerd en heeft een werkende connectie/interface met de lokale netbeheerder. (3) Gepland autonoom gedrag: De productie-eenheid handeld op basis van vooraf opgestuurde schema's/planning van de systeembeheerder of TSB.** |
+|**Keuze:**| **Een productie eenheid kan zich in meerdere toestanden bevinden. ![Figuur: gedrag productie-eenheden](/assets/Gedrag-productie-eenheden.png)**  |
 |:--|:--|
 |Motivatie:| Conform 3.2; Het toevoegen van schedules in de eenheden naar Duits voorbeeld kunnen het autonome gedrag en daardoor robuustheid van het elektriciteitsnet versterken.|
 
