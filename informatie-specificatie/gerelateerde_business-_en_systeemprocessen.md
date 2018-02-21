@@ -13,32 +13,43 @@ Onderstaand aanmeldproces is opgetekend om te definiëren welke communicatie moe
 https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/assets/Aanmeld-flow.png
 
 Het bovenstaande proces geeft duidelijk weer welke eisen er minimaal moeten gelden aan de interfacespecficatie van de elektriciteitsproducie-eenheid. De interface moet:
-1) zich zelfstandig verbinden en aanmelden bij een centraal aansluitregister
-2) verbonden blijven tot en met de ontvangst van (nieuwe)verbindinggegevens van de relevante systeembeheerder, inclusief een token voor veilige verbindingsopbouw  en al deze informatie opslaan.
-3) de verbinding met het centraal aansluitregister verbreken.
-4) op basis van de nieuwe verbindinggegevens verbinden met de relevante systeembeheerder. Hierbij wordt een beveiligde verbinding gebruikt.
-5) een operating license kunnen ontvangen van de relevante systeembeheerder en deze opslaan. 
-6) na opslag van de operating license de verbinding verbreken ter afsluiting van de installatie en registratieve processen.
-7) met een operating license zelfstandig verbinden met van de relevante systeembeheerder zoals beschreven bij paragraaf "Operationele aansturing".
+1. zich zelfstandig verbinden en aanmelden bij een centraal aansluitregister
+2. verbonden blijven tot en met de ontvangst van (nieuwe)verbindinggegevens van de relevante systeembeheerder, inclusief een token voor veilige verbindingsopbouw  en al deze informatie opslaan.
+3. de verbinding met het centraal aansluitregister verbreken.
+4. op basis van de nieuwe verbindinggegevens verbinden met de relevante systeembeheerder. Hierbij wordt een beveiligde verbinding gebruikt.
+5. een operating license kunnen ontvangen van de relevante systeembeheerder en deze opslaan. 
+6. na opslag van de operating license de verbinding verbreken ter afsluiting van de installatie en registratieve processen.
+7. met een operating license zelfstandig verbinden met van de relevante systeembeheerder zoals beschreven bij paragraaf "Operationele aansturing".
 
 Voor specifieke en detaileisen zie ook hoofdstukken "Message specification", "Conformiteitseisen" en "Registratieprocotol".
 
 ### Afmeldproces
-Onderstaand afmeldproces is opgetekend om te definiëren welke communicatie moet plaatsvinden met de interface, hoe beveiligd wanneer in het proces en met welke informatie. Dit is voldoende voor de interfacespecificatie waarbij het definitieve proces officieel nog moet worden vastgesteld. 
+Onderstaand afmeldproces is opgetekend om te definiëren welke communicatie moet plaatsvinden met de interface, hoe en wanneer beveiligd  in het proces en met welke informatie. Dit is voldoende voor de interfacespecificatie waarbij het definitieve proces officieel nog moet worden vastgesteld. 
 
 ![Figuur: afmeld procedure](/assets/Afmelden-elektriciteitsproductie-eenheid.png)
 https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/assets/Afmelden-elektriciteitsproductie-eenheid.png
 
+Het bovenstaande proces geeft weer dat er voor het afmelden maar beperkte eisen gelden aan de interface, namelijk dat de interface herkent dat door het intrekken van het certificaat, en daardoor een certificaatfout, opnieuw de registratie doorlopen moet worden. Zie hiervoor ook [gedrag productie-eenheden](https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/assets/Gedrag-productie-eenheden.png).
+
+
 ### Operationele aansturing
+**Dit wordt momenteel verder uitgewerkt:** Het momentele standpunt is dat het mechanisme van IEC 61850-90-10 (scheduling) **uiteindelijk** kan worden toegepast naar de Duitse FNN Steuerbox specificatie. Echter is deze standaard vrij nieuw (relatief onbeproefd) en is scheduling een extra complicatie om in software om te zetten voor marktpartijen. Deze complicatie is ook aanwezig op testen hiervan voor  conformiteit. Er wordt een oplossing gevonden waarbij het scheduling wordt gereduceerd tot maximaal één week vooruit waarbij tijdens conformiteit op x aantal punten steekproefmatig het gedrag wordt getoetst. De informatie-uitwisseling op de interface zal het liefst IEC 61850-90-10 conform zijn, maar minimaal in opéénvolgende versies groeien naar het volledige IEC 61850-90-10 mechanisme. 
+
 Type A
 * Productie vermogen reductie naar 0
 * Productie vermogen reductie opheffen
+
 Type B
 * Werkzame vermogen te verminderen/uitzetten
-* Werkzame vermogen te vermeederen/aanzetten
+* Werkzame vermogen te vermeerderen/aanzetten
 
 ### Rapportage
-Informatie uitwisselen
+Allen Informatie uitwisselen
 * Near-Real-time i.g.v. storing
 * Rapportage t.b.v. prognoses.
+
+Type B (Conform GL SO) 
+* status van de schakelinrichtingen en stroomonderbrekers op het aansluitpunt
+* de stromen werkzaam vermogen en blindvermogen
+* de stroomsterkte en de spanning op het aansluitpunt
 
