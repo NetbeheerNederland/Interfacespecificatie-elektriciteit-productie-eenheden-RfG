@@ -49,9 +49,9 @@ Response daarop is:
 
 
 Bij verbinden met de service zijn 3 dingen mogelijk:
-- Device onbekend (certificaatfout), waarop het device terug moet vallen naar de registratieserver van de centrale aanmeldpartij.
+- Device onbekend (certificaatfout), waarop het device terug moet vallen naar de registratieserver van de DER registratie service.
 - Mislukt de verbinding dan:
-  - Verbind het apparaat automatisch opnieuw met een steeds stijgend interval
+  - Verbind het apparaat automatisch opnieuw met DER registratie service een steeds stijgend interval
   - Bijvoorbeeld 'direct opnieuw', 'na 30seconde nog eens' '5 minuten' 'kwartier'
       'uur', 'dag' waarna een device terugvalt naar de registratieserver (tijd is korter dan bij registratie, zodat devices sneller nieuw registeren).
 - Beveiliging hier is een certificaat ondertekend door Sub CA onder de centrale aanmeld partij CA.
