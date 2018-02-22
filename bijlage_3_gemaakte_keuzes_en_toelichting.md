@@ -46,6 +46,10 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:| 1. Voor het registeren (op de website) van een eenheid, mag geen informatie van overige installaties en "procumenten" worden gezocht door onberechtigde gebruikers. Naast het sturen van een ID van het device, beschermt het extra sturen van een token hiertegen (bijvoorbeeld samen verwerkt in QR code zoals beproefd in implementaties bij Netbeheerder). De public key van de producent is bij het registratieproces bekend, hiertegen wordt getoetst. 2. Het certificaat is bruikbaar om software-updates te valideren. In lijn met Duitse specificatie voor Steuerbox en in lijn met stand van de techniek en beveiligingseisen.  |
 
+|**Keuze:**|**Gebruik van UTC tijd**|
+|:--|:--|
+|Motivatie:| In lijn met IEC 61850, overeenstemmend met Duitse FNN Steuerbox specificatie, geen implementatie en management noodzakelijk voor zomer/wintertijd aanpassingen in decentrale devices. |
+
 (in te vullen) IEC CIM of (delen van) IEC 61850
 
 (in te vullen) gebruikte profiel
@@ -73,9 +77,9 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:| Om het aanmelden van elektriciteitsproductie-eenheiden zo makkelijk mogelijk te maken kan dit via een website of API. Via de API kunnen derden partijen integreren met bijvoorbeeld hun invertor of klantportaal.|
 
-|**Keuze:**| **Detectie en mitigatie bij tijdsafwijking groter dan 2 seconden**|
+|**Keuze:**| **Detectie en mitigatie bij tijdsafwijking groter dan 2 seconden (klasse 1 interface voor RfG Type A) en groter dan 1 seconde (klasse 2 interface voor RfG Type B)**|
 |:--|:--|
-|Motivatie:| Voor de sturing en het loggen van acties op het energiesysteem is een integere tijd noodzakelijk. De referentietijd vanuit de TLS is geldend als maatstaf. Het mitigeren van de afwijking wordt naar inzicht van de leverancier geïmplementeerd, zoals (opnieuw)synchroniseren, melding van tijdsafwijking volgens gespecificeerd datapunt. Het doel is om niet meer dan 1x per dag opnieuw te synchroniseren. Hardware met een maximale afwijking van ca. 1,7 seconden blijkt beschikbaar tegen lage kosten.  |
+|Motivatie:| Voor de sturing en het loggen van acties op het energiesysteem is een integere tijd noodzakelijk. De referentietijd vanuit de TLS is geldend als maatstaf. Het mitigeren van de afwijking wordt naar inzicht van de leverancier geïmplementeerd, zoals (opnieuw)synchroniseren, melding van tijdsafwijking volgens gespecificeerd datapunt. Het doel is om niet meer dan 1x per dag opnieuw te synchroniseren. Ongecalibeerde hardware met een maximale afwijking van ca. 1,7 seconden blijkt beschikbaar tegen lage kosten. Voor de betere klasse interfaces is dus betere hardware noodzakelijk, of calibratie om aan de 1 seconde te voldoen. |
 
 ## Business
 |**Keuze:**| **De keuze om geen keuze te maken over de invulling van rollen voor het verwerken, aggregeren van data en het primair of als noodbevel uitvoeren van opdrachten.**|
