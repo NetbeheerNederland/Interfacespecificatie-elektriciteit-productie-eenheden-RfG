@@ -106,3 +106,7 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |**Keuze:**| **Aanmelden  elektriciteitsproductie eenheden API geen onderdeel van interface specificatie**|
 |:--|:--|
 |Motivatie:| Om de eerste versie van de interface specificatie eenvoudig te houden is er voor gekozen om de API voor het registreren van de elektriciteitsproductie eenheden geen onderdeel te maken van de specificatie. Mogelijk dat in de toekomst elektriciteitsproductie eenheden zichtzelf (gedeeltelijk) kunnen registreren.|
+
+|**Keuze:**| **Systeembeheerder stuurt op werkelijk vermogen**|
+|:--|:--|
+|Motivatie:| Er is er gekozen om enkel op werkelijk vermogen te gaan sturen. De discussie rondom blindvermogen is nog niet afgerond. Indien de noodzaak voor het sturen op blindvermogen wordt aan getoond kan dit worden toegevoegd aan de volgende versie van deze interface specificatie. Bij de keuzes voor de interface-specificatie moet hier alvast rekening mee worden gehouden, maar hoeft de (externe) sturing op blindvermogen nog niet worden geïmplementeerd. |
