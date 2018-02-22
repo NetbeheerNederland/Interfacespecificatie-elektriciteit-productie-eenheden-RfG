@@ -98,3 +98,7 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |**Keuze:**| **Toestemming en het recht t.b.v. testen en analyse op goede werking**|
 |:--|:--|
 |Motivatie:| Het verifiëren van de werking van het gehele systeem /(gedrag van elektriciteitproductie-eenheid, eventueel gateway, en "centraal" systeem/) door het willekeurig testen van de afschakel of regelfunctie bij prosumenten.  Dit mag niet onredelijk bezwarend zijn voor de gebruiker. Goede werking van een specifiek merk en type eenheid wordt aangetoond o.b.v. analyse in de combinatie met overige netbeheerdermeetdata inclusief slimme-meterdata waarvoor toestemming is gegeven. Testen is in lijn met Belgische implementatie.|
+
+|**Keuze:**| **Aanmelden  elektriciteitsproductie eenheden API geen onderdeel van interface specificatie**|
+|:--|:--|
+|Motivatie:| Om de eerste versie van de interface specificatie eenvoudig te houden is er voor gekozen om de API voor het registreren van de elektriciteitsproductie eenheden geen onderdeel te maken van de specificatie. Mogelijk dat in de toekomst elektriciteitsproductie eenheden zichtzelf (gedeeltelijk) kunnen registreren.|
