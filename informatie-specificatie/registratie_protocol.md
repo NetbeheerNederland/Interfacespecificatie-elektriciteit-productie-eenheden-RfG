@@ -85,7 +85,7 @@ Rationale:
 - Een device wat te 'oud' is om nog te verbinden zal belanden op een loop van elke maand verbinden met centrale aanmeld partij wat mislukt.
 - Bij een storing bij de registratieserver van de systeembeheerder tijdens plaatsing zal een device in een loopje tussen centrale aanmeld partij en de systeembeheerder komen
   waarbij elke 5 minuten 'opnieuw' geprobeerd wordt.
-- Http voor de centrale aanmeld partij en registratieserver, want dit is makkelijk up-to-date te houden/load balancen/etc.
+- Https voor de centrale aanmeld partij en registratieserver, want dit is makkelijk up-to-date te houden/load balancen/etc.
 - De delay bij device onbekend bij centrale aanmeld partij is variabel om de load beter te beheersen.
   Oude devices die niet meer kunnen registreren kunnen bijv een hele lange delay krijgen, 
   terwijl voor devices waarvoor de aanmeldprocedure al loopt de delay kort kan zijn.
