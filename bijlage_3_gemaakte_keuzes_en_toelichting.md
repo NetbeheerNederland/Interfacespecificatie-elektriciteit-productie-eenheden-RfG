@@ -37,6 +37,10 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:| Om bestaande elektriciteitproducite-eenheden geschikt te maken om aan deze interfacespecificatie te voldoen is het toegestaan om de encryptie op een gateway te laten termineren. Dit is een afweging tussen kosten en risico. Het toevoegen van encryptie aan een bestaand product (zoals invertor) kan kostbaar zijn. Dit betekent automatisch dat de connectie tussen gateway en elektriciteitsproductie-eenheid niet automatisch encrypted is, echter aangezien dit een directe fysieke connectie is, bestaat hier alleen een security risico onder verantwoordelijkheid van eigenaar installatie.|
 
+|**Keuze:**| **Interface ondersteuning voor IPv4 en IPv6**|
+|:--|:--|
+|Motivatie:| Gezien de brede adoptie van IPv4 en IPv6 is de eis om beide te ondersteunen. Dit ligt volledig in lijn met de Duitse FNN steuerbox specificaties. |
+
 ### Syntactisch
 
 (in te vullen) XMPP,DDS, SOAP, etc
