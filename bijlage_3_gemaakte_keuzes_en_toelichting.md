@@ -97,4 +97,4 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 
 |**Keuze:**| **Aanmelden  elektriciteitsproductie eenheden API geen onderdeel van interface specificatie**|
 |:--|:--|
-|Motivatie:| Om de eerste versie van de interface specificatie eenvoudig te houden is er voor gekozen om de API voor het registreren van de elektriciteitsproductie eenheden geen onderdeel te maken van de specificatie. Mogelijk dat in de toekomst elektriciteitsproductie eenheden zichtzelf (gedeeltelijk) kunnen aanmelden.|
+|Motivatie:| Om de eerste versie van de interface specificatie eenvoudig te houden is er voor gekozen om de API voor het registreren van de elektriciteitsproductie eenheden geen onderdeel te maken van de specificatie. Mogelijk dat in de toekomst elektriciteitsproductie eenheden zichtzelf (gedeeltelijk) kunnen registreren.|
