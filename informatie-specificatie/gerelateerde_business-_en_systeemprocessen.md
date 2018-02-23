@@ -61,7 +61,7 @@ Melden van terugregeling productie eenheid aan systeembeheerder
 ### Rapportage/monitoring
 Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteerd. De exacte informatie die uitgewisseld moet worden is per type verschillend en zal later uitgewerkt moeten worden.
 
-![Figuur: Monitoren elektrictiteitsproductie eenheid](/assets/sequence-Monitoren-elektriciteitsproductie-eenheid)
+![Figuur: Monitoren elektrictiteitsproductie eenheid](/assets/sequence-Monitoren-elektriciteitsproductie-eenheid.png)
 
 
 Type A:
