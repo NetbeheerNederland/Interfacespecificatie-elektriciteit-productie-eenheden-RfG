@@ -35,7 +35,9 @@ Het bovenstaande proces geeft weer dat er voor het afmelden maar beperkte eisen 
 ### Operationele aansturing
 **Dit wordt momenteel verder uitgewerkt:** Het momentele standpunt is dat het mechanisme van IEC 61850-90-10 (scheduling) **uiteindelijk** kan worden toegepast naar de Duitse FNN Steuerbox specificatie. Echter is deze standaard vrij nieuw (relatief onbeproefd) en is scheduling een extra complicatie om in software om te zetten voor marktpartijen. Deze complicatie is ook aanwezig op testen hiervan voor  conformiteit. Er wordt een oplossing gevonden waarbij het scheduling wordt gereduceerd tot maximaal één week vooruit waarbij tijdens conformiteit op x aantal punten steekproefmatig het gedrag wordt getoetst. De informatie-uitwisseling op de interface zal het liefst IEC 61850-90-10 conform zijn, maar minimaal in opéénvolgende versies groeien naar het volledige IEC 61850-90-10 mechanisme. 
 
-Naast de monitoring van de elektriciteitsproductie eenheid is het ook wenselijk om te sturen, parameters te versturen en ad-hoc vragen de stellen aan de elektriciteitsproductie-eenheid.
+Naast de monitoring van de elektriciteitsproductie eenheid is het ook wenselijk om te sturen, parameters te versturen en ad-hoc vragen de stellen aan de elektriciteitsproductie-eenheid. Dit zal een request-response mechanisme zijn.
+
+![Figuur: Aansturen elektrictiteitsproductie eenheid](/assets/sequence-Aansturen-elektriciteitsproductie-eenheid.png)
 
 Type A
 * Productie vermogen reductie naar 0
@@ -57,9 +59,9 @@ Type B
 Melden van terugregeling productie eenheid aan systeembeheerder
 
 ### Rapportage/monitoring
-Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteerd. De exacte informatie die uitgewisseld moet worden is per type verschillend.
+Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteerd. De exacte informatie die uitgewisseld moet worden is per type verschillend en zal later uitgewerkt moeten worden.
 
-
+![Figuur: Monitoren elektrictiteitsproductie eenheid](/assets/sequence-Monitoren-elektriciteitsproductie-eenheid)
 
 
 Type A:
