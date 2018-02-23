@@ -39,7 +39,7 @@ Naast de monitoring van de elektriciteitsproductie eenheid is het ook wenselijk 
 
 ![Figuur: Aansturen elektrictiteitsproductie eenheid](/assets/sequence-Aansturen-elektriciteitsproductie-eenheid.png)
 
-Type A
+Klasse 1 (voorzien in Type A)
 * Productie vermogen reductie naar 0 aanzetten
 * Productie vermogen reductie opheffen
 * Bijwerken schema's voor autonome gedrag
@@ -47,7 +47,7 @@ Type A
 * Opvragen interface (software) versie elektriciteitsproductie eenheid
 
 
-Type B
+Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
 * Opvragen regelbaar werkelijk/blind vermogen
 * Regelstappen elektriciteitsproductie eenheden
 * Werkzame vermogen te verminderen/uitzetten
