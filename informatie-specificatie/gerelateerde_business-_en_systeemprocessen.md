@@ -40,14 +40,16 @@ Naast de monitoring van de elektriciteitsproductie eenheid is het ook wenselijk 
 ![Figuur: Aansturen elektrictiteitsproductie eenheid](/assets/sequence-Aansturen-elektriciteitsproductie-eenheid.png)
 
 Type A
-* Productie vermogen reductie naar 0
+* Productie vermogen reductie naar 0 aanzetten
 * Productie vermogen reductie opheffen
-* Bijwerken autonome schema's
+* Bijwerken schema's voor autonome gedrag
 * Opvragen interface versie
 * Opvragen firmware versie
 
 
 Type B
+* Opvragen regelbaar werkelijk/blind vermogen
+* Regelstappen elektriciteitsproductie eenheden
 * Werkzame vermogen te verminderen/uitzetten
 * Werkzame vermogen te vermeerderen/aanzetten
 
