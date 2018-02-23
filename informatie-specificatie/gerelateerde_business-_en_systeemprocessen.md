@@ -35,15 +35,50 @@ Het bovenstaande proces geeft weer dat er voor het afmelden maar beperkte eisen 
 ### Operationele aansturing
 **Dit wordt momenteel verder uitgewerkt:** Het momentele standpunt is dat het mechanisme van IEC 61850-90-10 (scheduling) **uiteindelijk** kan worden toegepast naar de Duitse FNN Steuerbox specificatie. Echter is deze standaard vrij nieuw (relatief onbeproefd) en is scheduling een extra complicatie om in software om te zetten voor marktpartijen. Deze complicatie is ook aanwezig op testen hiervan voor  conformiteit. Er wordt een oplossing gevonden waarbij het scheduling wordt gereduceerd tot maximaal één week vooruit waarbij tijdens conformiteit op x aantal punten steekproefmatig het gedrag wordt getoetst. De informatie-uitwisseling op de interface zal het liefst IEC 61850-90-10 conform zijn, maar minimaal in opéénvolgende versies groeien naar het volledige IEC 61850-90-10 mechanisme. 
 
+Naast de monitoring van de elektriciteitsproductie eenheid is het ook wenselijk om te sturen, parameters te versturen en ad-hoc vragen de stellen aan de elektriciteitsproductie-eenheid.
+
 Type A
 * Productie vermogen reductie naar 0
 * Productie vermogen reductie opheffen
+* Bijwerken autonome schema's
+* Opvragen interface versie
+* Opvragen firmware versie
+
 
 Type B
 * Werkzame vermogen te verminderen/uitzetten
 * Werkzame vermogen te vermeerderen/aanzetten
 
-### Rapportage
+
+
+
+
+
+Melden van terugregeling productie eenheid aan systeembeheerder
+
+### Rapportage/monitoring
+Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteerd. De exacte informatie die uitgewisseld moet worden is per type verschillend.
+
+
+
+
+Type A:
+Tijdsynchronisatie fout melding
+Keep a-live melding
+Werkelijk momententaan vermogen (MW) en reactief momentaan vermogen  (MVAr)
+Update frequentie (configureerdbaar door systeembeheerder): 15 minuten
+
+Type B (inclusief A):
+Minimal Power (P) during measurement interval t
+Maximal Power (P) during measurement interval t
+Average Power (P) in each 24 hours
+Average Power (P) during the day*
+Average Power (P) during the night*
+Average Power in total during interval t, measured in a resolution of 30 minute values**.
+
+Update frequentie (configureerdbaar door systeembeheerder): 30 seconden
+
+
 Allen Informatie uitwisselen
 * Near-Real-time i.g.v. storing
 * Rapportage t.b.v. prognoses.
