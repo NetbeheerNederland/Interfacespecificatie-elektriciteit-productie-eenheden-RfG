@@ -84,6 +84,8 @@ IEC61850 is een standaard die uiteenvalt in vele [delen en substandaarden](https
 * IEC 61850-8-1 (MMS)
 * IEC 61850-8-2 (XMPP)
 * IEC 61850-90-7 (DER)
+* IEC 61850-7-420 (DER data modellering)
+* IEC 61850-7-410 (hydro)
 * IEC 61850-90-10 (Scheduling)
 
 *   IEC 61850 algemeen (samenvatting)
@@ -94,6 +96,6 @@ IEC61850 is een standaard die uiteenvalt in vele [delen en substandaarden](https
         * Harmonisatie met IEC CIM gaande
    * Con's:
         * Beperkt zich tot stations/devices, het volledigte elektriciteitsnet kan niet worden uitgedrukt in IEC61860. De synergie in het toepassen van IEC61850 in stationsautomatisering en in DER is datamodel-technisch vanwege ontbreken topologie nog niet waargenomen.
-        * Complex: standaard kent vele pagina's en opties etc.
+        * Complex: standaard kent vele pagina's en opties (oplosbaar door een 61850 profiel te maken) etc.
         * XMPP implementatie is nieuw (Nog in draft, 248 pagina's)
     *   Overig en conclusie: Een goede uitleg van samenhang XMPP en IEC61850-8-2 is beschikbaar in een [presentatie van Siemens](http://www.nettedautomation.com/standardization/IEC_TC57/wg17/HMI2015_SmartGridForum_Dawidczak_for_Blog_KHS.pdf). Het is nog een afweging of de complexiteit (zelfs voor ingewijden in de materie) geen blokkade vormt voor toepassing in markt-devices. 
