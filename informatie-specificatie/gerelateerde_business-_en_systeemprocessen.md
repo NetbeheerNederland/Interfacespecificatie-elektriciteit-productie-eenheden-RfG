@@ -65,20 +65,19 @@ Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarb
 
 
 Type A:
-Tijdsynchronisatie fout melding
-Keep a-live melding
-Werkelijk momententaan vermogen (MW) en reactief momentaan vermogen  (MVAr)
-Update frequentie (configureerdbaar door systeembeheerder): 15 minuten
+* Tijdsynchronisatie fout melding/status
+* Keep a-live melding
+* Werkelijk momententaan vermogen (MW) en reactief momentaan vermogen  (MVAr)
+* Update frequentie (configureerdbaar door systeembeheerder): 15 minuten
 
 Type B (inclusief A):
-Minimal Power (P) during measurement interval t
-Maximal Power (P) during measurement interval t
-Average Power (P) in each 24 hours
-Average Power (P) during the day*
-Average Power (P) during the night*
-Average Power in total during interval t, measured in a resolution of 30 minute values**.
-
-Update frequentie (configureerdbaar door systeembeheerder): 30 seconden
+* Minimal Power (P) during measurement interval t
+* Maximal Power (P) during measurement interval t
+* Average Power (P) in each 24 hours
+* Average Power (P) during the day*
+* Average Power (P) during the night*
+* Average Power in total during interval t, measured in a resolution of 30 minute values**.
+* Update frequentie (configureerdbaar door systeembeheerder): 30 seconden
 
 
 Allen Informatie uitwisselen
