@@ -43,8 +43,8 @@ Type A
 * Productie vermogen reductie naar 0 aanzetten
 * Productie vermogen reductie opheffen
 * Bijwerken schema's voor autonome gedrag
-* Opvragen interface versie
-* Opvragen firmware versie
+* Opvragen interface versie (dit document)
+* Opvragen interface (software) versie elektriciteitsproductie eenheid
 
 
 Type B
@@ -52,13 +52,7 @@ Type B
 * Regelstappen elektriciteitsproductie eenheden
 * Werkzame vermogen te verminderen/uitzetten
 * Werkzame vermogen te vermeerderen/aanzetten
-
-
-
-
-
-
-Melden van terugregeling productie eenheid aan systeembeheerder
+* Melden van terugregeling productie eenheid aan systeembeheerder
 
 ### Rapportage/monitoring
 Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteerd. De exacte informatie die uitgewisseld moet worden is per type verschillend en zal later uitgewerkt moeten worden.
@@ -66,20 +60,22 @@ Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarb
 ![Figuur: Monitoren elektrictiteitsproductie eenheid](/assets/sequence-Monitoren-elektriciteitsproductie-eenheid.png)
 
 
-Type A:
+Klasse 1 (voorzien in Type A):
 * Tijdsynchronisatie fout melding/status
 * Keep a-live melding
 * Werkelijk momententaan vermogen (MW) en reactief momentaan vermogen  (MVAr)
-* Update frequentie (configureerdbaar door systeembeheerder): 15 minuten
 
-Type B (inclusief A):
+Update frequentie monitoring signalen (configureerdbaar door systeembeheerder): 15 minuten
+
+Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
 * Minimal Power (P) during measurement interval t
 * Maximal Power (P) during measurement interval t
 * Average Power (P) in each 24 hours
 * Average Power (P) during the day*
 * Average Power (P) during the night*
 * Average Power in total during interval t, measured in a resolution of 30 minute values**.
-* Update frequentie (configureerdbaar door systeembeheerder): 30 seconden
+
+Update frequentie monitoring signalen (configureerdbaar door systeembeheerder): 30 seconden
 
 
 Allen Informatie uitwisselen
