@@ -1,10 +1,10 @@
 ## 61850 profile {#message-specification}
 
-IEC61850 interface profile to meet the RfG guidelines. This profile is inspired by BAP (Basic application profile).
+IEC61850 interface profile to meet the RfG guidelines. This profile is inspired by BAP (Basic application profile/61850-7-6).
 
 
 ### Logialnodes used
-All field descriped in the tables are mandatory (form the 61850 standard of required to meet the RfG guideline)
+All field descriped in the tables are mandatory (form the 61850 standard or required to meet this RfG specification)
 
 **DRCT**
 
@@ -47,7 +47,7 @@ Todo: Number of schedules?
 |SchdPrio| ING|
 |NumEntr| ING|
 |SchdIntv| ING|
-|ValASG| ASG|
+|ValASG| ASG||Number of Values allowed?|
 |StrTm|	TSG|
 |IntvPer| ING|
 |IntvTyp| ENG|
