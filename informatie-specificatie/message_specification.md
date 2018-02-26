@@ -8,8 +8,8 @@ All field descriped in the tables are mandatory (form the 61850 standard of requ
 
 **DRCT**
 
-|Data object name |Common data class |
-|:--|:--|
+|Data object name |Common data class | Default value | Comment |
+|:--|:--|:--|:--|
 |DERNum| ING|
 |DERTyp| ENG|
 |Wmax|ASG|
@@ -19,24 +19,25 @@ All field descriped in the tables are mandatory (form the 61850 standard of requ
 	
 **LPHD**
 
-|Data object name| Common data class|
-|:--|:--|
-|PhyNam| DPL|
-|PhyHealth| ENS|
-|Proxy|	SPS|
+|Data object name| Common data class|Default value | Comment |
+|:--|:--|:--|:--|
+|PhyNam| DPL|||
+|PhyHealth| ENS|||
+|Proxy|	SPS| False | Proxy is not allowed (?)|
 	
 	
 **LLN0**
 
-|Data object name|Common data class|
-|:--|:--|	
-|dummy	|dummy|	
+|Data object name|Common data class| Default value | Comment |
+|:--|:--|:--|:--|	
+|NamPlt	|LPL|	
 
 
 **FSCH**
+Todo: Number of schedules?
 
-|Data object name|Common data class|
-|:--|:--|
+|Data object name|Common data class| Default value | Comment |
+|:--|:--|:--|:--|
 |SchdSt	|ENS|
 |Beh| ENS|
 |VldReq| SPC|
@@ -57,10 +58,10 @@ All field descriped in the tables are mandatory (form the 61850 standard of requ
 	
 **FSCC**
 
-|Data object name|Common data class|
-|:--|:--|
-|ActSchdRef| ORS|
-|CrlEnt| ORG|
+|Data object name|Common data class| Default value | Comment |
+|:--|:--|:--|:--|
+|ActSchdRef| ORS|||
+|CrlEnt| ORG|||
 
 
 
