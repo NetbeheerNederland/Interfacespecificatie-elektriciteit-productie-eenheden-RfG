@@ -19,7 +19,7 @@
   * [5.1 Gerelateerde Business- en Systeemprocessen](informatie-specificatie/gerelateerde_business-_en_systeemprocessen.md)
   * [5.2 Gerelateerde Business- en Systeemprocessen in uitzonderingsituaties.](informatie-specificatie/gerelateerde_business-_en_systeemprocessen_in_uitz.md)
   * [5.3 Message sequence diagram’s.](informatie-specificatie/message_sequence_diagrams.md)
-  * [5.4 Message specification](informatie-specificatie/message_specification.md)
+  * [5.4 61850 profile (BAP)](informatie-specificatie/message_specification.md)
   * [5.5 Conformiteiteisen](informatie-specificatie/conformiteiteisen.md)
   * [5.6 Registratie protocol](informatie-specificatie/registratie_protocol.md)
 
