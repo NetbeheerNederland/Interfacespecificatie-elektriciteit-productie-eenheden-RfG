@@ -54,6 +54,10 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |:--|:--|
 |Motivatie:| In lijn met IEC 61850, overeenstemmend met Duitse FNN Steuerbox specificatie, geen implementatie en management noodzakelijk voor zomer/wintertijd aanpassingen in decentrale devices. |
 
+|**Keuze:**|**Geen privacy-gevoelige data in uitwisseling interface<->"centrale" systemen**|
+|:--|:--|
+|Motivatie:| De interface van de elektriciteitproductie-eenheid wisselt geen data uit waarin informatie is af te leiden over klant / aansluiting. De uitwisseling vindt plaats op basis van annonieme sleutels. De koppeling naar de positie in het elektriciteitsnet wordt in een "centrale" veilige omgeving gemaakt indien nodig. |
+
 (in te vullen) IEC CIM of (delen van) IEC 61850
 
 (in te vullen) gebruikte profiel
