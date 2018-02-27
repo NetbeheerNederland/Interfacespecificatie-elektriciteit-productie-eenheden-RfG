@@ -54,6 +54,19 @@ Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
 * Werkzame vermogen te vermeerderen/aanzetten
 * Melden van terugregeling productie eenheid aan systeembeheerder
 
+De schema's zijn vrij de defineren door de systeembeheerder. De prioriteiten zouden er zo uit kunnen zien (voorbeeld):
+
+|Prio |Gebruik | Commentaar |
+|:--|:--|:--|
+|250| Emergency| Voor noodgevallen |
+|210| Opstart schema | Wordt getriggerd bij het opstarten.|
+|200| Schema per dag| Wordt actief bijgewerkt door systeembeheerder|
+|100| Baseline op basis van lokale netconfiguratie | vast patroon om congestie te voorkomen|
+|50| Markt | kan gebruikt worden voor handel op de markt|
+|0| Geen reductie| Elektriciteitsproductie eenheid mag 100% leveren|
+
+
+
 ### Rapportage/monitoring
 Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteerd. De exacte informatie die uitgewisseld moet worden is per type verschillend en zal later uitgewerkt moeten worden.
 
