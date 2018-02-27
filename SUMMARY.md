@@ -1,6 +1,7 @@
 # Summary
 
 * [Project Readme](README.md)
+* [Samenvatting](samenvatting.md)
 * [1 Inleiding](inleiding/README.md)
   * [1.1 Aanleiding en noodzaak](inleiding/aanleiding_en_noodzaak.md)
   * [1.2 Opdracht](inleiding/opdracht.md)
