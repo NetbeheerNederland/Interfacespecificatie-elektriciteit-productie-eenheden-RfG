@@ -5,6 +5,9 @@ IEC61850 interface profile to meet the RfG guidelines. This profile is inspired 
 ## Functional description
 Due to an increasing adoption of renewable energy sources, electricity production moves slowly form big production plants to local electricity production. Think of solar panels for example. This can lead to local problems in the grid. To deal with these problems the local system operator needs to switch off or reduce the amount of electricity production (only when needed). Besides reducing load it also needs to know things about the electricity production (e.g. actual electricty production). This profile will be used for controlling and monitoring distributed energy resources.
 
+## Description of Use Case and associated roles/actors
+
+## Use Case
 
 ### Logialnodes used
 All field descriped in the tables are mandatory (form the 61850 standard or required to meet this RfG specification)
