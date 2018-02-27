@@ -70,6 +70,13 @@ Todo: Number of schedules?
 |ActSchdRef| ORS|||
 |CrlEnt| ORG|||
 
+**MMXU**
 
+|Data object name|Common data class| Default value | Comment |
+|:--|:--|:--|:--|
+|TotW| MV|||
+|TotVAr| MV|||
+|PhV| MV|||
+|TotPF| MV|||
 
 
