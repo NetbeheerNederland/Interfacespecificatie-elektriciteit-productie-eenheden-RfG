@@ -85,7 +85,7 @@ Todo: Number of schedules?
 |TotW| MV|mag,q,t||
 |TotVAr| MV|mag,q,t||
 
-**MMXU (calculated) for DER monitor function**
+**MMXU for Measurement calculation function**
 These Logical nodes can be used to calculate the averages etc.
 
 |Data object name|Common data class| Attributes |Default value | Comment |
