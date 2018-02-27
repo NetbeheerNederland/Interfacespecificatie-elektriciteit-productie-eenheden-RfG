@@ -76,7 +76,17 @@ Todo: Number of schedules?
 |:--|:--|:--|:--|
 |TotW| MV|||
 |TotVAr| MV|||
-|PhV| MV|||
-|TotPF| MV|||
+
+
+|PhV| MV||Not a requirement|
+|TotPF| MV||Not a requirement|
+
+Cannot be found in IEC61850 (so far):
+Minimal Power (P) during measurement interval t
+Maximal Power (P) during measurement interval t
+Average Power (P) in each 24 hours
+Average Power (P) during the day*
+Average Power (P) during the night*
+Average Power in total during interval t, measured in a resolution of 30 minute values**.
 
 
