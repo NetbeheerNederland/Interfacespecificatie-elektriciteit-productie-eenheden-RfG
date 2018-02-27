@@ -35,16 +35,16 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 
 |Data object name| Common data class| Attributes |Default value | Comment |
 |:--|:--|:--|:--|:--|
-|PhyNam| DPL|||
-|PhyHealth| ENS|||
-|Proxy|	SPS| False | Proxy is not allowed (?)|
+|PhyNam| DPL|vendor, swRev, model,mRID||
+|PhyHealth| ENS|stVal,q,t|||
+|Proxy|	SPS| stVal,q,t | False | Proxy is not allowed (?)|
 	
 	
 **LLN0**
 
 |Data object name|Common data class|Attributes | Default value | Comment |
 |:--|:--|:--|:--|:--|	
-|NamPlt	|LPL|	
+|NamPlt	|LPL|vendor,swRev,configRef,paramRev	
 
 
 **FSCH for Schedule function**
@@ -52,13 +52,13 @@ Todo: Number of schedules?
 
 |Data object name|Common data class|Attributes | Default value | Comment |
 |:--|:--|:--|:--|:--|
-|SchdSt	|ENS|
-|SchdEntr |INS|
-|Beh| ENS|
-|VldReq| SPC|
-|EnaReq| SPC|
-|EdtReq	|SPC|
-|DsaReq| SPC|
+|SchdSt	|ENS|stVal,q,t|
+|SchdEntr |INS|stVal,q,t|
+|Beh| ENS|stVal,q,t|
+|VldReq| SPC|ctlModel
+|EnaReq| SPC|ctlModel
+|EdtReq	|SPC|ctlModel
+|DsaReq| SPC|ctlModel
 |SchdPrio| ING|
 |NumEntr| ING|
 |SchdIntv| ING|
@@ -82,8 +82,8 @@ Todo: Number of schedules?
 
 |Data object name|Common data class| Attributes |Default value | Comment |
 |:--|:--|:--|:--|:--|
-|TotW| MV|||
-|TotVAr| MV|||
+|TotW| MV|mag,q,t||
+|TotVAr| MV|mag,q,t||
 
 
 |PhV| MV||Not a requirement|
