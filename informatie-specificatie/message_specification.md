@@ -85,9 +85,13 @@ Todo: Number of schedules?
 |TotW| MV|mag,q,t||
 |TotVAr| MV|mag,q,t||
 
+**MMTR for DER monitor function**
 
-|PhV| MV||Not a requirement|
-|TotPF| MV||Not a requirement|
+|Data object name|Common data class| Attributes |Default value | Comment |
+|:--|:--|:--|:--|:--|
+|TotWh| BCR |ActVal,q,t,pulsQty||Sending the kWh every X minutes allow the system operator to calcuate the de daily average etc |
+
+
 
 Cannot be found in IEC61850 (so far):
 Minimal Power (P) during measurement interval t
