@@ -62,7 +62,7 @@ Todo: Number of schedules?
 |SchdPrio| ING|setVal
 |NumEntr| ING|setVal
 |SchdIntv| ING|setVal
-|ValASG| ASG||Number of Values allowed?|
+|ValASG| ASG|setMag|Number of Values allowed?|
 |StrTm|	TSG|setTm,setCal
 |IntvPer| ING|setVal
 |IntvTyp| ENG|stVAl
@@ -75,7 +75,7 @@ Todo: Number of schedules?
 
 |Data object name|Common data class| Attributes | Default value | Comment |
 |:--|:--|:--|:--|:--|
-|ActSchdRef| ORS|||(? not in de CDC?)|
+|ActSchdRef| ORS|stVal, q,t|||
 |CrlEnt| ORG|setSrcRef||
 
 **MMXU for DER monitor function**
