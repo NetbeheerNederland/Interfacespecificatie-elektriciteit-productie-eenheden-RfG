@@ -16,6 +16,13 @@ Due to an increasing adoption of renewable energy sources, electricity productio
 
 ## Logical Architecture
 
+Logical architecture monitoring function
+![Logical architecture monitoring function](/assets/Logical_Architecture_DERmonitoringfunction.png)
+
+Logical architecture control function
+![Logical architecture control function](/assets/Logical_Architecture_DERcontrolfunction.png)
+
+
 
 ### Logicalnodes used
 All field descriped in the tables are mandatory (form the 61850 standard or required to meet this RfG specification)
