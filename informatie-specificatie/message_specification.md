@@ -48,7 +48,7 @@ Todo: Number of schedules?
 |SchdEntr |INS|
 |Beh| ENS|
 |VldReq| SPC|
-|EnAReq| SPC|
+|EnaReq| SPC|
 |EdtReq	|SPC|
 |DsaReq| SPC|
 |SchdPrio| ING|
