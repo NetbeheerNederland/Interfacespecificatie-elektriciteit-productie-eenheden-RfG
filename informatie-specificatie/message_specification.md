@@ -85,20 +85,23 @@ Todo: Number of schedules?
 |TotW| MV|mag,q,t||
 |TotVAr| MV|mag,q,t||
 
+**MMXU (calculated) for DER monitor function**
+
+|Data object name|Common data class| Attributes |Default value | Comment |
+|:--|:--|:--|:--|:--|
+|ClcMth | ENG|mag,q,t|MAX|
+|ClcMod | ENG |mag,q,t|PERIOD|
+|ClcIntvTyp |ING| | |
+|ClcIntvPer|ING| | | 
+|InSyn|
+|CLCSrc|
+|TotW| MV |mag,q,t||
+
+Todo: aanvullen
+
 **MMTR for DER monitor function**
 
 |Data object name|Common data class| Attributes |Default value | Comment |
 |:--|:--|:--|:--|:--|
 |TotWh| BCR |ActVal,q,t,pulsQty||Sending the kWh every X minutes allow the system operator to calcuate the de daily average etc |
-
-
-
-Cannot be found in IEC61850 (so far):
-Minimal Power (P) during measurement interval t
-Maximal Power (P) during measurement interval t
-Average Power (P) in each 24 hours
-Average Power (P) during the day*
-Average Power (P) during the night*
-Average Power in total during interval t, measured in a resolution of 30 minute values**.
-
 
