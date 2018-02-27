@@ -24,7 +24,7 @@ Logical architecture control function
 
 
 
-### Logicalnodes used
+### Description of data model per actor
 All field descriped in the tables are mandatory (form the 61850 standard or required to meet this RfG specification)
 
 **DRCT for local DER control function**
@@ -114,3 +114,36 @@ Todo: aanvullen
 |:--|:--|:--|:--|:--|
 |TotWh| BCR |ActVal,q,t,pulsQty||Sending the kWh every X minutes allow the system operator to calcuate the de daily average etc |
 
+## Communication Services
+The following services should be supported by the 
+
+Association
+* Associate
+* Release
+* Abort
+
+Server
+* GetServerDirectory
+
+Locigal Device
+* GetLogicalDeivceDirectory
+
+Logical Node
+* GetLogicalNodeDirectory
+
+Data
+* GetDataValues
+* SetDataValues
+* GetDataDefinition
+
+Data set
+* GetDataSetValues
+* SetDataSetValues
+
+Reporting
+* Report
+* GetURCBValues
+* SetURCBValues
+
+Control
+* Operate
