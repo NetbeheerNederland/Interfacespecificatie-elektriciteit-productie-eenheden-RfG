@@ -23,7 +23,7 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 **DRCT for local DER control function**
 
 |Data object name |Common data class | Attributes |Default value | Comment |
-|:--|:--|:--|:--|
+|:--|:--|:--|:--|:--|
 |DERNum| ING|
 |DERTyp| ENG|
 |Wmax|ASG|
@@ -34,7 +34,7 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 **LPHD**
 
 |Data object name| Common data class| Attributes |Default value | Comment |
-|:--|:--|:--|:--|
+|:--|:--|:--|:--|:--|
 |PhyNam| DPL|||
 |PhyHealth| ENS|||
 |Proxy|	SPS| False | Proxy is not allowed (?)|
@@ -43,7 +43,7 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 **LLN0**
 
 |Data object name|Common data class|Attributes | Default value | Comment |
-|:--|:--|:--|:--|	
+|:--|:--|:--|:--|:--|	
 |NamPlt	|LPL|	
 
 
@@ -51,7 +51,7 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 Todo: Number of schedules?
 
 |Data object name|Common data class|Attributes | Default value | Comment |
-|:--|:--|:--|:--|
+|:--|:--|:--|:--|:--|
 |SchdSt	|ENS|
 |SchdEntr |INS|
 |Beh| ENS|
@@ -74,14 +74,14 @@ Todo: Number of schedules?
 **FSCC for Schedule control function**
 
 |Data object name|Common data class| Attributes | Default value | Comment |
-|:--|:--|:--|:--|
+|:--|:--|:--|:--|:--|
 |ActSchdRef| ORS|||
 |CrlEnt| ORG|||
 
 **MMXU for DER monitor function**
 
 |Data object name|Common data class| Attributes |Default value | Comment |
-|:--|:--|:--|:--|
+|:--|:--|:--|:--|:--|
 |TotW| MV|||
 |TotVAr| MV|||
 
