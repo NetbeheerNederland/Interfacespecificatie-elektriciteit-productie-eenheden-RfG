@@ -45,6 +45,7 @@ Todo: Number of schedules?
 |Data object name|Common data class| Default value | Comment |
 |:--|:--|:--|:--|
 |SchdSt	|ENS|
+|SchdEntr |INS|
 |Beh| ENS|
 |VldReq| SPC|
 |EnAReq| SPC|
