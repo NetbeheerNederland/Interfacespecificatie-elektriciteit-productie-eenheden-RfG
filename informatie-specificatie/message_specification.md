@@ -24,11 +24,11 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 
 |Data object name |Common data class | Attributes |Default value | Comment |
 |:--|:--|:--|:--|:--|
-|DERNum| ING|
-|DERTyp| ENG|
-|Wmax|ASG|
-|Vref| ASG|
-|OutPFSet|ASG|
+|DERNum| ING|stVal
+|DERTyp| ENG|steVal
+|Wmax|ASG|setMag
+|Vref| ASG|setMag
+|OutPFSet|ASG|setMag
 	
 	
 **LPHD**
@@ -59,24 +59,24 @@ Todo: Number of schedules?
 |EnaReq| SPC|ctlModel
 |EdtReq	|SPC|ctlModel
 |DsaReq| SPC|ctlModel
-|SchdPrio| ING|
-|NumEntr| ING|
-|SchdIntv| ING|
+|SchdPrio| ING|setVal
+|NumEntr| ING|setVal
+|SchdIntv| ING|setVal
 |ValASG| ASG||Number of Values allowed?|
-|StrTm|	TSG|
-|IntvPer| ING|
-|IntvTyp| ENG|
-|EvTrg|	SPG|
-|InSyn|	ORG|
-|SchdReuse|SPG|
+|StrTm|	TSG|setTm,setCal
+|IntvPer| ING|setVal
+|IntvTyp| ENG|stVAl
+|EvTrg|	SPG|setVal
+|InSyn|	ORG|setSrcRef
+|SchdReuse|SPG|setVal
 	
 	
 **FSCC for Schedule control function**
 
 |Data object name|Common data class| Attributes | Default value | Comment |
 |:--|:--|:--|:--|:--|
-|ActSchdRef| ORS|||
-|CrlEnt| ORG|||
+|ActSchdRef| ORS|||(? not in de CDC?)|
+|CrlEnt| ORG|setSrcRef||
 
 **MMXU for DER monitor function**
 
