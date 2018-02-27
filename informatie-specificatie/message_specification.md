@@ -20,9 +20,9 @@ Due to an increasing adoption of renewable energy sources, electricity productio
 ### Logicalnodes used
 All field descriped in the tables are mandatory (form the 61850 standard or required to meet this RfG specification)
 
-**DRCT**
+**DRCT for local DER control function**
 
-|Data object name |Common data class | Default value | Comment |
+|Data object name |Common data class | Attributes |Default value | Comment |
 |:--|:--|:--|:--|
 |DERNum| ING|
 |DERTyp| ENG|
@@ -33,7 +33,7 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 	
 **LPHD**
 
-|Data object name| Common data class|Default value | Comment |
+|Data object name| Common data class| Attributes |Default value | Comment |
 |:--|:--|:--|:--|
 |PhyNam| DPL|||
 |PhyHealth| ENS|||
@@ -42,15 +42,15 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 	
 **LLN0**
 
-|Data object name|Common data class| Default value | Comment |
+|Data object name|Common data class|Attributes | Default value | Comment |
 |:--|:--|:--|:--|	
 |NamPlt	|LPL|	
 
 
-**FSCH**
+**FSCH for Schedule function**
 Todo: Number of schedules?
 
-|Data object name|Common data class| Default value | Comment |
+|Data object name|Common data class|Attributes | Default value | Comment |
 |:--|:--|:--|:--|
 |SchdSt	|ENS|
 |SchdEntr |INS|
@@ -71,16 +71,16 @@ Todo: Number of schedules?
 |SchdReuse|SPG|
 	
 	
-**FSCC**
+**FSCC for Schedule control function**
 
-|Data object name|Common data class| Default value | Comment |
+|Data object name|Common data class| Attributes | Default value | Comment |
 |:--|:--|:--|:--|
 |ActSchdRef| ORS|||
 |CrlEnt| ORG|||
 
-**MMXU**
+**MMXU for DER monitor function**
 
-|Data object name|Common data class| Default value | Comment |
+|Data object name|Common data class| Attributes |Default value | Comment |
 |:--|:--|:--|:--|
 |TotW| MV|||
 |TotVAr| MV|||
