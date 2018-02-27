@@ -115,7 +115,7 @@ Todo: aanvullen
 |TotWh| BCR |ActVal,q,t,pulsQty||Sending the kWh every X minutes allow the system operator to calcuate the de daily average etc |
 
 ## Communication Services
-The following services should be supported by the 
+The following services should be supported by the electricity production unit.
 
 Association
 * Associate
