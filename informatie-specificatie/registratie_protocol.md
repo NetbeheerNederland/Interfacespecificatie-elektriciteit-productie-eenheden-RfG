@@ -1,4 +1,5 @@
-![Figuur: gedrag productie-eenheden](/assets/Aanmeld-sequence.png)
+## Registratie protocol
+
 
 Device (elektriciteitsproductie eenheid) wordt geleverd met:
 - ROOT CA Public key centrale aanmeld partij.
@@ -8,8 +9,10 @@ Device (elektriciteitsproductie eenheid) wordt geleverd met:
   - Een uniek serienummer.
   - Ondertekend door een fabrikant root ca waarbij de public key bij de conformiteitstest is geregistreerd.
 
+Aanmeld sequence diagram ter illustratie van onderstaand proces.
+![Figuur: gedrag productie-eenheden](/assets/Aanmeld-sequence.png)
 
-Interface centrale aanmeld partij:
+**Interface centrale aanmeld partij:**
 
 - Device verbind met centrale aanmeld partij (https request, waarschijnlijk json/soap)
 - Mislukt de verbinding dan:
@@ -62,7 +65,7 @@ Bij verbinden met de service zijn 3 dingen mogelijk:
 
 
 
-Rationale:
+**Rationale:**
 - Bij een ddos/storing bij centrale aanmeld partij gaan alleen nieuwe registraties mis.
 - Bij een ddos/storing bij de registratieserver van de relevante systeembeheerder kan deze vrij snel gewisseld worden voor nieuwe registraties.
   voor ouder registraties zal dit een rondgang bij centrale aanmeld partij betekenen wat erg lang kan duren, dus de oude server weghalen is onhandig.
@@ -91,7 +94,7 @@ Rationale:
   terwijl voor devices waarvoor de aanmeldprocedure al loopt de delay kort kan zijn.
 
 
-Certificaten:
+**Certificaten:**
 - Root CA centrale aanmeld partij (Offline)
 - Sub CA centrale aanmeld partij voor registratieservers. (Offline)
 - Certificaat voor centrale aanmeld partij registratieserver (CA=FALSE)
