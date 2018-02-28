@@ -73,23 +73,23 @@ Todo: Number of schedules?
 
 |Data object name|Common data class|Attribute | Default value | Comment |R/M|
 |:--|:--|:--|:--|:--|:--|
-|SchdSt	|ENS|stVal||State of this schedule|
+|SchdSt	|ENS|stVal||State of this schedule|R|
 | | |q||Quality|M|
 | | |t||Timestamp|R|
 |SchdEntr |INS|stVal||The current schedule entry of a running schedule.|R|
 | | |q||Quality|M|
 | | |t||Timestamp|R|
-|Beh| ENS|stVal||
-| | |q||Quality|
-| | |t||Timestamp|
+|Beh| ENS|stVal||M|
+| | |q||Quality|M|
+| | |t||Timestamp|M|
 |VldReq| SPC|ctlModel||Operating with value true initiates validate transition request|R|
 |EnaReq| SPC|ctlModel||Operating with value true enable validate transition request.|R|
 |EdtReq	|SPC|ctlModel||Operating with value true edit validate transition request.|R|
 |DsaReq| SPC|ctlModel||Operating with value true disable validate transition request.|R|
-|SchdPrio| ING|setVal||The priority of this schedule.|
-|NumEntr| ING|setVal||The number of schedule entries that are valid.|
-|SchdIntv| ING|setVal||The schedule interval duration in time entities as specified in the SchdIntv.units.SIUnit.|
-|ValASG| ASG|setMag||current value output as MV: Number of Values allowed?|
+|SchdPrio| ING|setVal||The priority of this schedule.|R|
+|NumEntr| ING|setVal||The number of schedule entries that are valid.|R|
+|SchdIntv| ING|setVal||The schedule interval duration in time entities as specified in the SchdIntv.units.SIUnit.|R|
+|ValASG| ASG|setMag||current value output as MV: Number of Values allowed?|R|
 |StrTm|	TSG|setTm||Start time of the schedule in UTC time.|
 |||setCal||
 |IntvPer| ING|setVal||The periodicity interval duration in entities as specified in IntvTyp; if the value is 0, the schedule shall not be repeated periodically.|R|
@@ -114,10 +114,10 @@ This logical node measures the actual output of the electricity production unit.
 
 |Data object name|Common data class| Attribute |Default value | Comment |R/M|
 |:--|:--|:--|:--|:--|:--|
-|TotW| MV|mag||R|
+|TotW| MV|mag|||R|
 | | |q||Quality|M|
 | | |t||Timestamp|R|
-|TotVAr| MV|mag||M|
+|TotVAr| MV|mag|||M|
 | | |q||Quality|M|
 | | |t||Timestamp|M|
 
