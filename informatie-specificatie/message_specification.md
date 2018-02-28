@@ -45,13 +45,14 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 |PhyNam| DPL|vendor, swRev, model,mRID||
 |PhyHealth| ENS|stVal,q,t|||
 |Proxy|	SPS| stVal,q,t | False | Proxy is not allowed (?)|
+|PwrUp| SPS| stVal,q,t | | Power-up detected |
 	
 	
 **LLN0**
 
 |Data object name|Common data class|Attributes | Default value | Comment |
 |:--|:--|:--|:--|:--|	
-|NamPlt	|LPL|vendor,swRev,configRef,paramRev	
+|NamPlt	|LPL|vendor,swRev,configRef,paramRev || | 
 
 
 **FSCH for Schedule function**
@@ -86,6 +87,7 @@ Todo: Number of schedules?
 |CrlEnt| ORG|setSrcRef||
 
 **MMXU for DER monitor function**
+This logical node measures the actual output of the electricity production unit.
 
 |Data object name|Common data class| Attributes |Default value | Comment |
 |:--|:--|:--|:--|:--|
@@ -140,7 +142,7 @@ Data set
 * GetDataSetValues
 * SetDataSetValues
 
-Reporting
+Reporting (buffered and unbuffered)
 * Report
 * GetURCBValues
 * SetURCBValues
