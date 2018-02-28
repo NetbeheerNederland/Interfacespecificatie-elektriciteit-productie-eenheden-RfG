@@ -29,7 +29,7 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 
 **DRCT for local DER control function**
 
-|Data object name |Common data class | Attributes |Default value | Comment |
+|Data object name |Common data class | Attribute(s) |Default value | Comment |
 |:--|:--|:--|:--|:--|
 |DERNum| ING|stVal
 |DERTyp| ENG|steVal
@@ -40,25 +40,34 @@ All field descriped in the tables are mandatory (form the 61850 standard or requ
 	
 **LPHD**
 
-|Data object name| Common data class| Attributes |Default value | Comment |
+|Data object name| Common data class| Attribute(s) |Default value | Comment |
 |:--|:--|:--|:--|:--|
-|PhyNam| DPL|vendor, swRev, model,mRID||
+|PhyNam| DPL|vendor||Vendor of the physical device.|
+| | |swRev||Software revision of the physical device.|
+| | |model||Software revision of the LN.|
+| | |mRID||mRID of the physical device. UUIDv4 generated code.|
 |PhyHealth| ENS|stVal,q,t|||
+| | |q||Quality|
+| | |t||Timestamp|
 |Proxy|	SPS| stVal,q,t | False | Proxy is not allowed (?)|
-|PwrUp| SPS| stVal,q,t | | Power-up detected |
-	
+| | |q||Quality|
+| | |t||Timestamp|
+|PwrUp| SPS| stVal | | Power-up detected |
+| | |q||Quality|
+| | |t||Timestamp|
 	
 **LLN0**
 
-|Data object name|Common data class|Attributes | Default value | Comment |
+|Data object name|Common data class|Attribute(s) | Default value | Comment |
 |:--|:--|:--|:--|:--|	
-|NamPlt	|LPL|vendor,swRev,configRef,paramRev || | 
+|NamPlt	|LPL|vendor||Vendor of the LN. Mandatory by IEC61850. | 
+| | |swRev||Software revision of the LN.|
 
 
 **FSCH for Schedule function**
 Todo: Number of schedules?
 
-|Data object name|Common data class|Attributes | Default value | Comment |
+|Data object name|Common data class|Attribute(s) | Default value | Comment |
 |:--|:--|:--|:--|:--|
 |SchdSt	|ENS|stVal,q,t|
 |SchdEntr |INS|stVal,q,t|
@@ -81,7 +90,7 @@ Todo: Number of schedules?
 	
 **FSCC for Schedule control function**
 
-|Data object name|Common data class| Attributes | Default value | Comment |
+|Data object name|Common data class| Attribute(s) | Default value | Comment |
 |:--|:--|:--|:--|:--|
 |ActSchdRef| ORS|stVal, q,t|||
 |CrlEnt| ORG|setSrcRef||
