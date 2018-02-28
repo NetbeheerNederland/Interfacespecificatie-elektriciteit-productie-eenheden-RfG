@@ -123,22 +123,22 @@ This logical node measures the actual output of the electricity production unit.
 
 **MMXU for Measurement calculation function**
 
-These Logical nodes can be used to calculate the averages etc. These LN's should connect to the actual MMXU who does the non-calculated measruements.
+These Logical nodes can be used to calculate the averages etc. These LN's should connect to the actual MMXU who does the non-calculated measurements.
 
 |Data object name|Common data class| Attribute |Default value | Comment |
 |:--|:--|:--|:--|:--|
-|ClcMth | ENG|mag|MAX|
+|ClcMth | ENG|mag|MAX| Calculation Method of statistical data|
 | | |q||Quality|
 | | |t||Timestamp|
-|ClcMod | ENG |mag|PERIOD|
+|ClcMod | ENG |mag|PERIOD|Calculation mode|
 | | |q||Quality|
 | | |t||Timestamp|
-|ClcIntvTyp |ING| | |
-|ClcIntvPer|ING| | | 
-|InSyn|
-|CLCSrc|
-|ClcExp|
-|TotW| MV |mag||
+|ClcIntvTyp |ING| || Calculation interval type. |
+|ClcIntvPer|ING| || In case ClcIntvTyp equals to MS, PER-CYCLE, CYCLE, DAY, WEEK, MONTH, YEAR, number of units to consider to calculate the calculation interval duration | 
+|InSyn|ORG|||Object reference to the source of the external synchronization signal for the calculation interval |
+|CLCSrc|ORG|||Object reference to source logical node |
+|ClcExp|SPS|||Calculation period expired |
+|TotW| MV |mag||Active power value|
 | | |q||Quality|
 | | |t||Timestamp|
 
