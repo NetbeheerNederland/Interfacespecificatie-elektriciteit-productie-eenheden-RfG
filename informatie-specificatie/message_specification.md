@@ -25,7 +25,7 @@ Logical architecture control function
 
 
 ### Description of data model per actor
-All field descriped in the tables are mandatory (by the IEC61850 standard or required to meet this specification). All IEC61850 mandatory field should be includes in the device.
+All field descriped in the tables are mandatory where the M is shown (by the IEC61850 standard if you want to certificate your device) . All IEC61850 required fields (R) should be included in the device to meet this RfG implementation.
 
 **DRCT for local DER control function**
 
