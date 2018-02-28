@@ -149,3 +149,6 @@ Reporting (buffered and unbuffered)
 
 Control
 * Operate
+
+## keepalive
+According 61850-8-2, XEP 0199 can be used to build a keep alive signal.
