@@ -122,7 +122,8 @@ This logical node measures the actual output of the electricity production unit.
 | | |t||Timestamp|
 
 **MMXU for Measurement calculation function**
-These Logical nodes can be used to calculate the averages etc.
+
+These Logical nodes can be used to calculate the averages etc. These LN's should connect to the actual MMXU who does the non-calculated measruements.
 
 |Data object name|Common data class| Attribute |Default value | Comment |
 |:--|:--|:--|:--|:--|
@@ -141,7 +142,13 @@ These Logical nodes can be used to calculate the averages etc.
 | | |q||Quality|
 | | |t||Timestamp|
 
-Todo: aanvullen
+The following measurements should be build using the MMXU above:
+* Minimal Power (P) during measurement interval t
+* Maximal Power (P) during measurement interval t
+* Average Power (P) in each 24 hours
+* Average Power (P) during the day* (under discussion)
+* Average Power (P) during the night* (under discussion)
+* Average Power in total during interval t, measured in a resolution of 30 minute values**.(under discussion)
 
 **MMTR for DER monitor function**
 
