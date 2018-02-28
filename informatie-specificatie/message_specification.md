@@ -79,7 +79,7 @@ Todo: Number of schedules?
 |SchdEntr |INS|stVal||The current schedule entry of a running schedule.|R|
 | | |q||Quality|M|
 | | |t||Timestamp|R|
-|Beh| ENS|stVal||M|
+|Beh| ENS|stVal|||M|
 | | |q||Quality|M|
 | | |t||Timestamp|M|
 |VldReq| SPC|ctlModel||Operating with value true initiates validate transition request|R|
