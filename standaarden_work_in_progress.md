@@ -36,11 +36,13 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 | IEC CIM   |       +        |         -        |   nvt   | +                | +                |
 
 **Voorlopige conculsie**
+
 Gegeven het gebruik van het TCP/IP en de volwassenheid/bekendheid gaat de voorkeur uit naar webservices. Deze kunnen eventueel worden aangevuld met XMPP waarop IEC61850 of IEC CIM gebaseerde berichten worden uitgewisseld. IEC 61850-90-10 (scheduling) lijkt een interessante kandidaat voor het offline geplande gedrag. 
+
 
 De keuze is gevallen op IEC61850 met de volgende redenen:
 * Sluit aan bij de IEC TC57 doelarchitectuur
 * IEC 61850-90-7 sluit goed aan bij gestelde requirements
 * IEC 61850 beschrijft soms ook gedrag (zoals bij schedules)
-* Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface
+* Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface (zoals windmolens)
 * IEC61850 wordt ook gebruikt in Duitsland voor het aansturen van elektriciteits productie eenheden
