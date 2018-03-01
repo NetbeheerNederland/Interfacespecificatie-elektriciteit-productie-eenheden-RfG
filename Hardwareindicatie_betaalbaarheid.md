@@ -1,8 +1,8 @@
-Indicatieve eisen hardware voor ondersteuning RfG.
+## Indicatieve eisen hardware t.b.v. kosten Rfg implementatie voor leveranciers.
+Om de maatschappelijk kosten voor de interface implementatie betaalbaar te houden is er gerekend aan de hardware specicaties.
 Deze zijn gemaakt om te controleren of de eisen voor een fabrikant redelijk blijven.
 
-
-Bij intergratie in bestaande inverter:
+**Bij intergratie in bestaande inverter:**
 - Genoeg processorkracht en/of een cryptografisch versnelde processor om TLS 1.2 met bijv ECDSA en AES.
 - Genoeg opslag om logging/schedules/libaries op te slaan.
 Hieronder staat de berekening, deze komt uit op ongeveer 140kilobyte.
@@ -15,10 +15,7 @@ Hier komt nog bij de opslag voor een tls stack en 61850/xmpp stack, maar dit is 
 - Niet eenvoudig manipuleerbaar (zie conformiteitseisen).
 - Unieke identifier per apparaat.
 
-
-
-
-Voor opslag:
+**Voor opslag:**
 Schedule:
 Verwacht wordt aan schedules:
 - Een weekschedule op uren specifiek.
@@ -30,7 +27,7 @@ Dat komt neer op ongeveer 40kbyte aan data, hier wordt ruim boven genomen voor t
 
 Hiervoor wordt 100kbyte gereserveerd.
 
-Voor logging:
+**Voor logging:**
 Hierbij worden minimaal kwartierwaarden en events verwacht.
 Bij 3-fase, vermogensmeting, tijd, etc betekend dit tot 16 meetwaardes per logvermelding.
 Met een ruwe schatting van 10 events per uur (spanningpiek etc) en kwarierwaardes en een opslag vor 12 uur komt dat uit op:
