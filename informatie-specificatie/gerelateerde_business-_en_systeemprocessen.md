@@ -93,12 +93,8 @@ Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
 Update frequentie monitoring signalen (configureerdbaar door systeembeheerder): 30 seconden
 
 <sup>1</sup>
-Een productieeenheid is in basis verantwoordelijk voor de verbinding met
-de relevante netbeheerder.
-
-Om deze verbinding actief te maken en te houden en om ervoor te
-zorgen dat het dataverbruik beperkt blijft zijn er een aantal aandachtspunten.
-
+Een productieeenheid is in basis verantwoordelijk voor de verbinding met de relevante systeembeheerder.
+Om deze verbinding actief te maken en te houden en om ervoor te zorgen dat het dataverbruik beperkt blijft zijn er een aantal aandachtspunten:
 * Ondersteuning voor TLS session resumption.
         Resumption is niet noodzakelijk na een stroomuitval, maar gedurende de dag wel.
 * Keepalive tijd van een verbinding wordt door de productieeenheid bepaald.
