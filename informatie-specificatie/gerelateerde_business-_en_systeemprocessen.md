@@ -75,7 +75,7 @@ Near-Real-time informatie kan gebruikt worden voor storingen en prognoses.
 
 Klasse 1 (voorzien in Type A):
 * Tijdsynchronisatie fout melding/status
-* Keepalive om de verbinding open te houden
+* Keepalive om de verbinding open te houden<sup>1</sup>
 * Werkelijk momententaan vermogen (MW) wat terug geleverd wordt door de elektriciteitsproductie eenheid
 
 Update frequentie monitoring signalen (configureerdbaar door systeembeheerder): 15 minuten
@@ -91,3 +91,12 @@ Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
 * Werkelijk blindvermogen (MVar) wat terug geleverd wordt door de elektriciteitsproductie eenheid
 
 Update frequentie monitoring signalen (configureerdbaar door systeembeheerder): 30 seconden
+
+<sup>1</sup>
+Een productieeenheid is in basis verantwoordelijk voor de verbinding met de relevante systeembeheerder.
+Om deze verbinding actief te maken en te houden en om ervoor te zorgen dat het dataverbruik beperkt blijft zijn er een aantal aandachtspunten:
+* Ondersteuning voor TLS session resumption.
+        Resumption is niet noodzakelijk na een stroomuitval, maar gedurende de dag wel.
+* Keepalive tijd van een verbinding wordt door de productieeenheid bepaald.
+        Hierbij moet het apparaat zelf bepalen wat de optimale keepalive tijd is.
+        Keepalives zijn in basis de standaard keepalives in tcp of tls.
