@@ -49,7 +49,6 @@ Klasse 1 (voorzien in Type A)
 
 Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
 * Opvragen regelbaar werkelijk/blind vermogen
-* Regelstappen elektriciteitsproductie eenheden
 * Werkzame vermogen te verminderen/uitzetten
 * Werkzame vermogen te vermeerderen/aanzetten
 * Melden van terugregeling productie eenheid aan systeembeheerder
