@@ -71,32 +71,23 @@ De schema's zijn vrij de defineren door de systeembeheerder. De prioriteiten zou
 Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteerd. De exacte informatie die uitgewisseld moet worden is per type verschillend en zal later uitgewerkt moeten worden.
 
 ![Figuur: Monitoren elektrictiteitsproductie eenheid](/assets/sequence-Monitoren-elektriciteitsproductie-eenheid.png)
-
+Near-Real-time informatie kan gebruikt worden voor storingen en prognoses.
 
 Klasse 1 (voorzien in Type A):
 * Tijdsynchronisatie fout melding/status
-* Keep a-live melding
-* Werkelijk momententaan vermogen (MW) en reactief momentaan vermogen  (MVAr)
+* Keepalive om de verbinding open te houden
+* Werkelijk momententaan vermogen (MW) wat terug geleverd wordt door de elektriciteitsproductie eenheid
 
 Update frequentie monitoring signalen (configureerdbaar door systeembeheerder): 15 minuten
 
 Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
-* Minimal Power (P) during measurement interval t
-* Maximal Power (P) during measurement interval t
+* Minimal Power (P) during measurement interval 15 minuten
+* Maximal Power (P) during measurement interval 15 minuten
 * Average Power (P) in each 24 hours
-* Average Power (P) during the day*
-* Average Power (P) during the night*
-* Average Power in total during interval t, measured in a resolution of 30 minute values**.
+* Momentane frequentie
+* Momentane spanning
+* Minimale/maximale spanning/frequentie van een piek/dal met tijdstip. 8 waarden totdat deze worden uitgelezen.
+* Status elektriciteitsproductie eenheid (is hij instaat om te acteren op bestuur commando's van de systeembeheerder)
+* Werkelijk blindvermogen (MVar) wat terug geleverd wordt door de elektriciteitsproductie eenheid
 
 Update frequentie monitoring signalen (configureerdbaar door systeembeheerder): 30 seconden
-
-
-Allen Informatie uitwisselen
-* Near-Real-time i.g.v. storing
-* Rapportage t.b.v. prognoses.
-
-Type B (Conform GL SO) 
-* status van de schakelinrichtingen en stroomonderbrekers op het aansluitpunt
-* de stromen werkzaam vermogen en blindvermogen
-* de stroomsterkte en de spanning op het aansluitpunt
-
