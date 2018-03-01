@@ -193,5 +193,8 @@ Reporting (buffered and unbuffered)
 Control
 * Operate
 
-## keepalive
+**keepalive**
 According 61850-8-2, XEP 0199 can be used to build a keep alive signal.
+
+**XMPP**
+IEC 61850-8-2 should be used for communication: Communication networks and systems for power utility automation - Part 8-2: Specific communication service mapping (SCSM) - Mapping to Extensible Messaging Presence Protocol (XMPP).
