@@ -35,7 +35,7 @@ All field descriped in the tables are mandatory where the M is shown (by the IEC
 |DERTyp| ENG|steVal|| Type of DER unit managed by controller.|M|
 |MaxWLim| ASG|setMag||Nominal max output power at controller. |M|
 |MaxVArLim| ASG|setMag||Nominal max output reactive power at controller. The Electricity production unit should not exceed this setting.|M|
-|Wmax|ASG|setMag||Maximal output of the electricity production unit.|R|
+|Wmax|ASG|setMag||Maximal output of the electricity production unit. Assumption: internal control system finds a setpoint below this value. |R|
 |Vref| ASG|setMag||Reference voltage for functions using grid voltage as input|M|
 |OutPFSet|ASG|setMag||Setpoint for maintaining fixed power factor.|M|
 	
