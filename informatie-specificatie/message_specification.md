@@ -179,10 +179,12 @@ Data set
 * GetDataSetValues
 * SetDataSetValues
 
-Reporting (buffered and unbuffered)
+Reporting
 * Report
 * GetURCBValues
 * SetURCBValues
+* SetBRCBValues
+* SetBRCBValues
 
 Control
 * Operate
