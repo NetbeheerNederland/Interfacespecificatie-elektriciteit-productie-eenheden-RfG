@@ -98,4 +98,34 @@ IEC61850 is een standaard die uiteenvalt in vele [delen en substandaarden](https
         * Beperkt zich tot stations/devices, het volledigte elektriciteitsnet kan niet worden uitgedrukt in IEC61860. De synergie in het toepassen van IEC61850 in stationsautomatisering en in DER is datamodel-technisch vanwege ontbreken topologie nog niet waargenomen.
         * Complex: standaard kent vele pagina's en opties (oplosbaar door een 61850 profiel te maken) etc.
         * XMPP implementatie is nieuw (Nog in draft, 248 pagina's)
-    *   Overig en conclusie: Een goede uitleg van samenhang XMPP en IEC61850-8-2 is beschikbaar in een [presentatie van Siemens](http://www.nettedautomation.com/standardization/IEC_TC57/wg17/HMI2015_SmartGridForum_Dawidczak_for_Blog_KHS.pdf). Het is nog een afweging of de complexiteit (zelfs voor ingewijden in de materie) geen blokkade vormt voor toepassing in markt-devices. 
+    *   Overig en conclusie: Een goede uitleg van samenhang XMPP en IEC61850-8-2 is beschikbaar in een [presentatie van Siemens](http://www.nettedautomation.com/standardization/IEC_TC57/wg17/HMI2015_SmartGridForum_Dawidczak_for_Blog_KHS.pdf). Het is nog een afweging of de complexiteit (zelfs voor ingewijden in de materie) geen blokkade vormt voor toepassing in markt-devices. 
+
+
+##DLMS:
+DLMS is een protocol gebruikt in het metering domein. Het bestaat uit een Bluebook (500 blz)  met de interface classes en een Greenbook (511 blz) met de onderliggende communicatie mechanismen. Of een protocol geschikt is voor een toepassing hangt af of de vereiste informatie gemapped  kan worden op het protocol:
+1. Aan en afmeld proces:• DLMS: Applicatie Associatie objecten kunnen daarvoor gebruikt worden.
+2. Operationele aansturing:
+• Productie vermogen reductie naar 0 aanzetten,
+• Productie vermogen reductie opheffen,
+• Werkzame vermogen te verminderen/uitzetten,
+• Werkzame vermogen te vermeerderen/aanzetten,
+      o DLMS: Limiter object of Function Control objecten. Beiden lijken niet helemaal aan te sluiten bij Elektriciteitsproductie Eenheid.
+• Bijwerken schema's voor autonome gedrag
+• Opvragen interface versieo DLMS: interface classes.
+• Opvragen interface (software) versie elektriciteitsproductie eenheido DLMS: interface classes.
+• Opvragen regelbaar werkelijk/blind vermogeno DLMS: Register class beschikbaar
+• Melden van terugregeling productie eenheid aan systeembeheerdero DLMS: Register class beschikbaar
+3. Rapportage en monitoring
+• DLMS:  Object model uitleesbaar met initiatief van DER-Control maar kan ook worden gepusht naar DER-Control.
+
+Pros:
+• De meeste informatie die uitgewisseld moet worden kan gemapped worden op het DLMS protocol.
+• Efficiency is goed.  DLMS heeft veel efficiëntie mechanismen om de performance te optimaliseren. Voorbeelden: meerdere verzoeken kunnen in 1 bericht gecombineerd worden zodat het aantal round-trips beperkt is, efficient codering van berichten.
+• DLMS heeft state-of-the art applicatie security mechanismen volgens NIST aanbevelingen.  Zowel symmetrische als asymeteriche security mechanismen. Indien alleen TLS gebruikt moet worden dan is dat ook een optie.
+• Protocol is gebaseerd op een object model (zoals IEC 61850)
+
+Cons:
+•  Het gebruikte object model is vooral gebaseerd op  energie-metering en niet op SCADA systemen.  Er kunnen wel classes toegevoegd worden voor andere domeinen (zoals Elektriciteitsproductie Eenheid). 
+• DLMS is onbekend in de SCADA wereld.
+
+Overig en conclusie: DLMS is minder geschikt voor Elektriciteitsproductie Eenheid omdat het protocol niet gebruikt wordt voor dit  toepassingsgebied.
