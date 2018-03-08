@@ -26,8 +26,11 @@ Meer informatie over het werken met Github:
 Kom je een fout rapporteren of wil je een discussiepunt/feedback inbrengen? Dit kan via Github issues.
 https://help.github.com/articles/creating-an-issue/
 
+# Assets
+De bronnen zoals het Enterprise Architect (.eap) bestand en de powerpoint (.pptx) plaatjes staan in de map assets. 
+
 # Status
-Dit document is in actieve ontwikkeling.
+De actieve ontwikkeling is on-hold. Pull-request en issues blijven welkom maar worden momenteel niet behandeld.
 
 # Branching strategie
 Alle wijzigingen worden vooralsnog in de master branch geplaatst. 
