@@ -25,7 +25,7 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 | MQTT      | nvt            | +                | nvt    | 0                | 0                |
 | Webservices | nvt          | +                | nvt    | +                | 0                |
 | XMPP      | nvt            | +                | nvt    | + ?              | + ?              |
-| DLMS Cosem |               |                  |        |                  |                  |
+| DLMS Cosem |       0       |   +              | +      |   0              |   -               |
 | IEC 60870-x-104 |          |                  |        |                  |                  |
 | Modbus    |                |                  |        |                  |                  |
 | IEC 61850-6 (SCL) | +           |         -        |   nvt    |                  |                  |
