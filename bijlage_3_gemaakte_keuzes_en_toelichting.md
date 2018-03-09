@@ -43,7 +43,9 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 
 ### Syntactisch
 
-(in te vullen) XMPP,DDS, SOAP, etc
+|**Keuze:**|**Het gebruik van XMPP**|
+|:--|:--|
+|Motivatie:| 1.	XMPP is gekozen door de IEC: IEC 61850-8-2/3. 2.	XMPP is uitbreidbaar, Er zijn voorbeelden van spraak en spelletjes die gebruik maken van het XMPP protocol dmv XMPP uitbreidingen. 3.	Door het XMPP presence protocol is het helder welke productie eenheden verbonden zijn. 4.	XMPP biedt de mogelijkheid voor schema validatie 5. XMPP biedt de mogelijkheid voor message encryption. 6. De XMPP ondersteunt een verbinding opzetten van binnenuit naar de server. 7. Het is aantoonbaar goed schaalbaar, waardoor een miljoen aangesloten installatie geen onredelijke infrastructuur nodig heeft om draaiend te houden. 8. Klein nadeel: XMPP maakt standaard niet gebruik van standaarden pooren zoals http en https. Dit is mogelijk iets meer configureer werk voor geadvanceerde TCP/IP netwerkconfiguraties met een uitgaande firewall.   |
 
 ## Informatie
 |**Keuze:**|**Toepassen van digitaal Certificaat van de elektriciteitproductie-eenheid _Producent_ t.b.v. registratietoken als ook bij firmeware updates**|
