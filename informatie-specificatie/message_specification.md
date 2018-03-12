@@ -215,7 +215,7 @@ An overview of the standards used in this Profile.
 |IEC 61850-7-420| Communication systems for distributed energy resources (DER) – logical nodes|Overview of the DER LN's|
 |IEC 61850-8-2 DRAFT| Specific communication service mapping (SCSM) - Mapping to Extensible Messaging Presence Protocol (XMPP) | ACSI mapping on XMPP|
 |IEC 61850-80-3 | Mapping to Web Services - Requirement Analysis and Technology Assessment | Motivation for using XMPP and use-cases (se annex) including the missing services|
-|IEC 61850 90-7| IEC 61850 objects for scheduling | Descripton of the schedule nodes |
+|IEC 61850 90-7| Object models for power converters in distributed energy resources (DER) systems | Descripton of the schedule nodes |
 |IEC 61850 90-10| IEC 61850 objects for scheduling | Descripton of the schedule nodes |
 
 Not covered by IEC 61850 but needed in this application:
