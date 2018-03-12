@@ -90,8 +90,8 @@ Number of schedules is limited by memory size and the way of consuming the schdu
 |NumEntr| ING|setVal||The number of schedule entries that are valid.|R|
 |SchdIntv| ING|setVal||The schedule interval duration in time entities as specified in the SchdIntv.units.SIUnit.|R|
 |ValASG| ASG|setMag||current value output as MV: Number of Values allowed?|R|
-|StrTm|	TSG|setTm||Start time of the schedule in UTC time.|
-|||setCal||
+|StrTm|	TSG|setTm||Start time of the schedule in UTC time.|R|
+|||setCal|||R|
 |IntvPer| ING|setVal||The periodicity interval duration in entities as specified in IntvTyp; if the value is 0, the schedule shall not be repeated periodically.|R|
 |IntvTyp| ENG|stVAl||Interval type to define the periodicity.|R|
 |EvTrg|	SPG|setVal||If true, the change of the schedule to the running and activated state is triggered by an external event and not by the start time.|R|
@@ -138,7 +138,7 @@ These Logical nodes can be used to calculate the averages etc. These LN's should
 |InSyn|ORG|||Object reference to the source of the external synchronization signal for the calculation interval |R|
 |CLCSrc|ORG|||Object reference to source logical node |R|
 |ClcExp|SPS|||Calculation period expired |R|
-|TotW| MV |mag||Active power value|
+|TotW| MV |mag||Active power value|R|
 | | |q||Quality|M|
 | | |t||Timestamp|R|
 
@@ -200,3 +200,19 @@ The following items need to be persistance on the device (saved when the device 
 * Schedules
 * Report buffer
 * Measurement settings
+
+## Standards used
+
+An overview of the standards used in this Profile.
+
+|Standard|Name| Used for |
+|:--|:--|:--|
+|IEC 61850-7-1 | Basic communication structure – Principles and models | Description of the logical nodes |
+|IEC 61850-7-2 | Basic communication structure – Abstract communication service interface (ACSI)|Description of Abstract communication service interface|
+|IEC 61850-7-3 | Basic communication structure – Common data classes | Description of the common data classes |
+|IEC 61850-7-4 | Basic communication structure – Compatible logical node classes and data classes | Description of the logical nodes | 
+|IEC 61850-7-6 DRAFT | Guideline for definition of Basic Application Profiles (BAPs) using IEC 61850 | Inspration for this BAP |
+|IEC 61850-7-420| Communication systems for distributed energy resources (DER) – logical nodes|Overview of the DER LN's|
+|IEC 61850-80-2| Mapping to Web Services - Requirement Analysis and Technology Assessment | Motivation for using XMPP and use-cases (annex)|
+|IEC 61850-80-3 DRAFT| Specific communication service mapping (SCSM) - Mapping to Extensible Messaging Presence Protocol (XMPP) | ACSI mapping on XMPP|
+|IEC 61850 90-10| IEC 61850 objects for scheduling | Descripton of the schedule nodes |
