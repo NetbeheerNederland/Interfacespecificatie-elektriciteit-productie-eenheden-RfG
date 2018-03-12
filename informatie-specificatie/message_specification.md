@@ -217,3 +217,6 @@ An overview of the standards used in this Profile.
 |IEC 61850-80-3 | Mapping to Web Services - Requirement Analysis and Technology Assessment | Motivation for using XMPP and use-cases (se annex) including the missing services|
 |IEC 61850 90-7| IEC 61850 objects for scheduling | Descripton of the schedule nodes |
 |IEC 61850 90-10| IEC 61850 objects for scheduling | Descripton of the schedule nodes |
+
+Not covered by IEC 61850 but needed in this application:
+* Registration protocol/messages
