@@ -211,7 +211,7 @@ An overview of the standards used in this Profile.
 |IEC 61850-7-2 | Basic communication structure – Abstract communication service interface (ACSI)|Description of Abstract communication service interface|
 |IEC 61850-7-3 | Basic communication structure – Common data classes | Description of the common data classes |
 |IEC 61850-7-4 | Basic communication structure – Compatible logical node classes and data classes | Description of the logical nodes | 
-|IEC 61850-7-6 DRAFT | Guideline for definition of Basic Application Profiles (BAPs) using IEC 61850 | Inspration for this BAP |
+|IEC 61850-7-6 DRAFT | Guideline for definition of Basic Application Profiles (BAPs) using IEC 61850 | Inspiration for this BAP |
 |IEC 61850-7-420| Communication systems for distributed energy resources (DER) – logical nodes|Overview of the DER LN's|
 |IEC 61850-8-2 DRAFT| Specific communication service mapping (SCSM) - Mapping to Extensible Messaging Presence Protocol (XMPP) | ACSI mapping on XMPP|
 |IEC 61850-80-3 | Mapping to Web Services - Requirement Analysis and Technology Assessment | Motivation for using XMPP and use-cases (se annex) including the missing services|
