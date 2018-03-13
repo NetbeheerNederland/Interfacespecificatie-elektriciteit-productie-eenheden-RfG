@@ -1,4 +1,4 @@
-## Gerelateerde Business- en Systeemprocessen {#gerelateerde-business-en-systeemprocessen}
+## Gerelateerde Business- en Systeemprocessen
 
 Om een goede interfacespecificatie te maken is het handig om een overzicht te maken van de verschillende actors en de verschillende processen. Op basis van deze processen/activiteiten en requirements kan worden achterhaald welke informatie moet worden uitgewisseld. Let er op dat de getekende processen verder gaan dan de interface met de elektriciteitsproductie-eenheid. Dit om er zeker van te zijn dat er een werkbaar proces kan ontstaan met de gespecifieerde interface. Dit betekent niet dat hiermee de (verdere)processen zijn gedefinieerd. Het dient ter validatie. De tekenwijze is gebaseerd op UML (niet helemaal volgens de UML specs).
 
@@ -33,13 +33,13 @@ Het bovenstaande proces geeft weer dat er voor het afmelden maar beperkte eisen 
 
 
 ### Operationele aansturing
-**Dit wordt momenteel verder uitgewerkt:** Het momentele standpunt is dat het mechanisme van IEC 61850-90-10 (scheduling) **uiteindelijk** kan worden toegepast naar de Duitse FNN Steuerbox specificatie. Echter is deze standaard vrij nieuw (relatief onbeproefd) en is scheduling een extra complicatie om in software om te zetten voor marktpartijen. Deze complicatie is ook aanwezig op testen hiervan voor  conformiteit. Er wordt een oplossing gevonden waarbij het scheduling wordt gereduceerd tot maximaal één week vooruit waarbij tijdens conformiteit op x aantal punten steekproefmatig het gedrag wordt getoetst. De informatie-uitwisseling op de interface zal het liefst IEC 61850-90-10 conform zijn, maar minimaal in opéénvolgende versies groeien naar het volledige IEC 61850-90-10 mechanisme. 
+Het momentele standpunt is dat het mechanisme van IEC 61850-90-10 (scheduling) kan worden toegepast naar voorbeeld van de Duitse FNN Steuerbox. Scheduling is essentieel door het autonome gedrag van de elektriciteitproductie-eenheid, waardoor de totaal gevraagde functionele beschikbaarheid toeneemt; ook bij communicatieproblemen. Echter deze standaard is vrij nieuw (relatief onbeproefd) en is  een extra complicatie om in software om te zetten voor marktpartijen. Er is dus een referentie-implementatie noodzakelijk om het risico voor de markt-implementatie van deze functionaliteit te kunnen realiseren. Er is ook speciale aandacht vereist op het testen van conformiteit van scheduling. Desalniettemin, is de werking in de IEC 61850-90-10 standaard duidelijk beschreven en kan het testen worden gerealiseerd door zeer korte en verschillende schedules met verschillende prioriteit te plannen en **het gedrag** te controleren. Indien een referentie-implementatie deze functionaliteit biedt, zal scheduling als eis kunnen worden gesteld. Tot die tijd zal een tijdelijke informatie-uitwisseling op de interface zal het liefst IEC 61850-90-10 conform zijn, maar minimaal in opéénvolgende versies groeien naar het volledige IEC 61850-90-10 mechanisme. 
 
-Naast de monitoring van de elektriciteitsproductie eenheid is het ook wenselijk om te sturen, parameters te versturen en ad-hoc vragen de stellen aan de elektriciteitsproductie-eenheid. Dit zal een request-response mechanisme zijn.
+Naast het monitoring van de elektriciteitsproductie-eenheid is het ook wenselijk om te sturen, parameters te versturen en ad-hoc vragen te stellen aan de elektriciteitsproductie-eenheid. Dit zal een request-response mechanisme zijn.
 
 ![Figuur: Aansturen elektrictiteitsproductie eenheid](/assets/sequence-Aansturen-elektriciteitsproductie-eenheid.png)
 
-Klasse 1 (voorzien in Type A)
+Klasse 1 interface (voorzien in RfG Type A)
 * Productie vermogen reductie naar 0 aanzetten
 * Productie vermogen reductie opheffen
 * Bijwerken schema's voor autonome gedrag
@@ -47,7 +47,7 @@ Klasse 1 (voorzien in Type A)
 * Opvragen interface (software) versie elektriciteitsproductie eenheid
 
 
-Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
+Klasse 2 interface (voorzien in RfG Type B), aanvullend aan klasse 1:
 * Opvragen regelbaar werkelijk/blind vermogen
 * Werkzame vermogen te verminderen/uitzetten
 * Werkzame vermogen te vermeerderen/aanzetten
@@ -67,19 +67,19 @@ De schema's zijn vrij de defineren door de systeembeheerder. De prioriteiten zou
 
 
 ### Rapportage/monitoring
-Hoog over zal de rapportage functie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteerd. De exacte informatie die uitgewisseld moet worden is per type verschillend en zal later uitgewerkt moeten worden.
+Hoog over zal de rapportagefunctie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteert. De exacte informatie die uitgewisseld moet worden is per type verschillend en zal in de detailspecificatie uitgewerkt moeten worden.
 
 ![Figuur: Monitoren elektrictiteitsproductie eenheid](/assets/sequence-Monitoren-elektriciteitsproductie-eenheid.png)
 Near-Real-time informatie kan gebruikt worden voor storingen en prognoses.
 
-Klasse 1 (voorzien in Type A):
+Klasse 1 (voorzien in RfG Type A):
 * Tijdsynchronisatie fout melding/status
 * Keepalive om de verbinding open te houden<sup>1</sup>
 * Werkelijk momententaan vermogen (MW) wat terug geleverd wordt door de elektriciteitsproductie eenheid
 
-Update frequentie monitoring signalen (configureerdbaar door systeembeheerder): 15 minuten
+Update frequentie monitoring signalen (configureerbaar door systeembeheerder): 15 minuten
 
-Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
+Klasse 2 (voorzien in RfG Type B), aanvullend aan klasse 1:
 * Minimal Power (P) during measurement interval 15 minuten
 * Maximal Power (P) during measurement interval 15 minuten
 * Average Power (P) in each 24 hours
@@ -89,13 +89,13 @@ Klasse 2 (voorzien in Type B), aanvullend aan klasse 1:
 * Status elektriciteitsproductie eenheid (is hij instaat om te acteren op bestuur commando's van de systeembeheerder)
 * Werkelijk blindvermogen (MVar) wat terug geleverd wordt door de elektriciteitsproductie eenheid
 
-Update frequentie monitoring signalen (configureerdbaar door systeembeheerder): 30 seconden
+Updatefrequentie monitoring signalen (configureerbaar door systeembeheerder): 30 seconden
 
 <sup>1</sup>
-Een productieeenheid is in basis verantwoordelijk voor de verbinding met de relevante systeembeheerder.
+Een elektriciteitproductie-eenheid is in basis verantwoordelijk voor de verbinding met de relevante systeembeheerder.
 Om deze verbinding actief te maken en te houden en om ervoor te zorgen dat het dataverbruik beperkt blijft zijn er een aantal aandachtspunten:
 * Ondersteuning voor TLS session resumption.
         Resumption is niet noodzakelijk na een stroomuitval, maar gedurende de dag wel.
-* Keepalive tijd van een verbinding wordt door de productieeenheid bepaald.
+* Keepalive tijd van een verbinding wordt door de elektriciteitproductie-eenheid bepaald.
         Hierbij moet het apparaat zelf bepalen wat de optimale keepalive tijd is.
         Keepalives zijn in basis de standaard keepalives in tcp of tls.
