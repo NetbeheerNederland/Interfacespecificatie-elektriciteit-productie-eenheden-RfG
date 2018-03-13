@@ -19,7 +19,7 @@ Legenda van waarden:
 
 Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de keuze van het communicatie & transport protocol en de het gebruikte informatiemodel wat wordt toegepast.
 
-| Standaard | Informatie def | Com & Transport  | Fysiek | Geschiktheid alg | Geschiktheid xSO |
+| Standaard | Informatie def | Com & Transport  | Fysiek | Geschiktheid alg[^1] | Geschiktheid xSO [^2]|
 | :---      | :---           | :---             | :---   | :---             | :---             |
 | EF-Pi     |                |                  |        | -                | 0                |
 | openADR   | -              |                  |        | -                | -                |
@@ -29,11 +29,12 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 | DLMS Cosem |       0       | +                | +      | 0                | -                |
 | IEC 60870-x-104 |    -     | 0                |        | 0                | 0                |
 | Modbus    |         -      | -                |        | -                | 0                |
-| IEC 61850 algemeen [^1] |  |                  |        |                  |                  |
+| IEC 61850 algemeen [^3] |  |                  |        |                  |                  |
 | IEC 61850-8-1 (MMS) | -    | 0                | nvt    |                  |                  |
 | IEC 61850-8-2 (XMPP)| -    | +                | nvt    |                  |                  |
 | IEC 61850-90-7 (object models DER)| + | nvt   | nvt    | +                | +                |
 | IEC CIM   |       +        | -                | nvt    | +                | +                |
+
 
 **Conclusie**
 
@@ -47,4 +48,10 @@ De keuze is gevallen op IEC61850 met de volgende redenen:
 * IEC61850 wordt ook gebruikt in Duitsland voor het aansturen van elektriciteits productie eenheden
 * IEC61850 wordt prominent genoemd in EU mandaat [M490 (bijvoorbeeld figuur 30)](https://ec.europa.eu/energy/sites/ener/files/documents/xpert_group1_reference_architecture.pdf)
 
-[^1]: De selectie van de beoordeelde delen van IEC61850 is op basis van grotere keuzes die voor dit vraagstuk, als eerste stap gemaakt moeten worden. Daarom wordt bijvoorbeeld MMS en XMPP  met elkaar vergeleken. IEC61850 beschrijft echter zoveel, dat de selectie van delen helaas nog een arbitrair proces is. Details zoals common data-classes is op dit moment voor de eenvoud nog weggelaten en zal onderdeel zijn van detailspecificaties. 
+[^1]: Interface gespecificeerd in de scope van dit document die als eis geldt voor fabrikanten.
+
+
+[^2]: Optionele interface niet gerealiseerd door markt maar door systembeheerder.
+
+
+[^3]: De selectie van de beoordeelde delen van IEC61850 is op basis van grotere keuzes die voor dit vraagstuk, als eerste stap gemaakt moeten worden. Daarom wordt bijvoorbeeld MMS en XMPP  met elkaar vergeleken. IEC61850 beschrijft echter zoveel, dat de selectie van delen helaas nog een arbitrair proces is. Details zoals common data-classes is op dit moment voor de eenvoud nog weggelaten en zal onderdeel zijn van detailspecificaties. 
