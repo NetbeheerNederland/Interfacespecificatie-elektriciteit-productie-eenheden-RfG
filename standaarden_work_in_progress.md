@@ -28,11 +28,10 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 | DLMS Cosem |       0       |   +              | +      |   0              |   -               |
 | IEC 60870-x-104 |    -      |          0        |        |          0        |        0          |
 | Modbus    |         -       |         -         |        |         -         |          0        |
-| IEC 61850-6 (SCL) | +           |         -        |   nvt    |                  |                  |
+| IEC 61850 algemeen [^1] |            |                 |       |                  |                  |
 | IEC 61850-8-1 (MMS) | -          |       0           |   nvt    |                  |                  |
-| IEC 61850-8-2 (XMMP)| -           |       +           |    nvt    |                  |                  |
-| IEC 61850-7-420 (DER) | +         |                  |   nvt     |                  |                  |
-| IEC 61850-90-10 (scheduling)| +          |                  |    nvt   |                  |                  |
+| IEC 61850-8-2 (XMPP)| -           |       +           |    nvt    |                  |                  |
+| IEC 61850-90-7 (object models DER)| +          |    nvt    |    nvt   | +    | +             |
 | IEC CIM   |       +        |         -        |   nvt   | +                | +                |
 
 **Conclusie**
@@ -46,3 +45,5 @@ De keuze is gevallen op IEC61850 met de volgende redenen:
 * Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface (zoals windmolens)
 * IEC61850 wordt ook gebruikt in Duitsland voor het aansturen van elektriciteits productie eenheden
 * IEC61850 wordt prominent genoemd in EU mandaat [M490 (bijvoorbeeld figuur 30)](https://ec.europa.eu/energy/sites/ener/files/documents/xpert_group1_reference_architecture.pdf)
+
+[^1]: De selectie van de IEC61850 delen is op basis van grotere keuzes die hierin gemaakt moeten worden. Daarom wordt bijvoorbeeld MMS en XMPP tegenoverelkaar vergeleken. IEC61850 beschrijft echter zoveel, dat de selectie van delen een arbitrair proces is. Details zoals common data-classes is op dit moment voor de eenvoud nog weggelaten en zal onderdeel zijn van detailspecificaties. 
