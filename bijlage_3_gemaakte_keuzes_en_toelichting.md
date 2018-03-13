@@ -48,6 +48,15 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 |Motivatie:| 1.	XMPP is gekozen door de IEC: IEC 61850-8-2/3. 2.	XMPP is uitbreidbaar, Er zijn voorbeelden van spraak en spelletjes die gebruik maken van het XMPP protocol dmv XMPP uitbreidingen. 3.	Door het XMPP presence protocol is het helder welke productie eenheden verbonden zijn. 4.	XMPP biedt de mogelijkheid voor schema validatie 5. XMPP biedt de mogelijkheid voor message encryption. 6. De XMPP ondersteunt een verbinding opzetten van binnenuit naar de server. 7. Het is aantoonbaar goed schaalbaar, waardoor een miljoen aangesloten installatie geen onredelijke infrastructuur nodig heeft om draaiend te houden. 8. Klein nadeel: XMPP maakt standaard niet gebruik van standaarden pooren zoals http en https. Dit is mogelijk iets meer configureer werk voor geadvanceerde TCP/IP netwerkconfiguraties met een uitgaande firewall.   |
 
 ## Informatie
+|**Keuze:**|**IEC 61850 (met XMPP) op interface indien van toepassing**|
+|:--|:--|
+|Motivatie:| Op basis van het vergelijk van de verschillende protocollen (bijlage 2 en hoofdstuk 4), biedt de combinatie XMPP samen met IEC 61850 een geschikte oplossing voor het aansturen van Distributed Energy Resources (DERs). De combinatie dat a) dit in lijn is met TC57 van de IEC, b) XMPP een bekende IT technologie is en c) de toepassing hiervan in de Duitse Steuerbox zijn enkele versterkende argumenten voor deze keuze t.o.v. de andere mogelijkheden. Om de implementatie op kortere termijn mogelijk te maken zal in opstellen van de BAP rekening worden gehouden met de maakbaarheid op kortere termijn in de markt.|
+
+|**Keuze:**|**Informatie (data)profielen zijn onderdeel van de detailspecificatie**|
+|:--|:--|
+|Motivatie:| Door de keuze voor conformiteit aan IEC 61850 is duidelijk gedefiniëerd waaraan de interfaces dienen te voldoen. Echter zal in de praktijk géén gebruik worden gemaakt van alle functionaliteit en logical nodes zoals gedefinieerd in de standaard. Om de implementatie in de markt te vereenvoudigen, wordt voorgesteld om op een later moment, tijdens het opstellen van de detailspecificatie, een Basic Application Profile (BAP) te leveren met de hoogst noodzakelijke uitwisseling van informatie en gekoppeld gedrag. Een voorbeeld van een dergelijke BAP is te vinden in hoofdstuk 5.3. Totaan het officieel beschikbaar zijn van dit BAP dienen alle verplichte en optionele onderdelen van de genoemde IEC 61850 delen als verplichtend te worden beschouwd.|
+
+
 |**Keuze:**|**Toepassen van digitaal Certificaat van de elektriciteitproductie-eenheid _Producent_ t.b.v. registratietoken als ook bij firmeware updates**|
 |:--|:--|
 |Motivatie:| 1. Voor het registeren (op de website) van een eenheid, mag geen informatie van overige installaties en "procumenten" worden gezocht door onberechtigde gebruikers. Naast het sturen van een ID van het device, beschermt het extra sturen van een token hiertegen (bijvoorbeeld samen verwerkt in QR code zoals beproefd in implementaties bij Netbeheerder). De public key van de producent is bij het registratieproces bekend, hiertegen wordt getoetst. 2. Het certificaat is bruikbaar om software-updates te valideren. In lijn met Duitse specificatie voor Steuerbox en in lijn met stand van de techniek en beveiligingseisen.  |
@@ -58,13 +67,8 @@ De (voorlopige) keuzes die in deze interface specificatie zijn opgedeeld in de v
 
 |**Keuze:**|**Geen privacy-gevoelige data in uitwisseling interface<->"centrale" systemen**|
 |:--|:--|
-|Motivatie:| De interface van de elektriciteitproductie-eenheid wisselt geen data uit waarin informatie is af te leiden over klant / aansluiting. De uitwisseling vindt plaats op basis van annonieme sleutels. De koppeling naar de positie in het elektriciteitsnet wordt in een "centrale" veilige omgeving gemaakt indien nodig. |
+|Motivatie:| De interface van de elektriciteitproductie-eenheid wisselt geen data uit waarin informatie is af te leiden over klant / aansluiting. Dit betekent ook dat er geen EAN codes over de interfaces van deze apparaten wordt gestuurd. De uitwisseling vindt plaats op basis van annonieme sleutels. De koppeling naar de positie in het elektriciteitsnet wordt in een "centrale" veilige omgeving gemaakt indien nodig. |
 
-(in te vullen) IEC CIM of (delen van) IEC 61850
-
-(in te vullen) gebruikte profiel
-
-(in te vullen) electriciteitproductie-eenheden of gateways sturen geen data over de interfaces waarmee identificatie van gebruikers of aansluitingen mogelijk is. Dit betekent ook dat er geen EAN codes over de interfaces van deze apparaten wordt gestuurd. 
 
 ## Functies
 |**Keuze:**| **RfG Type B biedt de mogelijkheid tot ontvangen signaal voor terugregeling maximaal vermogen naar momentaan gespecificeerde limiet (in kW).**|
