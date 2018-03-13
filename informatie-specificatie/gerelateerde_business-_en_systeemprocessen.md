@@ -13,7 +13,7 @@ Onderstaand aanmeldproces is opgetekend om te definiëren welke communicatie moe
 https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/assets/Aanmeld-flow.png
 
 Het bovenstaande proces geeft duidelijk weer welke eisen er minimaal moeten gelden aan de interfacespecficatie van de elektriciteitsproducie-eenheid. De interface moet:
-1. zich zelfstandig verbinden en aanmelden bij een centraal aansluitregister
+1. zich zelfstandig verbinden en aanmelden via een centraal adres (URL). Dit adres verwijst uiteindelijk naar een centraal aansluitregister. In de opbouwfase van het systeem kan dit adres ook naar een tijdelijk aansluit register verwijzen.
 2. verbonden blijven tot en met de ontvangst van (nieuwe)verbindinggegevens van de relevante systeembeheerder, inclusief een token voor veilige verbindingsopbouw  en al deze informatie opslaan.
 3. de verbinding met het centraal aansluitregister verbreken.
 4. op basis van de nieuwe verbindinggegevens verbinden met de relevante systeembeheerder. Hierbij wordt een beveiligde verbinding gebruikt.
