@@ -22,5 +22,5 @@ Een grote uitdaging lag in het aanmelden en afmelden van devices in combinatie m
 
 Er is continue getoetst of de keuzes die gemaakt zijn, eventueel voor leveranciers maakbaar, implementeerbaar en in eenvoudige hardware omzetbaar is. Dit lijkt momenteel over het algemeel wél het geval. 
 
-Na het specificeren van de interface zal daarna ook andere taken moeten worden uitgevoerd. Deze worden in de zogenaamde "issue lijst" bijgehouden. Het betekent dat alle issue's die hier staan ook handvatten bieden voor vervolgvraagstukken zoals detailspecificatie, bouwen, testen, conformiteit, etc.
+Na het specificeren van de interface zal daarna ook andere taken moeten worden uitgevoerd. Deze worden in de zogenaamde ["issue lijst"](https://github.com/NetbeheerNederland/Interfacespecificatie-elektriciteit-productie-eenheden-RfG/issues) bijgehouden. Het betekent dat alle issue's die hier staan ook handvatten bieden voor vervolgvraagstukken zoals detailspecificatie, bouwen, testen, conformiteit, etc.
 
