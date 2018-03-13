@@ -20,10 +20,10 @@
   * [5.1 Gerelateerde Business- en Systeemprocessen](informatie-specificatie/gerelateerde_business-_en_systeemprocessen.md)
   * [5.2 Gerelateerde Business- en Systeemprocessen in uitzonderingsituaties.](informatie-specificatie/gerelateerde_business-_en_systeemprocessen_in_uitz.md)
   * [5.3 61850 profile (BAP)](informatie-specificatie/message_specification.md)
-  * [5.4 Conformiteiteisen](informatie-specificatie/conformiteiteisen.md)
-  * [5.5 Registratie protocol](informatie-specificatie/registratie_protocol.md)
+  * [5.4 Registratie protocol](informatie-specificatie/registratie_protocol.md)
 * [6 Interface-specificatie]
-
+  * [6.1 Conformiteiteisen](informatie-specificatie/conformiteiteisen.md)
+  
 * [Bijlage 1 – RfG, DCC en GL SO artikelen met relatie Interface specificatie](bijlage_1__rfg,_dcc_en_gl_so_artikelen_met_relatie/README.md)
   * [RfG (2016/631):](bijlage_1__rfg,_dcc_en_gl_so_artikelen_met_relatie/rfg_2016631.md)
   * [DCC (2016/1388):](bijlage_1__rfg,_dcc_en_gl_so_artikelen_met_relatie/dcc_20161388.md)
