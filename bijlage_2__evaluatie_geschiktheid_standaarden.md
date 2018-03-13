@@ -100,7 +100,9 @@ IEC61850 is een standaard die uiteenvalt in vele [delen en substandaarden](https
         * Beperkt zich tot stations/devices, het volledigte elektriciteitsnet kan niet worden uitgedrukt in IEC61860. De synergie in het toepassen van IEC61850 in stationsautomatisering en in DER is datamodel-technisch vanwege ontbreken topologie nog niet waargenomen.
         * Complex: standaard kent vele pagina's en opties (oplosbaar door een 61850 profiel te maken) etc.
         * XMPP implementatie is nieuw (Nog in draft, 248 pagina's)
-    *   Overig en conclusie: Een goede uitleg van samenhang XMPP en IEC61850-8-2 is beschikbaar in een [presentatie van Siemens](http://www.nettedautomation.com/standardization/IEC_TC57/wg17/HMI2015_SmartGridForum_Dawidczak_for_Blog_KHS.pdf). Het is nog een afweging of de complexiteit (zelfs voor ingewijden in de materie) geen blokkade vormt voor toepassing in markt-devices. 
+        * Security beperkt zich tot o.a. beveiligde tunnels (TLS) Role-based access wordt (nog) niet ondersteund.
+
+*  Overig en conclusie: Een goede uitleg van samenhang XMPP en IEC61850-8-2 is beschikbaar in een [presentatie van Siemens](http://www.nettedautomation.com/standardization/IEC_TC57/wg17/HMI2015_SmartGridForum_Dawidczak_for_Blog_KHS.pdf). Het is nog een afweging of de complexiteit (zelfs voor ingewijden in de materie) geen blokkade vormt voor toepassing in markt-devices. Een open source referentie implementatie kan helpen om de complexiteit bij de implementatie te verminderen.
 
 
 ##  DLMS
