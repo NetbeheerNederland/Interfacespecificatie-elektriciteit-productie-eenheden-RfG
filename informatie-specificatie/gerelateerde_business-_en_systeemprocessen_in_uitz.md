@@ -8,4 +8,5 @@ Uit te werken:
 3. Productie-eenheid wordt verhuisd naar een andere EAN
 4. Productie-eenheid vertoond onverwacht gedrag
 5. Productie-eenheid QR code is openbaar; wijzigen?
-6. .... (graag aanvullen)
+6. Productie-eenheid wordt verkocht; QR code en oude adres eigenaar is bekend bij nieuwe eigenaar.
+7. .... (graag aanvullen)
