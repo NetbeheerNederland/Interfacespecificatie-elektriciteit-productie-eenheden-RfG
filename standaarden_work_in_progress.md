@@ -1,10 +1,11 @@
-# Standaarden {#standaarden-work-in-progress}
+# Inventarisatie van toepasbare standaarden {#standaarden-work-in-progress}
 
-In de onderstaande tabel is een samenvatting te vinden voor de geschiktheid van standaarden voor het vraagstuk. De detailuitwerkingen zijn te vinden in _Bijlage 2 – Evaluatie geschiktheid Standaarden._
 
-De koppen in de tabel zijn opgebouwd volgens de SGAM lagen: Informatie, Communicatie en Componenten. In de koppen zijn deze benoemd als Informatiedefinitie, Communicatie/Transport en Fysiek. Daarnaast wordt er een algemene evaluatie gedaan of de standaard geschikt is voor de algemene interface of de DSO/TSO interface. Een standaard beschrijft soms maar één deel \(bijvoorbeeld IEC CIM beschrijft alleen de Informatie-definitie en vertelt niets over het gebruik van fysieke connectoren voor interfaces\).
+In de onderstaande tabel is een samenvatting te vinden voor de geschiktheid van standaarden voor het vraagstuk. De detailuitwerkingen zijn te vinden in [_Bijlage 2 – Evaluatie geschiktheid Standaarden._](https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/bijlage_2__evaluatie_geschiktheid_standaarden.html)
 
-Waarden: 
+De vorige hoofdstukken hebben in de architectuurbeschrijving al de onderwerpen informatie, communicatie en impact op fysieke componenten benoemd. De koppen in de tabel zijn overeenkomstig opgebouwd volgens de [SGAM lagen](http://ec.europa.eu/energy/sites/ener/files/documents/xpert_group1_reference_architecture.pdf): Informatie, Communicatie en Componenten. In de koppen zijn deze benoemd als Informatiedefinitie, Communicatie/Transport en Fysiek. Een standaard beschrijft soms maar één deel \(bijvoorbeeld IEC CIM beschrijft alleen de Informatie-definitie en vertelt niets over het gebruik van fysieke connectoren voor interfaces\). Tot slot wordt er geïnventariseerd of de standaard geschikt is als algemene interface, waarvan we zoveel mogelijk gebruik willen maken en als specifieke DSO of TSO-interface indien noodzakelijk; zie hiervoor ook de beschrijving in hoofdstuk 3.3).
+
+Legenda van waarden: 
 
 '-'   = negatief
 
@@ -24,15 +25,15 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 | openADR   | -              |                  |        | -                | -                |
 | MQTT      | nvt            | +                | nvt    | 0                | 0                |
 | Webservices | nvt          | +                | nvt    | +                | 0                |
-| XMPP      | nvt            | +                | nvt    | + ?              | + ?              |
-| DLMS Cosem |       0       |   +              | +      |   0              |   -               |
-| IEC 60870-x-104 |    -      |          0        |        |          0        |        0          |
-| Modbus    |         -       |         -         |        |         -         |          0        |
-| IEC 61850 algemeen [^1] |            |                 |       |                  |                  |
-| IEC 61850-8-1 (MMS) | -          |       0           |   nvt    |                  |                  |
-| IEC 61850-8-2 (XMPP)| -           |       +           |    nvt    |                  |                  |
-| IEC 61850-90-7 (object models DER)| +          |    nvt    |    nvt   | +    | +             |
-| IEC CIM   |       +        |         -        |   nvt   | +                | +                |
+| XMPP      | nvt            | +                | nvt    | +                | + ?              |
+| DLMS Cosem |       0       | +                | +      | 0                | -                |
+| IEC 60870-x-104 |    -     | 0                |        | 0                | 0                |
+| Modbus    |         -      | -                |        | -                | 0                |
+| IEC 61850 algemeen [^1] |  |                  |        |                  |                  |
+| IEC 61850-8-1 (MMS) | -    | 0                | nvt    |                  |                  |
+| IEC 61850-8-2 (XMPP)| -    | +                | nvt    |                  |                  |
+| IEC 61850-90-7 (object models DER)| + | nvt   | nvt    | +                | +                |
+| IEC CIM   |       +        | -                | nvt    | +                | +                |
 
 **Conclusie**
 
@@ -46,4 +47,4 @@ De keuze is gevallen op IEC61850 met de volgende redenen:
 * IEC61850 wordt ook gebruikt in Duitsland voor het aansturen van elektriciteits productie eenheden
 * IEC61850 wordt prominent genoemd in EU mandaat [M490 (bijvoorbeeld figuur 30)](https://ec.europa.eu/energy/sites/ener/files/documents/xpert_group1_reference_architecture.pdf)
 
-[^1]: De selectie van de IEC61850 delen is op basis van grotere keuzes die hierin gemaakt moeten worden. Daarom wordt bijvoorbeeld MMS en XMPP tegenoverelkaar vergeleken. IEC61850 beschrijft echter zoveel, dat de selectie van delen een arbitrair proces is. Details zoals common data-classes is op dit moment voor de eenvoud nog weggelaten en zal onderdeel zijn van detailspecificaties. 
+[^1]: De selectie van de beoordeelde delen van IEC61850 is op basis van grotere keuzes die voor dit vraagstuk, als eerste stap gemaakt moeten worden. Daarom wordt bijvoorbeeld MMS en XMPP  met elkaar vergeleken. IEC61850 beschrijft echter zoveel, dat de selectie van delen helaas nog een arbitrair proces is. Details zoals common data-classes is op dit moment voor de eenvoud nog weggelaten en zal onderdeel zijn van detailspecificaties. 
