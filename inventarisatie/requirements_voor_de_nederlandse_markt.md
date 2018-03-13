@@ -1,12 +1,12 @@
 ## Requirements voor de Nederlandse markt {#requirements-voor-de-nederlandse-markt}
 
-Momenteel zijn er circa 20 requirements beschreven die het doel hebben om de belangrijkste zaken te noemen. Het doel is niet uitputtend te zijn, maar vooral de focus op de belangrijkste zaken te stellen. We stellen daarom een limiet van maximaal 40 requirements. De onderstaande lijst met requirements is een totaaloverzicht van requirements:
+Momenteel zijn er circa 20 requirements beschreven die het doel hebben om de belangrijkste eisen te benoemen. Het doel is niet uitputtend te zijn, maar vooral de focus op de belangrijkste zaken te stellen. We stellen daarom een limiet van maximaal 40 requirements. De onderstaande lijst met requirements is een totaaloverzicht van requirements die:
 
-* die direct voortkomen uit RfG, DCC en GL SO,
-* die voortkomen uit inventarisaties van de oplossingen in het buitenland
-* die aansluiten op TSO/DSO generieke requirements m.b.t. beheerbaarheid, veiligheid en beschikbaarheid van IT en OT oplossingen.
+* direct voortkomen uit RfG, DCC en GL SO,
+* voortkomen uit inventarisaties van de oplossingen in het buitenland
+* aansluiten op TSO/DSO generieke requirements m.b.t. beheerbaarheid, veiligheid en beschikbaarheid van IT en OT oplossingen.
 
-De requirements zijn functioneel en kwalitatief van aard en niet uitputtend. De deliverables van deze specificatie zullen hieraan moeten voldoen en geven invulling aan de interfaces.
+De requirements zijn functioneel en kwalitatief van aard. De deliverables van deze specificatie zullen aan deze eisen moeten voldoen en  invulling geven aan de interfaces.
 
 #### Requirements {#requirements}
 
@@ -45,7 +45,7 @@ De requirements zijn functioneel en kwalitatief van aard en niet uitputtend. De 
 |  | Zekerstellen van continuïteit en beschikbaarheid gehele systeem. |  |  |  |  |  |  |
 | 16 | De interface specificatie moet geschikt zijn voor opschaling tot enkele miljoenen devices op zowel communicatie-niveau als op informatie-model niveau |  | NF | Should | Should | Should | Alliander IT / Enexis. |
 |  | Toekomstvast ontwerp, voorkomen van toekomstige migratiekosten. |  |  |  |  |  |  |
-| 17 | Data dat op de interface ontvangen wordt en relevant is voor direct stuurgedrag of tot 7 dagen vooruit, wordt gepersisteerd op het device. \[Nog verder uitzoeken schedules in device\]. | F |  | Could | ? | ? | Alliander IT |
+| 17 | Data dat op de interface ontvangen wordt en relevant is voor direct stuurgedrag of tot 7 dagen vooruit, wordt gepersisteerd op het device. | F |  | Could | ? | ? | Alliander IT |
 |  | Grotere onafhankelijkheid communicatie en naar voorbeeld Duitse invulling. Langere opslag dan 7 dagen wordt als onwaarschijnlijk geacht aangezien dan een E-systeem aanpassing meer op zijn plaats zou zijn. |  |  |  |  |  |  |
 | 18 | De interfaces van het RfG/DCC device moeten in staat zijn om naast de productieve host, ook een andere host te kunnen verbinden. Indien de eerste verbinding beschikbaar is, wordt er geen data uitgewisseld over de tweede verbinding. | F |  | Should |  |  | Alliander IT / Enexis. |
 |  | Indien "centrale" IT infrastructuur wijzigt blijft het systeem beschikbaar door een back-up lijn. Toekomstig landschap is flexibel en maakt migratie mogelijk naar meer decentrale IT systemen. Redundancy in communicatiepaden. |  |  |  |  |  |  |
