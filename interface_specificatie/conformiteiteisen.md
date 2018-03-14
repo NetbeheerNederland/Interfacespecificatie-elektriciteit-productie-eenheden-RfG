@@ -43,3 +43,10 @@
   * Er moet een indicatie op het device/gateway zitten van een succesvolle verbinding met het platform, denk aan een led of melding op een lcd.
 
 Als er blijkt tijdens de conformiteitstest of na goedkeuring dat aan deze eisen niet is voldaan wordt er geen goedkeuring verleend (of indien deze verleend was, ingetrokken) waardoor een interface geen verbinding met het platform kan maken.
+
+* Geadviseerde conformiteit.
+  * Er wordt sterk geadviseerd de elektriciteitproductie-eenheid of gateway te voorzien van een log, waarin de ontvangen instructies t.b.v. beïnvloeding gepersisteerd worden vastgelegd.
+  * Het log moet toegankelijk zijn voor de prosument t.b.v. inzicht en bewijs van sturing door externe partijen.
+  * Het log moet afdoende zijn beschermd tegen manipulatie. Het wijzigen van een file mag niet mogelijk zijn of moet traceerbare sporen achterlaten. 
+  
+Als er tijdens de conformiteitstest blijkt dat de geadviceerse conformiteit niet is opgenomen, zal dit expliciet naar de markt worden gecommuniceerd.
