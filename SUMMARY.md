@@ -15,7 +15,7 @@
   * [3.2 Businesskader ](architectuur_uitgangspunten/businesskader.md)
   * [3.3 Informatie- en communicatiekader](architectuur_uitgangspunten/informatie-_en_communicatiekader.md)
   * [3.4 Architecturele impact op net en marktcomponenten (fysiek en logisch)](architectuur_uitgangspunten/architecturele_impact_op_net_en_marktcomponenten_f.md)
-* [4 Standaarden inventarisatie](standaarden_work_in_progress.md)
+* [4 Standaarden inventarisatie](standaarden_inventarisatie.md)
 * [5 Interface verkenning en validatie](informatie-specificatie/README.md)
   * [5.1 Gerelateerde Business- en Systeemprocessen](informatie-specificatie/gerelateerde_business-_en_systeemprocessen.md)
   * [5.2 Gerelateerde Business- en Systeemprocessen in uitzonderingsituaties.](informatie-specificatie/gerelateerde_business-_en_systeemprocessen_in_uitz.md)
