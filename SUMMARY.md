@@ -21,6 +21,7 @@
   * [5.2 Gerelateerde Business- en Systeemprocessen in uitzonderingsituaties.](informatie-specificatie/gerelateerde_business-_en_systeemprocessen_in_uitz.md)
   * [5.3 61850 profile (BAP)](informatie-specificatie/message_specification.md)
   * [5.4 Registratie protocol](informatie-specificatie/registratie_protocol.md)
+  * [5.5 Fysieke eisen](informatie-specificatie/fysieke_eisen.md)
 * [6 Interface-specificatie](interface_specificatie/README.md)
   * [6.1 Algemeen](interface_specificatie/specificatie_algemeen.md)
   * [6.2 Conformiteiteisen](interface_specificatie/conformiteiteisen.md)
