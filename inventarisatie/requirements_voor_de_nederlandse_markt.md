@@ -55,5 +55,7 @@ De requirements zijn functioneel en kwalitatief van aard. De deliverables van de
 |  | Naar voorbeeld Duitsland om schakelopdrachten te kunnen prioriseren. |  |  |  |  |  |  |
 | 21 | Alle interface moeten voorspelbaar reageren op onverwacht, niet gepland, gedrag van zijn omgeving (Dynamic Behavior). | NF |  | Should | Should | - | Alliander IT |
 |  | Naar 2nd DC IEC TR 61850-7-6 - Interchangeability; Niet alleen competabiliteit bereiken op gepland gedrag, maar ook uitzonderlijke situaties, zoals haperende communicatieverbindingen. Hiermee kan de uitwisselbaarheid van de apparaten beter worden gegarandeerd zonder fine-tuning van configuraties. |  |  |  |  |  |  |
+| 22 | Procumenten in controle over delen van data | F |  | Should | Should | - | SSS en Alliander IT |
+|  | De gebruiker moet zelf kunnen kiezen welke informatie met welke partijen wordt gedeeld. Er is te kiezen of de procument meedoet  met het oplossen van net-congestie en stabiliteit-problemen door deze interface. De leverancier van de elektriciteitproductie-eenheid is niet alleen voor deze interface hiervoor verantwoordelijk, maar ook voor de eigen interfaces. |  |  |  |  |  |  |
 
 
