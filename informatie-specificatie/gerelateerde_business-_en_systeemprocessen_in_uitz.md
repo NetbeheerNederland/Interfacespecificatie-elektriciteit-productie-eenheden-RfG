@@ -11,8 +11,8 @@ Cases:
 6. Productie-eenheid wordt verkocht; QR code en oude adres eigenaar is bekend bij nieuwe eigenaar.
 7. .... (graag aanvullen)
 
-Korte evaluatie bovenstaande cases:
-1. Toenemend tijdsinterval beschrijven of centraal mitigeren
+Korte evaluatie van mitigerende maatregelen voor bovenstaande cases (nummers komen overeen met bovenstaande lijst):
+1. Toenemend tijdsinterval beschrijven of centraal mitigeren; Firmware/software reset door de leverancier.
 2. Gedrag beschreven in [toestanden](https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/assets/Gedrag-productie-eenheden.png)
 3. Opnieuw aanmelden, eenheid alleen maar op laatst geregistreerde EAN.
 4. Operating-license intrekken, en toenemend tijdsinterval definiëren.
