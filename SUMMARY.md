@@ -22,7 +22,8 @@
   * [5.3 61850 profile (BAP)](informatie-specificatie/message_specification.md)
   * [5.4 Registratie protocol](informatie-specificatie/registratie_protocol.md)
 * [6 Interface-specificatie]
-  * [6.1 Conformiteiteisen](informatie-specificatie/conformiteiteisen.md)
+  * [6.1 Algemeen](informatie-specificatie/specificatie_algemeen.md)
+  * [6.2 Conformiteiteisen](informatie-specificatie/conformiteiteisen.md)
   
 * [Bijlage 1 – RfG, DCC en GL SO artikelen met relatie Interface specificatie](bijlage_1__rfg,_dcc_en_gl_so_artikelen_met_relatie/README.md)
   * [RfG (2016/631):](bijlage_1__rfg,_dcc_en_gl_so_artikelen_met_relatie/rfg_2016631.md)
