@@ -19,4 +19,4 @@ Korte evaluatie van mitigerende maatregelen voor bovenstaande cases (nummers kom
 5. Email/Brief naar geregistreerde indien QR wordt gebruikt. QR verdekken.
 6. Zie 3 en 5.
 
-Een volledige uitwerking van de cases is momenteel in deze evaluatiefase nog niet beschikbaar.
+Een volledige uitwerking van de cases vindt plaats tijdens de latere detailspecificatie van de interface. Op dit moment is het voldoende dat er geconstateerd is dat er mitigerende maatregelen mogelijk zijn.
