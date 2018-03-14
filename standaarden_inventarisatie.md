@@ -1,4 +1,4 @@
-# Inventarisatie van toepasbare standaarden {#standaarden-work-in-progress}
+# Inventarisatie van toepasbare standaarden
 
 
 In de onderstaande tabel is een samenvatting te vinden voor de geschiktheid van standaarden voor het vraagstuk. De detailuitwerkingen zijn te vinden in [_Bijlage 2 – Evaluatie geschiktheid Standaarden._](https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/bijlage_2__evaluatie_geschiktheid_standaarden.html)
