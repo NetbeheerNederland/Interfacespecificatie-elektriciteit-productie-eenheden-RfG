@@ -6,11 +6,12 @@
     *   Uit Nederland afkomstig, zowel Alliander als Stedin zijn al bij dit project betrokken.
     *   Wordt al gebruikt in dynamo, er is ervaring aanwezig.     
     *   Sluit nauw aan bij de specificaties m.b.t. informatiebehoefte.
+    *   Bevat goede profielen van apparaten waarbij rekening wordt gehouden met dingen als ramp-up time/ramp-down (bv generator), capaciteit en vulgraad (accu)
 *   Cons:
     *   Lijkt eerder een logische specificatie te zijn dan een technische.
     *   Zelf niet gebaseerd op bestaande standaarden
     *   Classificaties van apparaten zijn een beetje onhandig in de spec `gehardcode’
-*   Overig en conclusie: Deze standaard is niet internationaal bekend en is strijdig met het zoveel mogelijk willen gebruiken van internationale standaarden. Daarom wordt EF-Pi niet geschikt geacht voor de markt-interface en ook minder geschikt voor de DSO/TSO interface, hoewel het iedere DSO/TSO het vrijstaat om het alsnog intern toe te passen.
+*   Overig en conclusie: Deze standaard is niet internationaal bekend en is strijdig met het zoveel mogelijk willen gebruiken van internationale standaarden. Daarom wordt EF-Pi niet geschikt geacht voor de markt-interface en ook minder geschikt voor de DSO/TSO interface, hoewel het iedere DSO/TSO het vrijstaat om het alsnog intern toe te passen. De kennis uit EFI kan op relevante punten wel worden herbruikt.
 
 
 ##  openADR
