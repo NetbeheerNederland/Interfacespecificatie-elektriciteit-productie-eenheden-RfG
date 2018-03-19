@@ -1,5 +1,7 @@
 ## Conformiteitseisen
-  * Het systeem moet niet eenvoudig oncontroleerbaar te manipuleren zijn
+Onderstaande conformiteits eisen zijn geldig voor elektriciteitsproductie eenheden. Deze eisen zullen SMART gemaakt worden in de detail specificaties.
+
+  * De elektriciteitsproductie-eenheid moet niet eenvoudig oncontroleerbaar te manipuleren zijn.
     *	Het eruit trekken van een stekker mag geen invloed kunnen veroorzaken.
     * Het verkeerd verbinden van stekkers mag geen invloed veroorzaken.
     * Een kortsluiting in een kabel of stekker mag geen invloed veroorzaken.
@@ -18,10 +20,10 @@
     * Reset naar fabrieksinstellingen
     * Etc.
 
-* Het systeem moet een unieke identificatie hebben
+* Het elektriciteitsproductie-eenheid moet een unieke identificatie hebben
   *	Denk hierbij aan de naam van de fabrikant/product in combinatie met een serienummer.
 
-*	De interne tijd mag niet meer dan 5 seconden afwijken van de platformtijd.
+*	De interne tijd mag niet meer dan 5 seconden afwijken van de platformtijd (die maximaal 0,5 seconden mag afwijken van UTC).
   *	Tijdsynchronisatie gebeurt bijvoorbeeld via de TLS verbinding met het platform.
   *	Afwijking van de interne klok is maximaal 2 seconden per dag.
   *	Synchronisatie met de platformtijd behoort niet vaker dan 1x per dag noodzakelijk te zijn.
