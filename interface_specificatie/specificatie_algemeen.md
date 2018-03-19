@@ -8,7 +8,9 @@ Aan elektriciteitproductie-eenheden die een grotere impact op het energienet heb
 Deze specificaties hebben direct betrekking op technische aspecten van de interface.
 *	Gebruik van – door de markt aangeboden – IP connectiviteit. 
 * (Alleen Klasse 2): Bij grotere vermogens kan geëist worden dat de IP connectiviteit alsnog via de Netbeheerder loopt. Er geldt daarom en fysieke eis voor een Ethernetaansluiting.
-* Gebruik van delen van IEC 61850 waaronder:
+* Gebruik van webservices (SOAP) voor registratie en aanmelding.
+* Gebruik van webservices (XMPP) voor operationele berichtenuitwisseling.
+* Gebruik van delen van IEC 61850, indien van toepassing, waaronder:
 
 |Standaard|Naam|
 |:--|:--|
@@ -29,9 +31,5 @@ Deze specificaties hebben direct betrekking op technische aspecten van de interf
 ### Secundaire specificaties
 Non-functionele specificaties gerelateerd aan de interface.
 *	Recht om 1x per jaar te testen in een operationele situatie (dus niet in een aparte testmodus).
-*	Recht om het BAP maximaal 1 x per jaar aan te passen.
+*	Recht om het BAP - Basic Application Profile - 1 x per jaar aan te passen.
 *	Eigenaren/Leveranciers van elektriciteitproductie-eenheid verantwoordelijk voor firmware upgrades en security patches
-*	Voorlopige vrijstelling
-  *	T.e.m. aansluiting AC4 (tot 160kVA bij Liander).
-  *	T.e.m. datum (b.v. 12 maanden na publicatie van detailspecificatie v1 in het Engels), maar niet later dan december 2019.
-
