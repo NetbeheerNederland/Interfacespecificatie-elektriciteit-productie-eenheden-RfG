@@ -67,7 +67,7 @@ De schema's zijn vrij de defineren door de systeembeheerder. De prioriteiten zou
 
 
 ### Rapportage/monitoring
-Hoog over zal de rapportagefunctie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteert. De exacte informatie die uitgewisseld moet worden is per type verschillend en zal in de detailspecificatie uitgewerkt moeten worden.
+Hoog over zal de rapportagefunctie een publisch-subscribe mechanisme zijn waarbij de elektriciteitsproductie-eenheid zelfstandig zijn eigen status rapporteert. De exacte informatie die uitgewisseld moet worden is per type verschillend en zal in de detailspecificatie uitgewerkt moeten worden. Over de updatefrequentie schrijft de [Entso-e KORR](https://electricity.network-codes.eu/Documents/Network%20codes%20documents/Implementation/sys/1.a.180227_KORRR_final.pdf) in artikel 10.5 "Each TSO shall define the refresh rate for the real-time data exchanges in its control area. It shall not be longer than 1 minute".
 
 ![Figuur: Monitoren elektrictiteitsproductie eenheid](/assets/sequence-Monitoren-elektriciteitsproductie-eenheid.png)
 Near-Real-time informatie kan gebruikt worden voor storingen en prognoses.
