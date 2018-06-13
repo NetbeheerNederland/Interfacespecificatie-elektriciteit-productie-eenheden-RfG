@@ -30,7 +30,7 @@ https://help.github.com/articles/creating-an-issue/
 De bronnen zoals het Enterprise Architect (.eap) bestand en de powerpoint (.pptx) plaatjes staan in de map assets. 
 
 # Status
-De actieve ontwikkeling is on-hold. Pull-request en issues blijven welkom maar worden momenteel niet behandeld.
+Dit document is in actieve ontwikkeling. Pull-request en issues zijn welkom.
 
 # Branching strategie
 Alle wijzigingen worden vooralsnog in de master branch geplaatst. 
