@@ -30,7 +30,8 @@ https://help.github.com/articles/creating-an-issue/
 De bronnen zoals het Enterprise Architect (.eap) bestand en de powerpoint (.pptx) plaatjes staan in de map assets. 
 
 # Status
-De actieve ontwikkeling is on-hold. Pull-request en issues blijven welkom maar worden momenteel niet behandeld.
+De actieve ontwikkeling is on-hold. Vooruitlopend op verdere activiteiten vind de Alliander specifieke doorontwikkeling vind plaats op: 
+https://github.com/Alliander/Interfacespecificatie-elektriciteit-productie-eenheden-RfG
 
 # Branching strategie
 Alle wijzigingen worden vooralsnog in de master branch geplaatst. 
