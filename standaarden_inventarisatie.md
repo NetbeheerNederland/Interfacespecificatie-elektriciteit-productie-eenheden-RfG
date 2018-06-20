@@ -38,15 +38,17 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 
 **Conclusie**
 
-Gegeven het massale gebruik van het TCP/IP en de volwassenheid/bekendheid gaat de voorkeur uit naar webservices. Dit wordt ingevuld  XMPP in combinatie met IEC 61850 gebaseerde berichten. IEC 61850-90-10 scheduling logical nodes en 61850-90-7 DER logical nodes wordt hier ingezet. Dit zal verder worden uitgewerkt in de detail specificatie.
+Gegeven het massale gebruik van het TCP/IP en de volwassenheid/bekendheid gaat de voorkeur uit naar webservices. Dit wordt ingevuld  XMPP in combinatie met IEC 61850 gebaseerde berichten (volgens IEC 61850-8-2). IEC 61850-90-10 scheduling logical nodes en 61850-90-7 DER logical nodes wordt hier ingezet. Dit zal verder worden uitgewerkt in de detail specificatie.
 
 De keuze is gevallen op IEC61850 met de volgende redenen:
 * Sluit aan bij de IEC TC57 doelarchitectuur
+* De Entso-e beschrijft dat internationale standaarden moeten worden gebruikt, waarbij IEC 61850 als CORE standaard gezien wordt: [KORRR supporting document paragraaf: 4.3](https://docstore.entsoe.eu/Documents/Network%20codes%20documents/Implementation/sys/1.b.180227_KORRR_supporting_document.pdf) 
+* IEC61850 wordt prominent genoemd in EU mandaat [M490 (bijvoorbeeld figuur 30)](https://ec.europa.eu/energy/sites/ener/files/documents/xpert_group1_reference_architecture.pdf)
 * IEC 61850-90-7 sluit goed aan bij gestelde requirements
 * IEC 61850 beschrijft soms ook gedrag (zoals bij schedules)
-* Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface (zoals windmolens)
+* Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface (zoals windmolens) of er betaan mappings naar hun standaarden zoals IEC 61400-25
 * IEC61850 wordt ook gebruikt in Duitsland voor het aansturen van elektriciteits productie eenheden
-* IEC61850 wordt prominent genoemd in EU mandaat [M490 (bijvoorbeeld figuur 30)](https://ec.europa.eu/energy/sites/ener/files/documents/xpert_group1_reference_architecture.pdf)
+
 
 [^1]: Interface gespecificeerd in de scope van dit document die als eis geldt voor fabrikanten.
 
