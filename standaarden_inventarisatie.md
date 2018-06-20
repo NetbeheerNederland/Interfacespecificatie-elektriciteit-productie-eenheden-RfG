@@ -42,6 +42,7 @@ Gegeven het massale gebruik van het TCP/IP en de volwassenheid/bekendheid gaat d
 
 De keuze is gevallen op IEC61850 met de volgende redenen:
 * Sluit aan bij de IEC TC57 doelarchitectuur
+* IEC 61850 wordt als CORE standaard gezien door de Entso-e: [KORRR supporting document paragraaf: 4.3](https://docstore.entsoe.eu/Documents/Network%20codes%20documents/Implementation/sys/1.b.180227_KORRR_supporting_document.pdf) 
 * IEC 61850-90-7 sluit goed aan bij gestelde requirements
 * IEC 61850 beschrijft soms ook gedrag (zoals bij schedules)
 * Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface (zoals windmolens)
