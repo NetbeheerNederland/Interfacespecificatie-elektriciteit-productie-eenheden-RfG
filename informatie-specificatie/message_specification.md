@@ -32,7 +32,7 @@ All field descriped in the tables are mandatory where the M is shown (by the IEC
 |Data object name |Common data class | Attribute(s) |Default value | Comment | R/M|
 |:--|:--|:--|:--|:--|:--|
 |DERNum| ING|stVal||Number of electricity production (DER) units connected to controller. 1 of only 1 production unit is connected or is fysical .|M|
-|DERTyp| ENG|steVal|| Type of DER unit managed by controller.|M|
+|DERTyp| ENG|stVal|| Type of DER unit managed by controller.|M|
 |MaxWLim| ASG|setMag||Nominal max output power at controller. |M|
 |MaxVArLim| ASG|setMag||Nominal max output reactive power at controller. The Electricity production unit should not exceed this setting.|M|
 |Wmax|ASG|setMag||Maximal output of the electricity production unit. Assumption: internal control system finds a setpoint below this value. |R|
