@@ -1,7 +1,7 @@
 # Inventarisatie van toepasbare standaarden
 
 
-In de onderstaande tabel is een samenvatting te vinden voor de geschiktheid van standaarden voor het vraagstuk. De detailuitwerkingen zijn te vinden in [_Bijlage 2 – Evaluatie geschiktheid Standaarden._](https://netbeheernederland.gitbooks.io/interfacespecificatie-elektriciteit/content/bijlage_2__evaluatie_geschiktheid_standaarden.html)
+In de onderstaande tabel is een samenvatting te vinden voor de geschiktheid van standaarden voor het vraagstuk. De detailuitwerkingen zijn te vinden in [Bijlage 2 – Evaluatie geschiktheid Standaarden.](./bijlage_2__evaluatie_geschiktheid_standaarden.md)
 
 De vorige hoofdstukken hebben in de architectuurbeschrijving al de onderwerpen informatie, communicatie en impact op fysieke componenten benoemd. De koppen in de tabel zijn overeenkomstig opgebouwd volgens de [SGAM lagen](http://ec.europa.eu/energy/sites/ener/files/documents/xpert_group1_reference_architecture.pdf): Informatie, Communicatie en Componenten. In de koppen zijn deze benoemd als Informatiedefinitie, Communicatie/Transport en Fysiek. Een standaard beschrijft soms maar één deel \(bijvoorbeeld IEC CIM beschrijft alleen de Informatie-definitie en vertelt niets over het gebruik van fysieke connectoren voor interfaces\). Tot slot wordt er geïnventariseerd of de standaard geschikt is als algemene interface, waarvan we zoveel mogelijk gebruik willen maken en als specifieke DSO of TSO-interface indien noodzakelijk; zie hiervoor ook de beschrijving in hoofdstuk 3.3).
 
