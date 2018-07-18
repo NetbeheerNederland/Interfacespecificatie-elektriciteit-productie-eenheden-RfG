@@ -46,7 +46,7 @@ De keuze is gevallen op IEC61850 met de volgende redenen:
 * IEC61850 wordt prominent genoemd in EU mandaat [M490 (bijvoorbeeld figuur 30)](https://ec.europa.eu/energy/sites/ener/files/documents/xpert_group1_reference_architecture.pdf)
 * IEC 61850-90-7 sluit goed aan bij gestelde requirements
 * IEC 61850 beschrijft soms ook gedrag (zoals bij schedules)
-* Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface (zoals windmolens) of er betaan mappings naar hun standaarden zoals IEC 61400-25
+* Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface (zoals windmolens) of er bestaan mappings naar hun standaarden zoals IEC 61400-25
 * IEC61850 wordt ook gebruikt in Duitsland voor het aansturen van elektriciteits productie eenheden
 
 
