@@ -43,11 +43,14 @@ Gegeven het massale gebruik van het TCP/IP en de volwassenheid/bekendheid gaat d
 De keuze is gevallen op IEC61850 met de volgende redenen:
 * Sluit aan bij de IEC TC57 doelarchitectuur
 * De Entso-e beschrijft dat internationale standaarden moeten worden gebruikt, waarbij IEC 61850 als CORE standaard gezien wordt: [KORRR supporting document paragraaf: 4.3](https://docstore.entsoe.eu/Documents/Network%20codes%20documents/Implementation/sys/1.b.180227_KORRR_supporting_document.pdf) 
+* De europeese toezichthouder (ACER) [verplicht europeese standaarden](https://www.ceer.eu/documents/104400/-/-/a0193198-6be5-1113-7b5c-23dea643c697)
 * IEC61850 wordt prominent genoemd in EU mandaat [M490 (bijvoorbeeld figuur 30)](https://ec.europa.eu/energy/sites/ener/files/documents/xpert_group1_reference_architecture.pdf)
 * IEC 61850-90-7 sluit goed aan bij gestelde requirements
 * IEC 61850 beschrijft soms ook gedrag (zoals bij schedules)
-* Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface (zoals windmolens) of er bestaan mappings naar hun standaarden zoals IEC 61400-25
-* IEC61850 wordt ook gebruikt in Duitsland voor het aansturen van elektriciteits productie eenheden
+* Bestaande Elektriciteitsproductie eenheden hebben soms al een IEC61850 interface (zoals windmolens en zonneparken) of er bestaan mappings naar hun standaarden zoals IEC 61400-25
+* IEC61850 is in Duitsland voorzien voor het aansturen van elektriciteits productie eenheden
+* IEC61850 is ook in Frankrijk voorzien voor het aansturen van elektriciteits productie eenheden
+* EDSO stuurt aan op het gebruik van IEC 61850-7-420 voor DER
 
 
 [^1]: Interface gespecificeerd in de scope van dit document die als eis geldt voor fabrikanten.
