@@ -1,33 +1,32 @@
 *initial version for review and feedback*
 
 # Security by design and roles {#security-by-design}
-
-Specifying a communication interface does not mean that it has to be secure on its own only. The communication interface is part of a complete system: the total European energy system with physical laws and limits and with local automation too. Furthermore the energy system does consist of actors reacting to market prices or other behavior influencing mechanisms. This chapter describes the basics of the energy security at the DSO grid and the role of electricity production unit protection and automation that is requested by the [RfG Connection code]("https://electricity.network-codes.eu/network_codes/rfg/") anyway. The chapter was written from the perspective that the relevant system operators has to secure the energy grid as their main task. 
+Specifying a communication interface does not mean that it has to be secure on its own only. The communication interface is part of a complete system: the total European energy system with physical laws and limits and with local automation too. Furthermore the energy system does consist of actors reacting to market prices or other behavior influencing mechanisms. This chapter describes the basics of the energy security at the DSO grid and the role of electricity production unit protection and automation that is requested by the [RfG Connection code]("https://electricity.network-codes.eu/network_codes/rfg/") anyway. The chapter was written from the perspective that the relevant system operators has to secure the energy grid on stability and continuïty as their main task. 
 
 ## Physical behavior of the grid
-Related to Distributed Energy Resources (DER) main concerns of the DSO are:
-1. Local voltage is too high;
-2. Local voltage is too low;
-3. Due to maintenance currents are too high to keep up the redundancy (N-1)
-4. Due to disturbance currents are too high to keep up the redundancy (N-1)
-5. Due to maintenance currents are too high to keep up normal operation (N), risk of overload
-6. Due to disturbance currents are too high to keep up normal operation (N), risk of overload
+Related to Distributed Energy Resources (DER) **main concerns** of the DSO are:
+1. Local voltage is becoming too high;
+2. Local voltage is becoming too low;
+3. Due to maintenance the currents are too high to keep up the redundancy (N-1)
+4. Due to disturbance the currents are too high to keep up the redundancy (N-1)
+5. Due to maintenance the currents are too high to keep up normal operation (N), risk of overload
+6. Due to disturbance the currents are too high to keep up normal operation (N), risk of overload
 
 Frequency isn't primary managed by the DSO and therefore not mentioned as a main concern although the DSO cooperates with the TSO to keep it stable any time. 
 
 Except fuses in the grid, there are no physical means to mitigate the main concerns at a natural way. Therefore local automation and protection or external signals should contribute to mitigation. 
 
 ## Local or regional automation and protection
-Local automation and protection is used to protect all assets and to keep the grid into the frequency, voltage and current-limits. Let's evaluate how this adds a layer of security on the physical grid deployed with high number of DERs.
-[RfG Connection code]("https://electricity.network-codes.eu/network_codes/rfg/") demands technical requirements to electricity production units from 800W upwards. These requirements vary from frequency and voltage protection up to reactive-power-control. The table below gives an overview of the requirements for each category production-unit (x = mandatory from RfG). The table includes general Dutch requirements and a sub-category for RfG type A. RfG type D is not shown due to customization to the grid.
+Local automation and protection is used to protect all assets and to keep the grid into the frequency-limits, voltage-limits and current-limits. Let's evaluate how this embedded automation adds a layer of security on the physical grid deployed with high number of DERs.
+[RfG Connection code]("https://electricity.network-codes.eu/network_codes/rfg/") demands technical requirements to electricity production units from 800W upwards. These requirements vary from frequency and voltage protection up to reactive-power-control. The table below gives an overview of the requirements for each category production-unit (x = mandatory from RfG). The table includes general Dutch requirements and a sub-category for RfG type A. RfG type D is not shown due to high level customization to the grid.
 
-|**Automated control or protection at DER**           |**General Dutch req.** |**RfG A small**|**RfG A large**|**RfG B**|**RfG C**|
-|:----------------------------------------------------|:------------------:|:-----------:|:-----------:|:-----:|:-----:|
-|Undervoltage protection                              |x                   |x            |x            |x      |x      |
+|**Automated control or protection at DER**           |General Dutch req.  |RfG A small  |RfG A large  |RfG B  |RfG C  |
+|-----------------------------------------------------|:------------------:|:-----------:|:-----------:|:-----:|:-----:|
+|Undervoltage protection (80% Un)                     |x                   |x            |x            |x      |x      |
 |Undervoltage protection including fault-ride-through |                    |             |             |x      |x      |
-|Overvoltage protection                               |x                   |x            |x            |x      |x      |
-|Low frequency protection                             |x                   |x            |x            |x      |x      |
-|High frequency protection                            |x                   |x            |x            |x      |x      |
+|Overvoltage protection (110% Un)                     |x                   |x            |x            |x      |x      |
+|Low frequency protection  (48Hz)                     |x                   |x            |x            |x      |x      |
+|High frequency protection (51Hz)                     |x                   |x            |x            |x      |x      |
 |I>, I>> protection                                   |-                   |-            |x            |x      |x      |
 |LFSM-O (frequency sensitive mode for overvoltage)    |-                   |x            |x            |x      |x      |
 |LFSM-U (frequency sensitive mode for undervoltage)   |-                   |-            |-            |-      |x      |
@@ -35,7 +34,7 @@ Local automation and protection is used to protect all assets and to keep the gr
 |Automatic voltage control                            |-                   |-            |x (MV/HV)    |x      |x      |
 |Reactive Power (Q) control                           |-                   |-            |x (MV/HV)    |x      |x      |
 
-To main concern 1 (Local voltage is too high), the overvoltage protection as a requirement for electricity production units is offering protection. To main concern 6 (risk of overload due to disturbances) the secondary substations or in worst case the primary substations contributes with their overload protection to switch off this part of the grid in a selective way. This does imply updated measurement and protection schemes due to higher level DER's in the grid. Concern 2 is related to load-shedding and no part of this description yet, although protection demands should be required. Concerns left are 3, 4 and 5 which are not time critical as the concerns described as first. In case of maintenance which applies to concern 3 and concern 5 it is possible to manage reduction of DERs in advance to avoid non-redundancy or overload. Concern 4 demands restoration of the N-1 situation. This allows some time to manage reduction of DERs if necessary. 
+To main concern 1 (Local voltage is too high), the overvoltage protection as a requirement for electricity production units is offering protection. To main concern 6 (risk of overload due to disturbances) the secondary substations or in worst case the primary substations contributes with their overload protection to switch off this part of the grid in a selective way. This does imply updated measurement and protection schemes due to higher level DER's in the grid, even at low voltage levels. Concern 2 is related to load-shedding and no part of this description yet, although protection demands should be required. Concerns left are 3, 4 and 5 which are not time critical as the concerns described as first. In case of maintenance which applies to concern 3 and concern 5 it is possible to manage reduction of DERs in advance to avoid non-redundancy or overload. Concern 4 demands restoration of the N-1 situation. This allows some time to manage reduction of DERs if necessary. 
 
 The local or regional control and protection does secure many situations but can be improved from DSO perspective with remote control signals for less time critical (read as: not being within few seconds). This will avoid that parts of the distribution grid will be switched off completely (tripped) due to protection.
 
@@ -53,5 +52,11 @@ This chapter described at a high to medium level the layered security design of 
 
 ## Roles
 To build this secured and layered grid it is essential to understand each others roles. In most comprehensive summary the Dutch implementation of the RfG and GLSO may be described as follows: each party is responsible to fulfill the requirement of the grid he/she is connected to. This means that owners of production facilities has to fulfill the demands of the grid operator / system operator it is electrically connected to. The DSO has to fulfill the requirements to the TSO. The requirements are based on both legal code, cooperation and non-discriminatory implementations, grid safety first and support to enable the market.
+
+## Requirements
+Based on stated above requirements can be formulated at a later point in time. This paragraph is a placeholder for these requirements.
+E.g. 1: Overcurrent detection or -protection functionality should (also) be available caused at low voltage level (Dutch AC5 connection categories).
+E.g. 2: Functionality to plan or schedule reduction of energy production in advance in order to plan maintenance activities without causing redundancy issues or overload risk.
+...
 
 
