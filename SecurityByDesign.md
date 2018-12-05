@@ -40,7 +40,8 @@ The local or regional control and protection does secure many situations but can
 
 ## Remote DER influencing facilities
 As requirements are demanded to electricity production units in general within [RfG Connection code]("https://electricity.network-codes.eu/network_codes/rfg/"), also requirements may be demanded by the relevant system operator according to this RfG. These requirements are related to facilities to influence the energy production of the production unit. These functions are defined in RfG as follows (where x = mandatory from RfG and o = possible from RfG):
-|**Remote control functions      **                   |**General Dutch req.** |**RfG A small**|**RfG A large**|**RfG B**|**RfG C**|
+
+|Remote control functions                             |General Dutch req.  |RfG A small  |RfG A large  |RfG B  |RfG C  |
 |-----------------------------------------------------|:------------------:|:-----------:|:-----------:|:-----:|:-----:|
 |Remote trip commands (on-off interface)              |-                   |o            |o            |-      |-      |
 |Remote reduce comands (0-100% interface)             |-                   |-            |-            |o      |o      |
