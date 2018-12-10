@@ -3,12 +3,26 @@
 # Security by design and roles {#security-by-design}
 Specifying a communication interface does not mean that it has to be secure on its own only. The communication interface is part of a complete system: the total European energy system with physical laws and limits and with local automation too. Furthermore the energy system does consist of actors reacting to market prices or other behavior influencing mechanisms. This chapter describes the basics of the energy security at the DSO grid and the role of electricity production unit protection and automation that is requested by the [RfG Connection code]("https://electricity.network-codes.eu/network_codes/rfg/") anyway. The chapter was written from the perspective that the relevant system operators has to secure the energy grid on stability and continuïty as their main task. 
 
+## Summary
+For DSO operations, controling decentralized energy production is not completely dependent on any kind of remote influencing. If remote influencing is not available, there are fall-back solutions in embedded automation (production unit), embedded protection (production unit or grid) or there is enough time in advance to act. However, the fall-back solutions are sometimes harsh and equal to the situation not having remote influencing at all. It is increasingly important being able to rely on a properly functioning of the embedded automation and protection of production units and of grid automation. This may not fail. [RfG Connection code]("https://electricity.network-codes.eu/network_codes/rfg/") describes the role of the owners of electricity production units to comply with the specifications. It also describes the role of the DSO and TSO to demand compliancy of the decentralized energy production units.
+
+|Operational situation under DSO responsibility   |Remote influencing to reduce impact |Backup: Time for manual action |Backup: Embedded automation/ protection |
+|----------------------|-----------------------|------------------------------|------------------------|
+|Local voltage is too high                        |Yes, detect and act|Not always|`RfG overvoltage protection`|
+|Local voltage is too low                         |n/a for productionlimit|n/a for productionlimit|n/a for productionlimit|  
+|High load on assets (N-1 -> N due to maintenance)|Yes, plan reduction|`Yes, maintenance is planned`|Not possible|
+|High load on assets (N-1 -> N due to failure)    |Yes, send reduction|`Yes, temporary N situation`|Not possible|
+|Overload on assets (N -> I> due to maintenance)  |Yes, plan reduction|`Yes, maintenance is planned`|`Yes, but only DSO grid`|
+|Overload on assets (N -> I> due to failure)      |Yes, avoid outage|Not possible|`Yes, but only DSO grid`|
+
+
+
 ## Physical behavior of the grid
 Related to Distributed Energy Resources (DER) **main concerns** of the DSO are:
-1. Local voltage is becoming too high;
-2. Local voltage is becoming too low;
-3. Due to maintenance the currents are too high to keep up the redundancy (N-1)
-4. Due to disturbance the currents are too high to keep up the redundancy (N-1)
+1. Local voltage is becoming too high, risk on production units to trip;
+2. Local voltage is becoming too low, risk on production units to trip;
+3. Due to maintenance the currents are too high to keep up the redundancy (N-1), increased risk outage
+4. Due to disturbance the currents are too high to keep up the redundancy (N-1), increased risk outage
 5. Due to maintenance the currents are too high to keep up normal operation (N), risk of overload
 6. Due to disturbance the currents are too high to keep up normal operation (N), risk of overload
 
