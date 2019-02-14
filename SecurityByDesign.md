@@ -1,5 +1,3 @@
-*initial version for review and feedback*
-
 # Security by design and roles {#security-by-design}
 Specifying a communication interface does not mean that this part has to be secure on its own only. The communication interface is part of a complete system: the total European energy system. This energy system is built on physical laws and their limits, supported with local automation and a layer of remote influencing. Furthermore the energy system consists of natural and automated actors reacting to market prices or other behavior influencing mechanisms. This chapter describes the basics of the energy grid security at the DSO grid and focuses on the role of the electricity production unit protection and automation that is requested by the [RfG Connection code](https://electricity.network-codes.eu/network_codes/rfg/). The chapter was written from the perspective that the relevant system operators has to secure the energy grid on stability and continuity as their main task. 
 
