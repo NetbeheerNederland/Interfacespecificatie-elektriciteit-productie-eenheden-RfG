@@ -34,6 +34,7 @@ Uiteindelijk zal de definitieve evaluatie van deze standaarden resulteren in de 
 | IEC 61850-8-2 (XMPP)| -    | +                | nvt    |                  |                  |
 | IEC 61850-90-7 (object models DER)| + | nvt   | nvt    | +                | +                |
 | IEC CIM   |       +        | -                | nvt    | +                | +                |
+| IEEE 2030.5 (Smart Energy Profile 2.0)  |       +        | +                | nvt    |           |            |
 
 
 **Conclusie**
