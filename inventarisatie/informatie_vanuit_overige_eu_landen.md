@@ -48,6 +48,12 @@ Desalniettemin geeft de FNN Steuerbox goede handvatten voor de interfacespecific
 *   IEC 61850-8-2 (XMPP)
 *   Ondersteuning IPv4 en IPv6 (Dual Stack)
 
+
+### Frankrijk, whitelabel hardware {#frankrijkwhitelabel}
+
+In Frankrijk stelt men een IEC 61850 specificatie op dat gedeployed moet kunnen worden op whitelabel hardware. Men scheidt hier de software en hardware, maar het voorlopige uitgangspunt is dat de hardware vooralsnog geleverd wordt door de netbeheerder. Op dit moment wordt vooral nog sturing i.c.m. RTU's gebruikt.
+
+
 ### België {#belgi}
 
 In België hebben we de volgende oplossingen waargenomen:
