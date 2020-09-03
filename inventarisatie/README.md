@@ -1,4 +1,4 @@
-# Inventarisatie {#inventarisatie}
+# 2 Inventarisatie
 
 De inventarisatie bestaat uit drie hoofddelen.
 
@@ -6,9 +6,7 @@ De inventarisatie bestaat uit drie hoofddelen.
 2. Algemene requirements \(functioneel of kwaliteitscriteria\)
 3. Implementaties in naaste buurlanden en rationale voor keuzes hierin.
 
-![](/assets/180119LvG_Pics_InterfaceSpecification_git_1.png)
-
-
+![](../.gitbook/assets/180119LvG_Pics_InterfaceSpecification_git_1.png)
 
 Figuur 3
 
