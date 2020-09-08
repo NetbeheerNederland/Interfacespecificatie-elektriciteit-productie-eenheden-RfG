@@ -1,4 +1,4 @@
-# 2.2 Requirements  voor de Nederlandse markt
+## Requirements voor de Nederlandse markt {#requirements-voor-de-nederlandse-markt}
 
 Momenteel zijn er circa 20 requirements beschreven die het doel hebben om de belangrijkste eisen te benoemen. Het doel is niet uitputtend te zijn, maar vooral de focus op de belangrijkste zaken te stellen. We stellen daarom een limiet van maximaal 40 requirements. De onderstaande lijst met requirements is een totaaloverzicht van requirements die:
 
@@ -6,9 +6,9 @@ Momenteel zijn er circa 20 requirements beschreven die het doel hebben om de bel
 * voortkomen uit inventarisaties van de oplossingen in het buitenland
 * aansluiten op TSO/DSO generieke requirements m.b.t. beheerbaarheid, veiligheid en beschikbaarheid van IT en OT oplossingen.
 
-De requirements zijn functioneel en kwalitatief van aard. De deliverables van deze specificatie zullen aan deze eisen moeten voldoen en invulling geven aan de interfaces.
+De requirements zijn functioneel en kwalitatief van aard. De deliverables van deze specificatie zullen aan deze eisen moeten voldoen en  invulling geven aan de interfaces.
 
-## Requirements <a id="requirements"></a>
+#### Requirements {#requirements}
 
 | ID | Requirement | Type | Type | [Prioriteit \(MoSCoW\)](https://duckduckgo.com/l/?kh=-1&uddg=https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FMoSCoW-methode) | [Prioriteit \(MoSCoW\)](https://duckduckgo.com/l/?kh=-1&uddg=https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FMoSCoW-methode) | [Prioriteit \(MoSCoW\)](https://duckduckgo.com/l/?kh=-1&uddg=https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FMoSCoW-methode) | Bron |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -53,8 +53,9 @@ De requirements zijn functioneel en kwalitatief van aard. De deliverables van de
 |  | Bijdrage aan de eisen time-stamping en altijd een actueel beeld van de net-situatie hebben in geval van storingen. |  |  |  |  |  |  |
 | 20 | De interface moet in staat zijn om berichten van Netbeheerders met een hogere prioriteit te behandelen dan die van marktpartijen. | F |  | Must | Must | - | VDE FNN |
 |  | Naar voorbeeld Duitsland om schakelopdrachten te kunnen prioriseren. |  |  |  |  |  |  |
-| 21 | Alle interface moeten voorspelbaar reageren op onverwacht, niet gepland, gedrag van zijn omgeving \(Dynamic Behavior\). | NF |  | Should | Should | - | Alliander IT |
+| 21 | Alle interface moeten voorspelbaar reageren op onverwacht, niet gepland, gedrag van zijn omgeving (Dynamic Behavior). | NF |  | Should | Should | - | Alliander IT |
 |  | Naar 2nd DC IEC TR 61850-7-6 - Interchangeability; Niet alleen competabiliteit bereiken op gepland gedrag, maar ook uitzonderlijke situaties, zoals haperende communicatieverbindingen. Hiermee kan de uitwisselbaarheid van de apparaten beter worden gegarandeerd zonder fine-tuning van configuraties. |  |  |  |  |  |  |
 | 22 | Procumenten in controle over delen van data | F |  | Should | Should | - | SSS en Alliander IT |
 |  | De gebruiker moet zelf kunnen kiezen welke informatie met welke partijen wordt gedeeld. Er is te kiezen of de procument meedoet  met het oplossen van net-congestie en stabiliteit-problemen door deze interface. De leverancier van de elektriciteitproductie-eenheid is niet alleen voor deze interface hiervoor verantwoordelijk, maar ook voor de eigen interfaces. |  |  |  |  |  |  |
+
 
